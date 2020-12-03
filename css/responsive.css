@@ -1,0 +1,2419 @@
+    /* ===========================1============================= */
+    
+    @media only screen and (min-width:280px) and (max-width:767px) {
+        .dropdown-content a {
+            font-size: 13px;
+            padding: 12px 0;
+        }
+        .dropdown-content {
+            min-width: 160px;
+        }
+        .padding.our-team .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        .padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        img.logo_for_sml_scrn {
+            display: block;
+            width: 220px;
+            height: auto;
+            padding: 0 35px 0 14px !important;
+        }
+        a.navbar-brand.for_bg_scrn {
+            display: none;
+        }
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: #043647 !important;
+            padding: 20px 0 0 0;
+        }
+        a.nav-link {
+            font-size: 14px;
+            padding: 5px 20px !important;
+            text-align: -webkit-center;
+        }
+        .future_ready {
+            padding: 75px 0px;
+        }
+        h1.title.text-center.topic-heading {
+            font-size: 20px;
+        }
+        h3.txt_clr_2.text-center {
+            font-size: 14px;
+            padding-right: 0;
+            padding-left: 0;
+            word-spacing: normal;
+        }
+        h5.txt_clr_1.text-center {
+            font-size: 15px;
+            margin: 15px 0 0 0;
+            padding-right: 0;
+            padding-left: 0;
+        }
+        .list-group-horizontal {
+            flex-direction: column !important;
+        }
+        .menu_options {
+            padding: 0 0 50px 0px;
+        }
+        li.list-group-item {
+            text-align: -webkit-center;
+            padding: 10px 0;
+        }
+        ul.contact_detail_address li p {
+            font-size: 12px;
+        }
+        div.wpcbc ul li a {
+            font-size: 12px;
+            font-weight: 100;
+        }
+        div.wpcbc ul li {
+            float: left;
+            padding: 0 0 -1px 0;
+        }
+        .col-lg-7.about_compney {
+            padding: 0 0 20px 0;
+            margin-left: 16px;
+        }
+        .lwt_tdp {
+            background-image: none;
+        }
+        h2.txt_clr_2 {
+            font-size: 17px;
+            margin: 15px 0 0 0;
+        }
+        .LWT_input_section p.txt_clr_1 {
+            line-height: 20px;
+            padding: 0 0 29px 0;
+            text-align: -webkit-center;
+            font-size: 12px;
+            margin: 0 auto;
+        }
+        .tdp h2.txt_clr_2 {
+            font-size: 17px;
+            margin: 15px 0 0 0;
+            padding: 25px 0;
+        }
+        div.LWT_input_section button.btn.btn-primary {
+            padding: 5px 25px;
+            font-size: 14px;
+        }
+        .tdp_responsive_bg {
+            display: block;
+        }
+        .lwt_tdp {
+            padding: 0 0 50px 0;
+        }
+        .os_background {
+            background-image: none !important;
+            padding: 0;
+        }
+        .os_background.parallax-window {
+            background-image: none !important;
+        }
+        .it_background.parallax-window {
+            background-image: none !important;
+        }
+        .text_os h4 {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 25px;
+        }
+        .text_os p {
+            font-size: 15px;
+            text-align: center;
+        }
+        .os-responsive-background img {
+            display: block;
+        }
+        .it-responsive-background {
+            display: block;
+        }
+        .dtg-responsive-background {
+            display: block;
+        }
+        .it_background {
+            background-image: none;
+            padding: 60px 0;
+        }
+        .text_it h4 {
+            font-size: 22px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_it p {
+            font-size: 15px;
+            text-align: center;
+        }
+        .dtg_background {
+            background-image: none;
+            padding: 0 0 30px 0;
+        }
+        .text_dtg h4 {
+            font-size: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_dtg p {
+            font-size: 12px;
+            text-align: center;
+        }
+        .col-lg-7.os_content {
+            padding: 0 15px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.it_content {
+            padding: 0 15px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.dtg_content {
+            padding: 0 15px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .padding.our-team.parallax-window p.card_up_text {
+            text-align: center;
+            line-height: 1;
+            word-spacing: 5px;
+            font-size: 16px;
+            color: white;
+            padding: 15px 10px 0 10px;
+        }
+        button.slick-next.slick-arrow::before {
+            display: none;
+        }
+        button.slick-prev.slick-arrow::before {
+            display: none;
+        }
+        .our-services {
+            overflow-x: hidden;
+        }
+        figure.testimonial-services img {
+            margin: 20px auto 10px;
+        }
+        h5.card-title {
+            font-size: 16px !important;
+            font-weight: bolder!important;
+        }
+        p.card-text {
+            padding: 10px 5px 16px 5px;
+            font-size: 12px !important;
+            line-height: 22px !important;
+        }
+        a.rd_mre_btn.services-button {
+            font-size: 14px;
+            font-weight: bolder;
+        }
+        h5.card-title.fast-mobile-heading {
+            margin-top: 11px;
+        }
+        .our_services-section h5.card-title {
+            font-size: 18px !important;
+        }
+        div.wpcbc ul li {
+            padding-right: 7px;
+            padding-left: 5px;
+        }
+        .padding.our-team.parallax-window h1.title.text-center {
+            font-size: 22px;
+        }
+        .happy_clients .slick-slide img {
+            width: 150%;
+            height: 40px;
+        }
+        .happy_clients .slick-slide img {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .col-lg-6.lwt {
+            padding-left: 15px;
+        }
+        .LWT_input_section h2.txt_clr_2 {
+            padding-left: 22px;
+            font-size: 17px;
+        }
+        .col-lg-6.tdp {
+            padding-right: 15px;
+        }
+        p.txt_clr_1.heading_matter {
+            line-height: 20px;
+        }
+        a.rd_mre_btn {
+            font-size: 14px;
+            text-align: center;
+            padding: 0px 0 10px 0;
+        }
+        .menu_options li.list-group-item {
+            padding: 7px 30px;
+        }
+        .padding.our-team h1.title.text-center {
+            font-size: 17px;
+        }
+        p.card_up_text {
+            line-height: normal;
+            word-spacing: normal;
+            font-size: 12px;
+            color: white;
+            padding: 23px 5px 0 5px;
+        }
+        .dropbtn {
+            font-size: 14px;
+        }
+        h4.font-weight-bold.mb-4 {
+            font-family: 'montserrat_alternatessemibold';
+            font-size: 14px;
+        }
+        div.social_icons ul li a i {
+            font-size: 12px;
+        }
+        i.fas.fa-envelope {
+            font-size: 12px !important;
+        }
+        div.footer_p2 p {
+            font-size: 12px;
+        }
+        /* ***********************************   "NativeScript-Development" ***************/
+        .nativeScript-development header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .nativeScript-d-compney {
+            background-position: right;
+            padding: 25px 0;
+        }
+        .nativeScript-d-compney h3 {
+            font-size: 16px;
+            padding: 15px 0 5px 0;
+        }
+        .nativeScript-d-compney p {
+            font-size: 12px;
+            padding: 0 0 5px 0;
+            line-height: 17px;
+        }
+        .nativeScript-d-compney a {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .enhance_your_business {
+            padding: 35px 0;
+        }
+        .enhance_your_business h3 {
+            font-size: 16px;
+        }
+        .enhance_your_business p {
+            font-size: 12px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+        }
+        .features_and_Mobiloitte {
+            text-align: center;
+            padding: 35px 0px;
+        }
+        .features_and_Mobiloitte h3 {
+            font-size: 15px;
+        }
+        .features_and_Mobiloitte ul li {
+            padding: 5px 0;
+        }
+        .features_and_Mobiloitte ul li a {
+            font-size: 12px;
+        }
+        .why_hire_from_mobiloitte {
+            text-align: center;
+            padding: 35px 0 0 0;
+        }
+        .why_hire_from_mobiloitte h3 {
+            font-size: 16px;
+            padding-bottom: 1px;
+        }
+        .why_hire_from_mobiloitte ul li a {
+            font-size: 12px;
+        }
+        .why_hire_from_mobiloitte ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .why_hire_from_mobiloitte ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .Mobiloitte_expertise {
+            padding: 15px 0 35px 0;
+        }
+        .Mobiloitte_expertise h3 {
+            font-size: 16px;
+        }
+        .Mobiloitte_expertise p {
+            font-size: 12px;
+            padding: 10px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .lets_first_step h3 {
+            font-family: 'robotobold';
+            font-size: 16px;
+            color: #042e3a;
+            padding: 0 0 20px 0;
+        }
+        .lets_first_step a {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .lets_first_step p,
+        .why_xamarin_app_devloped p,
+        .our_xamarin_development_services p {
+            font-size: 12px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+            text-align: justify;
+        }
+        .our_portfolio h3 {
+            font-size: 16px;
+        }
+        .portfolio-app-strong-point .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        /* ***********************************   "kotlin-app-development-company" ***************/
+        .kotlinapp_devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .kotlinapp_devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .kotlinapp_d_compney {
+            background-position: right;
+            padding: 25px 0 !important;
+        }
+        .kotlinapp_d_compney h3 {
+            font-size: 16px;
+            padding: 15px 0 5px 0;
+        }
+        .kotlinapp_d_compney p {
+            font-size: 12px;
+            padding: 0 0 5px 0;
+            line-height: 17px;
+        }
+        .kotlinapp_d_compney a {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .about_kotlinapp_d_compney {
+            padding: 35px 0;
+        }
+        .about_kotlinapp_d_compney h3 {
+            font-size: 16px;
+        }
+        .about_kotlinapp_d_compney p {
+            font-size: 12px;
+            line-height: 20px;
+            margin: 0;
+            text-align: justify;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices,
+        .why-react-native-developed,
+        .why_choose_flutter_devlopment,
+        .why_xamarin_app_devloped {
+            text-align: center;
+            padding: 35px 0px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices h3,
+        .why-react-native-developed h3 {
+            font-size: 15px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li {
+            padding: 5px 0;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li a {
+            font-size: 12px;
+        }
+        .why_choose_Mobiloitte {
+            padding: 35px 0;
+            text-align: center;
+        }
+        .why_choose_Mobiloitte h3 {
+            font-size: 16px;
+        }
+        .why_choose_Mobiloitte p {
+            font-size: 12px;
+            padding: 0;
+            line-height: 20px;
+        }
+        .why_choose_Mobiloitte .col-lg-3 a {
+            font-size: 12px;
+            padding: 5px 0;
+        }
+        /* ***********************************   "cross-platform-mobile-development" ***************/
+        .cross-platform-mobile-development header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .cross-platform-mobile-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .cross_platform_d_compney {
+            background-position: right;
+            padding: 25px 0;
+        }
+        .cross_platform_d_compney h3 {
+            font-size: 16px;
+            padding: 15px 0 5px 0;
+        }
+        .cross_platform_d_compney p {
+            font-size: 12px;
+            padding: 0 0 5px 0;
+            line-height: 17px;
+        }
+        .cross_platform_d_compney a {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .building_native_apps {
+            padding: 40px 0;
+        }
+        .building_native_apps h3 {
+            font-size: 16px;
+        }
+        .building_native_apps p {
+            font-size: 12px;
+            line-height: 20px;
+            padding: 0;
+            text-align: justify;
+        }
+        .Mobiloitte_advantage {
+            text-align: center;
+            padding: 0px 0 0 0;
+            margin-top: -20px;
+        }
+        .Mobiloitte_advantage h3 {
+            font-size: 16px;
+            padding-bottom: 1px;
+        }
+        .Mobiloitte_advantage ul li a {
+            font-size: 12px;
+        }
+        .Mobiloitte_advantage ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .Mobiloitte_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .Mobiloitte_advantage .col-lg-6.second_ul_list {
+            margin-top: -20px;
+        }
+        .about_softwere_n_platform .row {
+            padding: 0;
+            margin-bottom: 8px;
+        }
+        .xamarin .row p,
+        .titanium .row p,
+        .mag_plus .row p {
+            padding-right: 0px;
+        }
+        .phonegap .row p,
+        .kinvey .row p {
+            padding-left: 0;
+        }
+        .about_softwere_n_platform p {
+            font-size: 12px;
+            text-align: justify !important;
+            padding: 0;
+            line-height: 18px;
+        }
+        .about_softwere_n_platform .col-lg-1.for_big_screen {
+            display: none;
+        }
+        .about_softwere_n_platform .col-lg-1.for_small_screen {
+            display: block;
+        }
+        .about_softwere_n_platform .col-lg-1 {
+            text-align: center;
+        }
+        .about_softwere_n_platform img {
+            border-left: none !important;
+            border-right: none !important;
+        }
+        .about_softwere_n_platform .row img {
+            padding: 0;
+            height: 75px;
+            width: 100px;
+        }
+        /* ***************************  iconic-app-development *************** */
+        .ionic-app-development header,
+        .flutter-development header,
+        .xamarin-devlopment header,
+        .phone-gap-devlopment header,
+        .react-native-development header,
+        .pwa-devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .ionic-app-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .flutter-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .xamarin-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .phone-gap-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .pwa-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .react-native-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .ionic_app_d_compney,
+        .flutter_app_devlopment,
+        .react_native_d_compney,
+        .xamarin_app_d_compney,
+        .phonegap-app-devlopment,
+        .pwa-d-compney {
+            background-position: right;
+            padding: 25px 0;
+        }
+        .ionic_app_d_compney h3,
+        .flutter_app_devlopment h3,
+        .react_native_d_compney h3,
+        .xamarin_app_d_compney h3,
+        .phonegap-app-devlopment h3,
+        .pwa-d-compney h3 {
+            font-size: 16px;
+            padding: 15px 0 5px 0;
+        }
+        .ionic_app_d_compney p,
+        .flutter_app_devlopment p,
+        .react_native_d_compney p,
+        .xamarin_app_d_compney p,
+        .phonegap-app-devlopment p,
+        .pwa-d-compney p {
+            font-size: 12px;
+            padding: 0 0 5px 0;
+            line-height: 17px;
+        }
+        .ionic_app_d_compney a,
+        .flutter_app_devlopment a,
+        .react_native_d_compney a,
+        .xamarin_app_d_compney a,
+        .phonegap-app-devlopment a,
+        .pwa-d-compney a {
+            padding: 10px 15px;
+            font-size: 14px;
+        }
+        .ionic_app_d_services {
+            padding: 40px 0;
+        }
+        .ionic_app_d_services h3 {
+            font-size: 16px;
+            margin: 0 0 20px 0;
+        }
+        .ionic_app_d_services h4 {
+            font-size: 14px;
+        }
+        .ionic_app_d_services p {
+            font-size: 12px;
+            padding: 0;
+            line-height: 20px;
+        }
+        .our_solution_slider h3 {
+            font-size: 16px;
+        }
+        .ionic_tecnological_advantage,
+        .why_flutter_devlp_mobiloitte,
+        .our_xamarin_development_services,
+        .android-app-d-service-slider,
+        .benefits_of_pwa {
+            text-align: center;
+            padding: 35px 0 0 0;
+        }
+        .why-phonegap-app-devloped {
+            padding: 28px 10px 20px 10px;
+        }
+        .ionic_tecnological_advantage h3 {
+            font-size: 16px;
+            padding-bottom: 1px;
+        }
+        .ionic_tecnological_advantage ul li a,
+        .why_flutter_devlp_mobiloitte ul li a,
+        .our_xamarin_development_services ul li a,
+        .why-phonegap-app-devloped ul li a,
+        .benefits_of_pwa ul li a {
+            font-size: 12px;
+        }
+        .ionic_tecnological_advantage ul li,
+        .why_flutter_devlp_mobiloitte ul li,
+        .our_xamarin_development_services ul li,
+        .why-phonegap-app-devloped ul li,
+        .benefits_of_pwa ul li {
+            list-style: none;
+            padding: 2px 0;
+            text-align: left;
+        }
+        .ionic_tecnological_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .ionic_tecnological_advantage .col-lg-6.second_ul_list {
+            margin-top: -20px;
+        }
+        .best_code_practices h3,
+        .efficent-refined-d-services h3,
+        .flutter-d-compney h3,
+        .why-choose-mobiloitte-for-flutter h3,
+        .why_flutter_devlp_mobiloitte h3 {
+            font-size: 20px;
+            margin: 0 0 15px 0;
+        }
+        .secure_scalable_xamarin_services h3,
+        .hybrid-mobapp-d-services h3,
+        .pwa_services h3 {
+            font-size: 15px;
+            margin: 0 0 15px 0;
+        }
+        .best_code_practices .col-lg-4 a {
+            font-size: 12px;
+        }
+        .grow-with-us a {
+            font-size: 12px;
+        }
+        .best_code_practices .row {
+            padding-left: 10px;
+        }
+        .best_code_practices .col-lg-4 {
+            text-align: center;
+        }
+        .best_code_practices p,
+        .efficent-refined-d-services p,
+        .flutter-d-compney p,
+        .why-choose-mobiloitte-for-flutter p,
+        .secure_scalable_xamarin_services p,
+        .hybrid-mobapp-d-services p,
+        .why-phonegap-app-devloped p,
+        .pwa_services p {
+            font-size: 12px;
+            line-height: 18px;
+            font-family: 'robotolight';
+            color: #0b5164;
+            text-align: justify;
+            margin-bottom: 8px;
+        }
+        .benefits_of_pwa p {
+            font-size: 12px;
+            line-height: 18px;
+            padding-top: 10px;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        .why-react-native-developed h4 {
+            font-size: 14px !important;
+            text-align: left;
+        }
+        .why-react-native-developed ul li,
+        .why_choose_flutter_devlopment ul li {
+            text-align: left;
+            padding: 5px 0 !important;
+        }
+        .why-react-native-developed ul li a,
+        .why_choose_flutter_devlopment ul li a,
+        .why_xamarin_app_devloped ul li a {
+            font-size: 12px !important;
+        }
+        .why-react-native-developed ul.sec-lists {
+            margin: -15px 0 0 0;
+        }
+        .grow-with-us .col-lg-4 {
+            padding: 0;
+        }
+        .grow-with-us {
+            padding: 50px 0 35px 0;
+        }
+        .flutter-d-compney,
+        .why-choose-mobiloitte-for-flutter,
+        .hybrid-mobapp-d-services,
+        .hybrid-mobapp-d-services,
+        .pwa_services {
+            padding: 35px 0px;
+        }
+        .secure_scalable_xamarin_services {
+            padding: 35px 0 0 0;
+        }
+        section.efficent-refined-d-services {
+            padding: 35px 0 10px 0;
+        }
+        .why-react-native-developed h3,
+        .why_choose_flutter_devlopment h3,
+        .our_xamarin_development_services h3,
+        .our_xamarin_development_services h3,
+        .android-app-d-service-slider h3,
+        .why-phonegap-app-devloped h3,
+        .benefits_of_pwa h3 {
+            font-size: 15px;
+            margin: 0 0 5px 0;
+        }
+        .why_xamarin_app_devloped h3 {
+            font-size: 15px;
+            margin: 0 0 15px 0;
+        }
+        .grow-with-us .col-lg-4 {
+            padding: 5px 10px;
+        }
+        .grow-with-us h3 {
+            font-size: 16px;
+            margin: 0;
+        }
+        .why-choose-us-for-service {
+            padding: 0 0 35px 0;
+        }
+        .attributes_of_pwa {
+            padding: 10px 0 35px 0;
+        }
+        .why-choose-us-for-service h3,
+        .attributes_of_pwa h3 {
+            font-size: 16px;
+        }
+        .why-choose-us-for-service p,
+        .attributes_of_pwa p {
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+        .why_flutter_devlp_mobiloitte .second_list {
+            margin-top: -15px;
+        }
+        .hybrid-mobapp-d-services h3:nth-child(1) {
+            font-size: 20px;
+            margin-bottom: 14px;
+        }
+        .why-phonegap-app-devloped .col-lg-6.second_col,
+        .benefits_of_pwa .col-lg-6.second_col,
+        .why_get_android_app_devloped .col-lg-6.second_col,
+        .why-phonegap-app-devloped.technological_expertise .col-lg-6.second_col,
+        .ios_app_d_industries .col-lg-6.second_col {
+            margin: -15px 0 0 0;
+        }
+        .related_services.happy_clients {
+            padding: 35px 0;
+        }
+        .related_services.happy_clients .slick-slide img {
+            height: 50px !important;
+            padding-right: 20px !important;
+        }
+        .related_services.happy_clients h3 {
+            font-size: 15px;
+        }
+        .pwa_services.pwa_devlopment_services p {
+            text-align: center;
+        }
+        .about_pwa_design_devlopment {
+            padding: 0 5px 35px 5px;
+        }
+        .about_pwa_design_devlopment h3 {
+            font-size: 20px;
+            padding-bottom: 5px;
+        }
+        .about_pwa_design_devlopment p {
+            font-size: 16px;
+            padding: 0;
+        }
+        .about_pwa_design_devlopment .about_topic {
+            padding: 15px 20px 20px 20px;
+        }
+        .about_pwa_design_devlopment .col-lg-3 {
+            margin-bottom: 5px;
+        }
+        .hybrid-mobapp-d-services.business_with_android_app_d_solution h3 {
+            font-size: 17px;
+        }
+        .why_choose_android_app_d_compney {
+            padding: 25px 5px;
+        }
+        .why_choose_android_app_d_compney .row {
+            padding-top: 10px;
+        }
+        .why_choose_android_app_d_compney h3 {
+            font-size: 17px;
+        }
+        .why_choose_android_app_d_compney p {
+            font-size: 16px;
+            padding: 0 0;
+            text-align: -webkit-center;
+        }
+        .why_choose_android_app_d_compney img {
+            width: 70px;
+        }
+        .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+            text-align: center;
+            border-right: none;
+            border-bottom: 2px solid #96edfa57;
+            margin-bottom: 10px;
+        }
+        .why-phonegap-app-devloped.technological_expertise {
+            padding: 20px 0;
+        }
+        .col-lg-6.mobiloitte-advantages {
+            margin-top: -15px;
+        }
+        section.why-react-native-developed.why_get_ios_devloped {
+            margin-top: -35px;
+        }
+        section.why_hire_from_mobiloitte.ios_app_d_industries {
+            margin-top: -40px;
+        }
+        section.why-choose-us-for-service.gaming_program_expertise {
+            padding: 30px 0 0 0;
+        }
+        section.why-choose-us-for-service.gaming_program_expertise h3 {
+            margin: 0;
+        }
+        section.why_xamarin_app_devloped.what_we_offer {
+            padding: 15px 0;
+        }
+        /*  */
+        /*  */
+        /*  */
+        .padding.our-team.our_solution_slider .testimonial-card .card-up {
+            height: 300px;
+            width: 250px;
+        }
+        .padding.our-team.our_solution_slider p {
+            font-size: 12px;
+            padding: 0 25px;
+        }
+        /* .padding.our-team.our_solution_slider .card-up.info-color img {
+            margin: 0;
+        } */
+        .padding.our-team.our_solution_slider figure.testimonial {
+            margin: 0;
+            padding: 0;
+        }
+        .padding.our-team.our_solution_slider .card-up.info-color {
+            padding: 0;
+        }
+        .padding.our-team.our_solution_slider h3 {
+            font-size: 20px;
+            margin: 0 0 10px 0;
+        }
+        section.why_xamarin_app_devloped.what_we_offer ul li {
+            text-align: left;
+            padding: 0;
+            margin: -5px 0;
+        }
+    }
+    /* ===========================2============================= */
+    
+    @media only screen and (min-width: 768px) and (max-width: 992px) {
+        .dropdown-content a {
+            font-size: 13px;
+            padding: 12px 0;
+        }
+        .dropdown-content {
+            min-width: 160px;
+        }
+        .padding.our-team .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        .padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        img.logo_for_sml_scrn {
+            display: block;
+            width: 300px;
+            height: auto;
+            padding: 0 35px 0 14px !important;
+        }
+        a.navbar-brand.for_bg_scrn {
+            display: none;
+        }
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: #043647 !important;
+            padding: 20px 0 0 0;
+        }
+        a.nav-link {
+            font-size: 25px;
+            padding: 10px 20px !important;
+            text-align: -webkit-center;
+        }
+        .navbar-toggler-icon {
+            width: 2.5em !important;
+            height: 2.5em !important;
+        }
+        .future_ready {
+            padding: 75px 0px;
+        }
+        h1.title.text-center.topic-heading {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        h3.txt_clr_2.text-center {
+            font-size: 26px;
+            padding: 0 0;
+            word-spacing: normal;
+        }
+        h5.txt_clr_1.text-center {
+            font-size: 18px;
+            margin: 15px 0 0 0;
+            line-height: 1.5;
+            padding: 0;
+            word-spacing: inherit;
+        }
+        .list-group-horizontal {
+            flex-direction: column !important;
+        }
+        .menu_options {
+            padding: 0 0 50px 0px;
+        }
+        button.dropbtn {
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        li.list-group-item {
+            text-align: -webkit-center;
+            padding: 10px 0;
+        }
+        ul.contact_detail_address li p {
+            font-size: 20px;
+        }
+        div.wpcbc ul li a {
+            font-size: 20px;
+            font-weight: 100;
+        }
+        div.wpcbc ul li {
+            float: left;
+            padding: 0;
+        }
+        .col-lg-6.about_compney {
+            padding: 0 0 15px 0;
+            margin-left: 0;
+        }
+        .lwt_tdp {
+            background-image: none;
+        }
+        h2.txt_clr_2 {
+            font-size: 40px;
+            margin: 15px 0 0 0;
+        }
+        .LWT_input_section p.txt_clr_1 {
+            padding: 0 0 29px 0;
+            text-align: -webkit-center;
+            font-size: 32px;
+            margin: 0 auto;
+        }
+        div.col-lg-6.tdp h2.txt_clr_2 {
+            font-size: 39px;
+            padding: 30px 0;
+        }
+        div.LWT_input_section button.btn.btn-primary {
+            padding: 10px 40px;
+            font-size: 20px;
+        }
+        .tdp_responsive_bg {
+            display: block;
+        }
+        .lwt_tdp {
+            padding: 0 0 100px 0;
+        }
+        .os_background {
+            background-image: none;
+            padding: 0;
+        }
+        .os_background.parallax-window {
+            background-image: none !important;
+        }
+        .it_background.parallax-window {
+            background-image: none !important;
+        }
+        .text_os h4 {
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-top: 30px;
+        }
+        .text_os p {
+            font-size: 20px;
+            text-align: center;
+        }
+        p.txt_clr_1.heading_matter {
+            word-spacing: 0.8px;
+        }
+        .os-responsive-background img {
+            display: block;
+        }
+        .it-responsive-background {
+            display: block;
+        }
+        .dtg-responsive-background {
+            display: block;
+        }
+        .it_background {
+            background-image: none;
+            padding: 60px 0;
+        }
+        .text_it h4 {
+            font-size: 30px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_it p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .dtg_background {
+            background-image: none;
+            padding: 0 0 30px 0;
+        }
+        .text_dtg h4 {
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_dtg p {
+            font-size: 20px;
+            text-align: center;
+        }
+        .col-lg-7.os_content {
+            padding: 0 50px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.it_content {
+            padding: 0 50px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.dtg_content {
+            padding: 0 50px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .padding.our-team.parallax-window p.card_up_text {
+            text-align: center;
+            line-height: 1;
+            word-spacing: 5px;
+            font-size: 20px;
+            color: white;
+            padding: 30px 20px 0 20px;
+        }
+        button.slick-next.slick-arrow::before {
+            display: none;
+        }
+        button.slick-prev.slick-arrow::before {
+            display: none;
+        }
+        .our-services {
+            overflow-x: hidden;
+        }
+        figure.testimonial-services img {
+            margin: 20px auto 10px;
+        }
+        h5.card-title {
+            font-size: 35px !important;
+            font-weight: bolder!important;
+        }
+        p.card-text {
+            padding: 10px 5px 16px 5px;
+            font-size: 20px;
+        }
+        a.rd_mre_btn.services-button {
+            font-size: 23px;
+        }
+        h5.card-title.fast-mobile-heading {
+            font-size: 35px !important;
+            margin-top: 15px;
+        }
+        .padding.our-team.parallax-window h1.title.text-center {
+            font-size: 22px;
+        }
+        .happy_clients .slick-slide img {
+            width: 150%;
+            height: 40px;
+        }
+        h4.font-weight-bold.mb-4 {
+            font-size: 24px;
+        }
+        p.blue-light-text.mt-4 {
+            font-size: 27px;
+        }
+        .footer_p2 p {
+            font-size: 20px;
+            padding: 0 35px 0 0 !important;
+        }
+        .col-lg-6.lwt {
+            padding-left: 15px;
+        }
+        .LWT_input_section h2.txt_clr_2 {
+            padding-left: 25px;
+        }
+        .col-lg-6.tdp {
+            padding-right: 15px;
+        }
+        .tdp h2.txt_clr_2 {
+            padding-right: 25px;
+        }
+        p.txt_clr_1.heading_matter {
+            line-height: 20px;
+        }
+        a.rd_mre_btn {
+            font-size: 16px;
+            text-align: center;
+            padding: 0px 0 10px 0;
+        }
+        div.wpcbc ul li a {
+            padding: 0px 20px;
+        }
+        p.card_up_text {
+            line-height: normal;
+            word-spacing: normal;
+            font-size: 20px;
+            color: white;
+            padding: 30px 15px 0 15px;
+        }
+        /* ***********************************   "NativeScript-Development" ***************/
+        .nativeScript-development header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .nativeScript-d-compney {
+            background-position: right;
+            padding: 75px 0;
+        }
+        .nativeScript-d-compney h3 {
+            font-size: 35px;
+            padding: 0px 0 5px 0;
+        }
+        .nativeScript-d-compney p {
+            font-size: 16px;
+            padding: 0 75px 5px 75px;
+            line-height: 20px;
+        }
+        .nativeScript-d-compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .enhance_your_business {
+            padding: 35px 0;
+        }
+        .enhance_your_business h3 {
+            font-size: 20px;
+        }
+        .enhance_your_business p {
+            font-size: 16px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .features_and_Mobiloitte {
+            text-align: left;
+            padding: 35px 0px;
+        }
+        .features_and_Mobiloitte h3 {
+            font-size: 20px;
+        }
+        .features_and_Mobiloitte ul li {
+            padding: 5px 0;
+        }
+        .features_and_Mobiloitte ul li a {
+            font-size: 16px;
+        }
+        .why_hire_from_mobiloitte {
+            text-align: left;
+            padding: 35px 0 0 0;
+        }
+        .why_hire_from_mobiloitte h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .why_hire_from_mobiloitte ul li a {
+            font-size: 16px;
+        }
+        .why_hire_from_mobiloitte ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .why_hire_from_mobiloitte ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .Mobiloitte_expertise {
+            padding: 35px 0;
+        }
+        .Mobiloitte_expertise h3 {
+            font-size: 20px;
+        }
+        .Mobiloitte_expertise p {
+            font-size: 16px;
+            padding: 10px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .lets_first_step h3 {
+            font-size: 20px;
+            color: #042e3a;
+            padding: 0 0 20px 0;
+        }
+        .lets_first_step a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .lets_first_step p {
+            font-size: 16px;
+            padding: 25px 75px 0 75px;
+            line-height: 20px;
+        }
+        .our_portfolio h3 {
+            font-size: 20px;
+        }
+        .portfolio-app-strong-point .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .nativeScript-development footer p {
+            font-size: 18px;
+        }
+        /* ***********************************   "kotlin-app-development-company" ***************/
+        .kotlinapp_devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .kotlinapp_devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .kotlinapp_d_compney {
+            background-position: right;
+            padding: 75px 0;
+        }
+        .kotlinapp_d_compney h3 {
+            font-size: 35px;
+            padding: 0px 0 5px 0;
+        }
+        .kotlinapp_d_compney p {
+            font-size: 16px;
+            padding: 0 75px 5px 75px;
+            line-height: 20px;
+        }
+        .kotlinapp_d_compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .about_kotlinapp_d_compney {
+            padding: 35px 0;
+        }
+        .about_kotlinapp_d_compney h3 {
+            font-size: 20px;
+        }
+        .about_kotlinapp_d_compney p {
+            font-size: 16px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .about_kotlinapp_d_compney p:nth-child(3) {
+            padding: 15px 0 0 0;
+        }
+        .about_kotlinapp_d_compney p:nth-child(4) {
+            padding: 15px 0 0 0;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices {
+            text-align: left;
+            padding: 35px 0px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices h3 {
+            font-size: 20px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li {
+            padding: 5px 0;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li a {
+            font-size: 16px;
+        }
+        .why_choose_Mobiloitte {
+            padding: 35px 0;
+            text-align: center;
+        }
+        .why_choose_Mobiloitte h3 {
+            font-size: 20px;
+        }
+        .why_choose_Mobiloitte p {
+            font-size: 16px;
+            padding: 0;
+            line-height: 20px;
+        }
+        .why_choose_Mobiloitte .col-lg-3 a {
+            font-size: 16px;
+        }
+        /* ***********************************   "cross-platform-mobile-development" ***************/
+        .cross-platform-mobile-development header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .cross-platform-mobile-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .cross_platform_d_compney {
+            background-position: right;
+            padding: 75px 0;
+        }
+        .cross_platform_d_compney h3 {
+            font-size: 35px;
+            padding: 0px 0 5px 0;
+        }
+        .cross_platform_d_compney p {
+            font-size: 16px;
+            padding: 0 75px 5px 75px;
+            line-height: 20px;
+        }
+        .cross_platform_d_compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .building_native_apps {
+            padding: 35px 0;
+        }
+        .building_native_apps h3 {
+            font-size: 20px;
+            margin: 0;
+            padding: 15px 0 5px 0;
+        }
+        .building_native_apps p {
+            font-size: 16px;
+            line-height: 20px;
+            margin: 0;
+            text-align: justify;
+        }
+        .Mobiloitte_advantage {
+            text-align: center;
+            padding: 35px 0 0 0;
+        }
+        .Mobiloitte_advantage h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .Mobiloitte_advantage ul li a {
+            font-size: 16px;
+        }
+        .Mobiloitte_advantage ul li {
+            list-style: none;
+            padding: 5px 0;
+            text-align: left;
+        }
+        .Mobiloitte_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .about_softwere_n_platform .row {
+            padding: 0;
+            margin-bottom: 8px;
+        }
+        .xamarin .row p,
+        .titanium .row p,
+        .mag_plus .row p {
+            padding-right: 0px;
+        }
+        .phonegap .row p,
+        .kinvey .row p {
+            padding-left: 0;
+        }
+        .about_softwere_n_platform p {
+            font-size: 16px;
+            text-align: justify !important;
+            padding: 0;
+            line-height: 18px;
+        }
+        .about_softwere_n_platform .col-lg-1.for_big_screen {
+            display: none;
+        }
+        .about_softwere_n_platform .col-lg-1.for_small_screen {
+            display: block;
+        }
+        .about_softwere_n_platform .col-lg-1 {
+            text-align: center;
+        }
+        .about_softwere_n_platform img {
+            border-left: none !important;
+            border-right: none !important;
+        }
+        .about_softwere_n_platform .row img {
+            padding: 0;
+        }
+        /* ***************************  iconic-app-development *************** */
+        .ionic-app-development header,
+        .flutter-development header,
+        .xamarin-devlopment header,
+        .phone-gap-devlopment header,
+        .react-native-development header,
+        .pwa-devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .ionic-app-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .flutter-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .xamarin-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .phone-gap-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .pwa-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .react-native-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .ionic_app_d_compney {
+            background-position: right;
+            padding: 75px 0;
+        }
+        .react_native_d_compney,
+        .flutter_app_devlopment,
+        .xamarin_app_d_compney,
+        .pwa-d-compney,
+        .phonegap-app-devlopment {
+            background-position: right;
+            padding: 100px 0;
+        }
+        .ionic_app_d_compney h3,
+        .flutter_app_devlopment h3,
+        .react_native_d_compney h3,
+        .xamarin_app_d_compney h3,
+        .pwa-d-compney h3,
+        .phonegap-app-devlopment h3 {
+            font-size: 35px;
+            padding: 0px 0 5px 0;
+        }
+        .ionic_app_d_compney p,
+        .react_native_d_compney p,
+        .xamarin_app_d_compney p,
+        .pwa-d-compney p,
+        .phonegap-app-devlopment p {
+            font-size: 16px;
+            padding: 0 75px 5px 75px;
+            line-height: 20px;
+        }
+        .ionic_app_d_compney a,
+        .flutter_app_devlopment a,
+        .react_native_d_compney a,
+        .xamarin_app_d_compney a,
+        .pwa-d-compney a,
+        .phonegap-app-devlopment a {
+            padding: 8px 30px;
+            font-size: 18px;
+        }
+        .ionic_app_d_services {
+            padding: 40px 0;
+        }
+        .ionic_app_d_services h3 {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+        }
+        .ionic_app_d_services h4 {
+            font-size: 18px;
+        }
+        .ionic_app_d_services p {
+            font-size: 16px;
+            padding: 0;
+            line-height: 20px;
+        }
+        .our_solution_slider h3 {
+            font-size: 20px;
+        }
+        .ionic_tecnological_advantage {
+            text-align: center;
+            padding: 35px 0 0 0;
+        }
+        .ionic_tecnological_advantage h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .ionic_tecnological_advantage ul li a {
+            font-size: 16px;
+        }
+        .ionic_tecnological_advantage ul li {
+            text-align: left;
+            padding: 5px 0;
+        }
+        .ionic_tecnological_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .ionic_tecnological_advantage .col-lg-6.second_ul_list {
+            margin-top: -20px;
+        }
+        .best_code_practices p,
+        .efficent-refined-d-services p {
+            font-size: 16px;
+            line-height: 25px;
+            margin: 0 0 10px 0;
+        }
+        .efficent-refined-d-services,
+        .flutter-d-compney,
+        .why-choose-mobiloitte-for-flutter,
+        .secure_scalable_xamarin_services,
+        .hybrid-mobapp-d-services,
+        .pwa_services {
+            padding: 50px 20px;
+        }
+        .why-react-native-developed,
+        .why_choose_flutter_devlopment {
+            padding: 25px 20px;
+        }
+        .why_xamarin_app_devloped {
+            padding: 0;
+        }
+        .why-react-native-developed .technological-expertise ul li {
+            padding: 5px 0 !important;
+        }
+        .why-react-native-developed h3 {
+            text-align: left;
+        }
+        .why-react-native-developed h3:nth-child(1) {
+            text-align: center;
+        }
+        .grow-with-us .col-lg-4 {
+            padding: 0;
+            text-align: center;
+        }
+        .why-choose-us-for-service {
+            padding: 0 10px 35px 10px;
+        }
+        .attributes_of_pwa {
+            padding: 10px 10px 35px 10px;
+        }
+        .why-choose-us-for-service h3,
+        .attributes_of_pwa h3 {
+            font-size: 25px;
+        }
+        .why-choose-us-for-service p,
+        .attributes_of_pwa p {
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        .flutter_app_devlopment p {
+            padding: 0 49px;
+            font-size: 12px;
+            line-height: 18px;
+        }
+        .our_xamarin_development_services,
+        .android-app-d-service-slider,
+        .why-phonegap-app-devloped,
+        .benefits_of_pwa {
+            padding: 25px 20px;
+        }
+        .related_services.happy_clients {
+            padding: 35px 20px;
+        }
+        .related_services.happy_clients .slick-slide img {
+            height: 50px !important;
+            padding-right: 20px !important;
+        }
+        .about_pwa_design_devlopment {
+            padding: 0 15px 35px 15px;
+        }
+        .about_pwa_design_devlopment h3 {
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+        .about_pwa_design_devlopment p {
+            font-size: 20px;
+            padding: 0;
+        }
+        .about_pwa_design_devlopment .about_topic {
+            padding: 15px 20px 20px 20px;
+        }
+        .about_pwa_design_devlopment .col-lg-3 {
+            margin-bottom: 25px;
+        }
+        .why_choose_android_app_d_compney {
+            padding: 25px 5px;
+        }
+        .why_choose_android_app_d_compney .row {
+            padding-top: 10px;
+        }
+        .why_choose_android_app_d_compney h3 {
+            font-size: 17px;
+        }
+        .why_choose_android_app_d_compney p {
+            font-size: 16px;
+            padding: 0 0;
+            text-align: -webkit-center;
+        }
+        .why_choose_android_app_d_compney img {
+            width: 70px;
+        }
+        .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+            text-align: center;
+            border-right: none;
+            border-bottom: 2px solid #96edfa57;
+            margin-bottom: 10px;
+        }
+        section.why-choose-us-for-service.gaming_program_expertise {
+            padding: 35px 0;
+        }
+        .why_choose_Mobiloitte .col-sm-6.col-lg-3 {
+            padding: 5px 0;
+        }
+        /*  */
+        /*  */
+        /*  */
+        .padding.our-team.our_solution_slider .testimonial-card .card-up {
+            height: 350px;
+            width: 500px;
+        }
+        .padding.our-team.our_solution_slider p {
+            font-size: 20px;
+            padding: 0 25px;
+        }
+        /* .padding.our-team.our_solution_slider .card-up.info-color img {
+            margin: 0;
+        } */
+        /* .padding.our-team.our_solution_slider figure.testimonial {
+            margin: 0;
+            padding: 0;
+        } */
+        .padding.our-team.our_solution_slider .card-up.info-color {
+            padding: 0;
+        }
+        .padding.our-team.our_solution_slider h3 {
+            font-size: 25px;
+            margin: 0 0 10px 0;
+        }
+        .padding.our-team.our_solution_slider .card.testimonial-card {
+            margin: 0 0 0 100px;
+        }
+        .secure_scalable_xamarin_services p,
+        .why_xamarin_app_devloped p {
+            text-align: justify;
+        }
+    }
+    /* ===========================3=============================*/
+    
+    @media only screen and (min-width: 993px) and (max-width: 1024px) {
+        .dropdown-content a {
+            font-size: 13px;
+            padding: 12px 0;
+        }
+        .dropdown-content {
+            min-width: 160px;
+        }
+        .padding.our-team .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        .padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+            padding: 0;
+        }
+        img.logo_for_sml_scrn {
+            display: none;
+            width: 300px;
+            height: auto;
+            padding: 0 35px 0 14px !important;
+        }
+        a.navbar-brand.for_bg_scrn {
+            display: block;
+        }
+        nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            background-color: #043647 !important;
+            padding: 20px 0 0 0;
+        }
+        a.nav-link {
+            font-size: 24px;
+            padding: 10px 15px !important;
+            text-align: -webkit-center;
+        }
+        .navbar-toggler-icon {
+            width: 2.5em !important;
+            height: 2.5em !important;
+        }
+        .future_ready {
+            padding: 120px 0px 75px 0px;
+        }
+        h1.title.text-center.topic-heading {
+            font-size: 40px;
+            font-weight: 700;
+        }
+        h3.txt_clr_2.text-center {
+            padding: 0;
+            font-size: 32px;
+        }
+        h5.txt_clr_1.text-center {
+            font-size: 24px;
+            margin: 15px 0 0 0;
+            line-height: 32px;
+            padding: 0;
+        }
+        .list-group-horizontal {
+            flex-direction: column !important;
+        }
+        .menu_options {
+            padding: 0 0 50px 0px;
+        }
+        button.dropbtn {
+            font-size: 25px;
+            padding: 10px 0;
+        }
+        li.list-group-item {
+            text-align: -webkit-center;
+            padding: 10px 0;
+        }
+        ul.contact_detail_address li p {
+            font-size: 17px;
+        }
+        div.wpcbc ul li a {
+            font-size: 20px;
+            font-weight: 100;
+        }
+        div.wpcbc ul li {
+            float: left;
+            padding: 0;
+        }
+        .col-lg-6.about_compney {
+            padding: 0 0 15px 15px;
+        }
+        .lwt_tdp {
+            background-image: none;
+        }
+        h2.txt_clr_2 {
+            font-size: 40px;
+            margin: 15px 0 0 0;
+        }
+        .LWT_input_section p.txt_clr_1 {
+            padding: 0 0 25px 0;
+            text-align: -webkit-center;
+            font-size: 25px;
+            margin: 0 auto;
+        }
+        div.col-lg-6.tdp h2.txt_clr_2 {
+            font-size: 39px;
+            padding: 30px 0;
+        }
+        div.LWT_input_section button.btn.btn-primary {
+            padding: 10px 40px;
+            font-size: 20px;
+        }
+        .tdp_responsive_bg {
+            display: block;
+        }
+        .lwt_tdp {
+            padding: 0 0 100px 0;
+        }
+        .os_background {
+            background-image: none;
+            padding: 0;
+        }
+        .text_os h4 {
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_os p {
+            font-size: 25px;
+            text-align: center;
+        }
+        p.txt_clr_1.heading_matter {
+            word-spacing: 0.8px;
+        }
+        .os-responsive-background img {
+            display: block;
+        }
+        .it-responsive-background {
+            display: block;
+        }
+        .os_background.parallax-window {
+            background-image: none !important;
+        }
+        .it_background.parallax-window {
+            background-image: none !important;
+        }
+        .dtg-responsive-background {
+            display: block;
+        }
+        .it_background {
+            background-image: none;
+            padding: 60px 0;
+        }
+        .text_it h4 {
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_it p {
+            font-size: 25px;
+            text-align: center;
+        }
+        .dtg_background {
+            background-image: none;
+            padding: 0 0 30px 0;
+        }
+        .text_dtg h4 {
+            font-size: 40px;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .text_dtg p {
+            font-size: 25px;
+            text-align: center;
+        }
+        .col-lg-7.os_content {
+            padding: 0 70px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.it_content {
+            padding: 0 70px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .col-lg-7.dtg_content {
+            padding: 0 70px;
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+        .padding.our-team.parallax-window p.card_up_text {
+            text-align: center;
+            line-height: 1;
+            word-spacing: 2px;
+            font-size: 15px;
+            color: white;
+            padding: 15px 10px 0 10px;
+        }
+        button.slick-next.slick-arrow::before {
+            display: none;
+        }
+        button.slick-prev.slick-arrow::before {
+            display: none;
+        }
+        .our-services {
+            overflow-x: hidden;
+        }
+        figure.testimonial-services img {
+            margin: 20px auto 10px;
+        }
+        h5.card-title {
+            font-size: 20px !important;
+            font-weight: bolder!important;
+        }
+        p.card-text {
+            padding: 10px 5px 16px 5px;
+            font-size: 16px;
+        }
+        a.rd_mre_btn.services-button {
+            font-size: 16px;
+        }
+        h5.card-title.fast-mobile-heading {
+            font-size: 20px !important;
+            margin-top: 15px;
+        }
+        .padding.our-team.parallax-window h1.title.text-center {
+            font-size: 40px;
+        }
+        .happy_clients .slick-slide img {
+            width: 100%;
+            height: 50px
+        }
+        h4.font-weight-bold.mb-4 {
+            font-size: 20px;
+        }
+        p.blue-light-text.mt-4 {
+            font-size: 15px;
+        }
+        .footer_p2 p {
+            font-size: 20px;
+            padding: 0 35px 0 0 !important;
+        }
+        .col-lg-6.lwt {
+            padding-left: 15px;
+        }
+        .LWT_input_section h2.txt_clr_2 {
+            padding-left: 25px;
+        }
+        .col-lg-6.tdp {
+            padding-right: 15px;
+        }
+        .tdp h2.txt_clr_2 {
+            padding-right: 25px;
+        }
+        p.txt_clr_1.heading_matter {
+            line-height: 20px;
+        }
+        a.rd_mre_btn {
+            font-size: 16px;
+            text-align: center;
+            padding: 0px 0 10px 0;
+        }
+        div.wpcbc ul li a {
+            padding: 0px 20px;
+        }
+        .col-lg-6.lwt {
+            padding-left: 15px;
+        }
+        .LWT_input_section h2.txt_clr_2 {
+            padding-left: 25px;
+        }
+        .col-lg-6.tdp {
+            padding-right: 15px;
+        }
+        .tdp h2.txt_clr_2 {
+            padding-right: 25px;
+        }
+        p.txt_clr_1.heading_matter {
+            line-height: 31px;
+            word-spacing: 3px;
+        }
+        a.rd_mre_btn {
+            font-size: 21px;
+            text-align: center;
+            padding: 0px 0 10px 0;
+        }
+        div.wpcbc ul li a {
+            padding: 0px 19px;
+        }
+        .text_os h4 {
+            padding-top: 75px;
+        }
+        p.card_up_text {
+            text-align: center;
+            font-size: 14px;
+        }
+        /* ***********************************   "NativeScript-Development" ***************/
+        .nativeScript-d-compney {
+            background-position: right;
+            padding: 100px 0;
+        }
+        .nativeScript-d-compney h3 {
+            font-size: 45px;
+            padding: 0px 0 5px 0;
+        }
+        .nativeScript-d-compney p {
+            font-size: 16px;
+            padding: 0 100px 5px 100px;
+            line-height: 20px;
+        }
+        .nativeScript-d-compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .enhance_your_business {
+            padding: 35px 0;
+        }
+        .enhance_your_business h3 {
+            font-size: 20px;
+        }
+        .enhance_your_business p {
+            font-size: 16px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .features_and_Mobiloitte {
+            padding: 35px 15px;
+        }
+        .features_and_Mobiloitte h3 {
+            font-size: 20px;
+        }
+        .features_and_Mobiloitte ul li {
+            padding: 5px 0;
+        }
+        .features_and_Mobiloitte ul li a {
+            font-size: 16px;
+        }
+        .why_hire_from_mobiloitte {
+            padding: 35px 15px 0 15px;
+        }
+        .why_hire_from_mobiloitte h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .why_hire_from_mobiloitte ul li a {
+            font-size: 16px;
+        }
+        .why_hire_from_mobiloitte ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .why_hire_from_mobiloitte ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .Mobiloitte_expertise {
+            padding: 35px 0;
+        }
+        .Mobiloitte_expertise h3 {
+            font-size: 20px;
+        }
+        .Mobiloitte_expertise p {
+            font-size: 16px;
+            padding: 10px 0 0 0;
+            line-height: 20px;
+            margin: 0;
+        }
+        .lets_first_step h3 {
+            font-size: 20px;
+            color: #042e3a;
+            padding: 0 0 20px 0;
+        }
+        .lets_first_step a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .lets_first_step p {
+            font-size: 16px;
+            padding: 25px 75px 0 75px;
+            line-height: 20px;
+        }
+        .our_portfolio h3 {
+            font-size: 20px;
+        }
+        .portfolio-app-strong-point .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .nativeScript-development footer p {
+            font-size: 18px;
+        }
+        /* ***********************************   "kotlin-app-development-company" ***************/
+        .kotlinapp_devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .kotlinapp_devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .kotlinapp_d_compney {
+            background-position: right;
+            padding: 100px 0;
+        }
+        .kotlinapp_d_compney h3 {
+            font-size: 45px;
+            padding: 0px 0 5px 0;
+        }
+        .kotlinapp_d_compney p {
+            font-size: 16px;
+            padding: 0 100px 5px 100px;
+            line-height: 20px;
+        }
+        .kotlinapp_d_compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .about_kotlinapp_d_compney {
+            padding: 35px 0;
+        }
+        .about_kotlinapp_d_compney h3 {
+            font-size: 20px;
+        }
+        .about_kotlinapp_d_compney p {
+            font-size: 16px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices {
+            padding: 35px 15px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices h3 {
+            font-size: 20px;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li {
+            padding: 5px 0;
+        }
+        .kotlin_android_devloper_and_app_developer_sevices ul li a {
+            font-size: 16px;
+        }
+        /* ***********************************   "cross-platform-mobile-development" ***************/
+        .cross-platform-mobile-development header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .cross-platform-mobile-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .cross_platform_d_compney {
+            background-position: right;
+            padding: 100px 0;
+        }
+        .cross_platform_d_compney h3 {
+            font-size: 45px;
+            padding: 0px 0 5px 0;
+        }
+        .cross_platform_d_compney p {
+            font-size: 16px;
+            padding: 0 100px 5px 100px;
+            line-height: 20px;
+        }
+        .cross_platform_d_compney a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .building_native_apps {
+            padding: 35px 0;
+        }
+        .building_native_apps h3 {
+            font-size: 20px;
+        }
+        .building_native_apps p {
+            font-size: 16px;
+            padding: 15px 0 0 0;
+            line-height: 20px;
+        }
+        .Mobiloitte_advantage {
+            padding: 35px 15px 0 15px;
+        }
+        .Mobiloitte_advantage h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .Mobiloitte_advantage ul li a {
+            font-size: 16px;
+        }
+        .Mobiloitte_advantage ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .Mobiloitte_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        .about_softwere_n_platform .row {
+            padding: 0 0px 0 0px;
+        }
+        /* ***************************  iconic-app-development *************** */
+        .ionic-app-development header,
+        .flutter-development header,
+        .xamarin-devlopment header,
+        .phone-gap-devlopment header,
+        .react-native-development header,
+        .pwa-devlopment header {
+            background-color: #043747;
+            position: relative;
+            width: 100%;
+        }
+        .ionic-app-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .flutter-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .xamarin-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .phone-gap-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .pwa-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+        .react-native-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+            padding: 5px 0 0 0;
+            background-color: transparent !important;
+            border-bottom: none;
+        }
+        .ionic_app_d_compney,
+        .flutter_app_devlopment,
+        .react_native_d_compney,
+        .xamarin_app_d_compney,
+        .pwa-d-compney,
+        .phonegap-app-devlopment {
+            background-position: right;
+            padding: 100px 0;
+        }
+        .ionic_app_d_compney h3,
+        .flutter_app_devlopment h3,
+        .react_native_d_compney h3,
+        .xamarin_app_d_compney h3,
+        .pwa-d-compney h3,
+        .phonegap-app-devlopment h3 {
+            font-size: 45px;
+            padding: 0px 0 5px 0;
+        }
+        .ionic_app_d_compney p,
+        .flutter_app_devlopment p,
+        .react_native_d_compney p,
+        .xamarin_app_d_compney p,
+        .pwa-d-compney p,
+        .phonegap-app-devlopment p {
+            font-size: 16px;
+            padding: 0 100px 5px 100px;
+            line-height: 20px;
+        }
+        .ionic_app_d_compney a,
+        .flutter_app_devlopment a,
+        .react_native_d_compney a,
+        .xamarin_app_d_compney a,
+        .pwa-d-compney a,
+        .phonegap-app-devlopment a {
+            padding: 15px 20px;
+            font-size: 18px;
+        }
+        .ionic_app_d_services {
+            padding: 40px 0;
+        }
+        .ionic_app_d_services h3 {
+            font-size: 20px;
+            margin: 0 0 20px 0;
+        }
+        .ionic_app_d_services h4 {
+            font-size: 18px;
+        }
+        .ionic_app_d_services p {
+            font-size: 16px;
+            padding: 0;
+            line-height: 20px;
+        }
+        .our_solution_slider h3 {
+            font-size: 20px;
+        }
+        .ionic_tecnological_advantage {
+            padding: 35px 15px 0 15px;
+        }
+        .ionic_tecnological_advantage h3 {
+            font-size: 20px;
+            padding-bottom: 1px;
+        }
+        .ionic_tecnological_advantage ul li a {
+            font-size: 16px;
+        }
+        .ionic_tecnological_advantage ul li {
+            list-style: none;
+            padding: 5px 0;
+        }
+        .ionic_tecnological_advantage ul.left_ul_mobilotte {
+            margin-bottom: 0;
+        }
+        /* .grow-with-us .col-lg-4 h3 {
+            text-align: left;
+        } */
+        .grow-with-us .col-lg-4 {
+            padding: 0;
+        }
+        .grow-with-us .col-lg-4 {
+            padding: 0 10px;
+        }
+        .grow-with-us {
+            padding: 35px 0;
+        }
+        .grow-with-us .col-lg-4 h3 {
+            text-align: center;
+        }
+        .why-react-native-developed .mobiloitte-advantages ul li {
+            padding: 5px 0;
+        }
+        .why-choose-us-for-service {
+            padding: 0 10px 35px 10px;
+        }
+        .attributes_of_pwa {
+            padding: 10px 10px 35px 10px;
+        }
+        .related_services.happy_clients {
+            padding: 35px 20px;
+        }
+        .related_services.happy_clients .slick-slide img {
+            /* height: 50px !important; */
+            padding-right: 20px !important;
+        }
+        .about_pwa_design_devlopment {
+            padding: 50px 35px;
+        }
+        .about_pwa_design_devlopment h3 {
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+        .about_pwa_design_devlopment p {
+            font-size: 20px;
+            padding: 0;
+        }
+        .about_pwa_design_devlopment .about_topic {
+            padding: 15px 20px 20px 20px;
+        }
+        .about_pwa_design_devlopment .col-lg-3 {
+            margin-bottom: 5px;
+        }
+        section.why_choose_Mobiloitte {
+            padding: 35px 15px;
+        }
+        .why_choose_Mobiloitte p {
+            line-height: 30px;
+        }
+        .why_choose_Mobiloitte .col-lg-3 a {
+            font-size: 16px;
+        }
+        .xamarin .row p,
+        .titanium .row p,
+        .mag_plus .row p {
+            text-align: right;
+            padding-right: 0;
+            margin-left: 50px;
+        }
+        .phonegap .row p,
+        .kinvey .row p {
+            text-align: left;
+            padding-left: 0;
+        }
+        .phonegap .row img,
+        .kinvey .row img {
+            border-left: 2px solid #96c6e8;
+            padding-left: 0;
+            margin-left: -67px;
+        }
+        .phonegap .row p,
+        .kinvey .row p {
+            text-align: left;
+            padding-left: 0;
+            padding-right: 50px;
+        }
+        /*  */
+        /*  */
+        /*  */
+        .padding.our-team.our_solution_slider .testimonial-card .card-up {
+            height: 350px;
+            width: 300px;
+        }
+        .padding.our-team.our_solution_slider p {
+            font-size: 16px;
+            padding: 0 25px;
+        }
+        /* .padding.our-team.our_solution_slider .card-up.info-color img {
+            margin: 0;
+        } */
+        .padding.our-team.our_solution_slider figure.testimonial {
+            margin: 0;
+            padding: 0;
+        }
+        .padding.our-team.our_solution_slider .card-up.info-color {
+            padding: 0 15px;
+        }
+        .padding.our-team.our_solution_slider h3 {
+            font-size: 25px;
+            margin: 0 0 10px 0;
+        }
+    }
+    /*============================4=================================================only for width 992=================*/
+    
+    @media only screen and (min-width: 992px) and (max-width: 992px) {
+        .dropdown-content a {
+            font-size: 13px;
+            padding: 12px 0;
+        }
+        .dropdown-content {
+            min-width: 160px;
+        }
+        img.logo_for_sml_scrn {
+            display: none;
+        }
+        .happy_clients .slick-slide img {
+            width: 100%;
+        }
+        a.navbar-brand.for_bg_scrn {
+            display: block;
+        }
+        a.nav-link {
+            font-size: 22px;
+            padding: 10px 15px !important;
+            text-align: -webkit-center;
+        }
+    }

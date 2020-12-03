@@ -1,0 +1,2496 @@
+/* font fomily */
+
+@font-face {
+    font-family: 'robotobold';
+    src: url('../font/roboto-bold-webfont.woff2') format('woff2'), url('../font/roboto-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotolight';
+    src: url('../font/roboto-light-webfont.woff2') format('woff2'), url('../font/roboto-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../font/roboto-regular-webfont.woff2') format('woff2'), url('../font/roboto-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'robotothin';
+    src: url('../font/roboto-thin-webfont.woff2') format('woff2'), url('../font/roboto-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('../font/montserratalternates-regular-webfont.woff2') format('woff2'), url('../font/montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_alternatessemibold';
+    src: url('../font/montserratalternates-semibold-webfont.woff2') format('woff2'), url('../font/montserratalternates-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../font/montserrat-bold-webfont.woff2') format('woff2'), url('../font/montserrat-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glacial_indifferencebold';
+    src: url('../font/glacialindifference-bold-webfont.woff2') format('woff2'), url('../font/glacialindifference-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'glacial_indifferenceregular';
+    src: url('../font/glacialindifference-regular-webfont.woff2') format('woff2'), url('../font/glacialindifference-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    padding: 0;
+    overflow-x: hidden;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'robotoregular';
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.txt_clr_1 {
+    color: #f7f7f7bd;
+}
+
+.txt_clr_2 {
+    color: #02c7e6;
+}
+
+ul.navbar-nav a.nav-link:hover {
+    color: #02c7e6 !important;
+}
+
+.dropbtn {
+    font-family: 'robotolight';
+    color: white;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e1eff3;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #0b5164;
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content {
+    min-width: 220px;
+}
+
+a.navbar-brand img {
+    background: transparent;
+    padding: 0 50px;
+    margin: 0;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: #043647 !important;
+    padding: 20px 0 0 0;
+}
+
+
+/* ++++ */
+
+.nativeScript-development header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid #02c7e6
+}
+
+
+/* ++++ */
+
+.future_ready {
+    padding: 180px 0px 300px 0px;
+    background-image: url(../images/ready-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+h3.txt_clr_2.text-center {
+    font-family: 'robotobold';
+    font-size: 30px;
+    word-spacing: 4px;
+    padding: 0 111px;
+}
+
+h5.txt_clr_1.text-center {
+    font-family: 'robotolight';
+    font-size: 20px;
+    margin: 50px 0 0 0;
+    word-spacing: 2px;
+    padding: 0 150px;
+}
+
+a.nav-link {
+    font-family: 'robotolight';
+    color: #f7f7f7 !important;
+    font-size: 20px;
+    padding: 25px 35px !important;
+}
+
+.menu_options {
+    background-color: #042e3a;
+    padding: 10px 0 100px 0px;
+}
+
+.menu_options_ul li {
+    border: none;
+    background-color: transparent;
+    color: #f7f7f7;
+}
+
+.menu_options li.list-group-item {
+    padding: 0 15px;
+}
+
+.col-lg-7.os_content {
+    padding: 0px 260px 0 164px;
+}
+
+.col-lg-7.it_content {
+    padding: 0 164px 0 354px;
+}
+
+.col-lg-7.dtg_content {
+    padding: 0px 155px 0 164px;
+}
+
+.os_background {
+    padding: 110px 0 100px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.it_background {
+    padding: 110px 0 184px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.dtg_background {
+    padding: 110px 0 184px 0;
+    background-image: url(../images/digital-transformation-guide_BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+a.rd_mre_btn {
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+a.rd_mre_btn:hover {
+    color: #02c7e6;
+    text-decoration: none;
+}
+
+#exampleSlider {
+    position: relative;
+}
+
+@media (max-width: 767px) {
+    #exampleSlider {
+        border-color: transparent;
+    }
+}
+
+#exampleSlider .MS-content {
+    margin: 15px 5%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-content {
+        margin: 0;
+    }
+}
+
+#exampleSlider .MS-content .item {
+    display: inline-block;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    border-right: none;
+    width: 35%;
+}
+
+@media (max-width: 1200px) {
+    #exampleSlider .MS-content .item {
+        width: 25%;
+    }
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-content .item {
+        width: 33.3333%;
+    }
+}
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-content .item {
+        width: 50%;
+    }
+}
+
+#exampleSlider .MS-content .item p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 1;
+    vertical-align: middle;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#exampleSlider .MS-controls button {
+    position: absolute;
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    outline: 0;
+    top: 35px;
+}
+
+@media (max-width: 767px) {
+    #exampleSlider .MS-controls button {
+        display: none;
+    }
+}
+
+#exampleSlider .MS-controls button:hover {
+    cursor: pointer;
+}
+
+#exampleSlider .MS-controls .MS-left {
+    left: 10px;
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-left {
+        left: -2px;
+    }
+}
+
+#exampleSlider .MS-controls .MS-right {
+    right: 10px;
+}
+
+@media (max-width: 992px) {
+    #exampleSlider .MS-controls .MS-right {
+        right: -2px;
+    }
+}
+
+.fa.fa-chevron-left {
+    color: #f7f7f7;
+}
+
+.fa.fa-chevron-right {
+    color: #f7f7f7;
+}
+
+.item img {
+    width: 629px;
+    height: 480px;
+    border-radius: 25px;
+}
+
+h2 {
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.happy_clients .slick-slide img {
+    display: block;
+    width: 100%;
+    height: 50px;
+    display: block;
+    border-right: 2px solid #1c63a1;
+    padding-right: 30px;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+.happy_clients .container {
+    padding-bottom: 70px;
+}
+
+.lwt_tdp {
+    background-image: url(../images/lets-work-togather-N-techB-devloment-process_BG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0 170px 0;
+    background-size: cover;
+}
+
+.work_and_devlopment {
+    padding: 50px 0;
+}
+
+.navbar-brand {
+    margin-right: 0 !important;
+}
+
+.form-group .form-control {
+    border-radius: 0;
+    border: 1px solid #1c63a1;
+    background-color: #0b5164;
+}
+
+.LWT_input_section p.txt_clr_1 {
+    font-family: 'robotothin';
+    text-align: -webkit-center;
+    font-size: 20px;
+    padding: 0 0 40px 0;
+    margin: 0 auto;
+    line-height: 30px;
+}
+
+.LWT_input_section .form-group ::placeholder {
+    color: #346e7e;
+}
+
+footer {
+    background-color: #031c24;
+    padding: 20px 0 0 0;
+}
+
+div.social_icons ul li {
+    display: inline;
+}
+
+ul li .fab {
+    color: white;
+    padding: 0 10px;
+}
+
+ul.contact_detail_address li {
+    padding: 10px 0;
+}
+
+ul.contact_detail_address {
+    list-style: none;
+}
+
+ul.contact_detail_address li p {
+    font-family: 'robotolight';
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
+
+div.social_icons ul li a i {
+    font-size: 20px;
+}
+
+p i.fas {
+    padding: 0 15px 0 10px;
+}
+
+div.wpcbc ul li:nth-child(5) {
+    border: none !important;
+}
+
+div.wpcbc ul {
+    list-style: none;
+}
+
+div.wpcbc ul li {
+    color: white;
+    display: inline;
+    border-right: 2px solid white;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+div.wpcbc ul li a {
+    font-family: 'robotoregular';
+    padding: 0px 0px;
+    font-size: 20px;
+    color: white;
+}
+
+div.wpcbc ul li a:hover {
+    text-decoration: none;
+    color: #1c63a1;
+}
+
+.footer {
+    padding-bottom: 0;
+}
+
+div.footer_p2 {
+    background-color: #02232c;
+    padding: 15px 0;
+}
+
+div.footer_p2 p {
+    font-family: 'robotothin';
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+.text_os h4 {
+    font-family: 'robotobold';
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.text_os p {
+    font-family: 'robotothin';
+    font-size: 20px;
+    text-align: left;
+}
+
+p.txt_clr_1.heading_matter {
+    line-height: 30px;
+}
+
+.text_it h4 {
+    font-family: 'robotobold';
+    font-size: 30px;
+    text-align: right;
+    padding-bottom: 15px;
+}
+
+.text_it p {
+    font-family: 'robotothin';
+    font-size: 20px;
+    text-align: right;
+}
+
+.text_it a {
+    text-align: right;
+}
+
+div.text_os a.rd_mre_btn.txt_clr_1 {
+    font-family: 'robotolight';
+    display: block;
+    text-transform: uppercase;
+}
+
+div.text_it a.rd_mre_btn.txt_clr_1 {
+    font-family: 'robotolight';
+    display: block;
+    text-transform: uppercase;
+}
+
+div.text_dtg a.rd_mre_btn.txt_clr_1 {
+    font-family: 'robotolight';
+    display: block;
+    text-transform: uppercase;
+}
+
+.text_dtg h4 {
+    font-family: 'robotobold';
+    font-size: 30px;
+    text-align: left;
+    padding-bottom: 15px;
+}
+
+.text_dtg p {
+    font-family: 'robotothin';
+    font-size: 20px;
+    text-align: left;
+}
+
+h2.txt_clr_2 {
+    font-size: 30px;
+}
+
+.tdp h2.txt_clr_2 {
+    font-family: 'robotobold';
+    padding-right: 0;
+}
+
+.col-lg-6.tdp {
+    padding-right: 0;
+}
+
+.LWT_input_section h2.txt_clr_2 {
+    font-family: 'robotobold';
+    padding-left: 0;
+}
+
+.col-lg-6.lwt {
+    padding-left: 0;
+}
+
+div.LWT_input_section button.btn.btn-primary {
+    font-family: 'robotolight';
+    margin: 0 auto;
+    display: block;
+    padding: 15px 60px;
+    background-color: #0b5164;
+    border: 0;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+div.social_icons i.fab:hover {
+    color: #0b5164;
+}
+
+.os-responsive-background img {
+    display: none;
+}
+
+.it-responsive-background {
+    display: none;
+}
+
+.dtg-responsive-background {
+    display: none;
+}
+
+img.logo_for_sml_scrn {
+    display: none;
+}
+
+.navbar-toggler.custom-toggler {
+    border-color: green;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url(../images/toggler_button.svg) !important;
+}
+
+button.navbar-toggler.custom-toggler {
+    border: none;
+}
+
+.tdp_responsive_bg {
+    display: none;
+}
+
+.wrapper {
+    background-color: #042e3a;
+}
+
+h1.title.text-center {
+    color: #02c7e6;
+    font-size: 30px;
+}
+
+figure.testimonial {
+    position: relative;
+    float: none;
+    overflow: hidden;
+    margin: 10px 1%;
+    padding: 0 20px;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+figure.testimonial * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+figure.testimonial blockquote {
+    background-color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 25px 50px 30px;
+    position: relative;
+}
+
+figure.testimonial blockquote:before,
+figure.testimonial blockquote:after {
+    content: "\201C";
+    position: absolute;
+    color: #ff5057;
+    font-size: 50px;
+    font-style: normal;
+}
+
+figure.testimonial blockquote:before {
+    top: 25px;
+    left: 20px;
+}
+
+figure.testimonial blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 0;
+}
+
+figure.testimonial .btn {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fff;
+    margin: 0;
+    position: absolute;
+}
+
+figure.testimonial .peopl {
+    position: absolute;
+    bottom: 45px;
+    padding: 0 10px 0 120px;
+    margin: 0;
+    color: #ffffff;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+figure.testimonial .peopl h3 {
+    opacity: 0.9;
+    margin: 0;
+}
+
+.slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.slick-list:focus {
+    outline: none;
+}
+
+.slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+.slick-track:before,
+.slick-track:after {
+    display: table;
+    content: '';
+}
+
+.slick-track:after {
+    clear: both;
+}
+
+.slick-loading .slick-track {
+    visibility: hidden;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+
+.slick-slide img {
+    display: block;
+}
+
+.slick-slide.slick-loading img {
+    display: none;
+}
+
+.slick-slide.dragging img {
+    pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+    display: block;
+}
+
+.slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+.slick-btn.slick-hidden {
+    display: none;
+}
+
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 40%;
+    display: block;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    z-index: 99;
+}
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
+.slick-prev:hover:before,
+.slick-prev:focus:before,
+.slick-next:hover:before,
+.slick-next:focus:before {
+    opacity: 1;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-family: "FontAwesome";
+    font-size: 40px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-prev {
+    left: -40px;
+}
+
+.slick-prev:before {
+    content: "";
+}
+
+.slick-next {
+    right: -40px;
+}
+
+.slick-next:before {
+    content: "";
+}
+
+.card {
+    font-weight: 400;
+    border: 0;
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border-radius: .25rem;
+}
+
+.testimonial-card .card-up {
+    height: 220px;
+    overflow: hidden;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.info-color {
+    background: linear-gradient(to bottom left, #6c2af7 15%, #b82bc7 59%);
+}
+
+.testimonial-card .avatar {
+    width: 120px;
+    margin-top: -30px;
+    overflow: hidden;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+
+.white {
+    background-color: #fff !important;
+}
+
+.testimonial-card .avatar img {
+    width: 100%;
+}
+
+.img-fluid,
+.modal-dialog.cascading-modal.modal-avatar .modal-header,
+.video-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.rounded-circle {
+    border-radius: 50%!important;
+}
+
+.testimonial-card .card-body {
+    text-align: center;
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 0 0px 20px 0px !important;
+}
+
+.font-weight-bold {
+    font-weight: 700!important;
+}
+
+.mb-4,
+.my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.blue-light-text {
+    color: #1b75bc !important;
+}
+
+.pr-2,
+.px-2 {
+    padding-right: .5rem!important;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+}
+
+.fa,
+.far,
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+.fa,
+.fab,
+.fad,
+.fal,
+.far,
+.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+
+h4.font-weight-bold.mb-4 {
+    margin: 0 !important;
+}
+
+p.blue-light-text.mt-4 {
+    font-family: 'robotoregular';
+    margin: 0 !important;
+}
+
+h1.title.text-center {
+    font-family: 'robotobold';
+    padding: 10px 0 20px 0;
+}
+
+p.card_up_text {
+    font-family: 'robotoregular';
+    text-align: center;
+    line-height: normal;
+    word-spacing: normal;
+    font-size: 20px;
+    color: white;
+    padding: 23px 10px 0 10px;
+}
+
+img.rounded-circle.img-fluid {
+    padding: 0;
+}
+
+.padding.our-team .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+    padding: 20px 70px;
+}
+
+h4.font-weight-bold.mb-4 {
+    font-family: 'montserrat_alternatessemibold';
+    font-size: 20.98px;
+}
+
+h2.txt_clr_2.font-weight-bold {
+    font-family: 'robotobold';
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.padding.our-team.parallax-window .slick-slide img {
+    border: none;
+}
+
+.padding.our-services.parallax-window .slick-slide img {
+    border: none;
+}
+
+.padding.our-services.parallax-window .card {
+    height: 385px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.padding.our-services.parallax-window figure.testimonial {
+    float: none;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: none !important;
+}
+
+a.rd_mre_btn.services-button {
+    font-family: 'glacial_indifferenceregular';
+    color: black;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'robotothin';
+}
+
+a.rd_mre_btn.services-button:hover {
+    color: #1c63a1;
+    font-weight: bold;
+}
+
+.menu_option li.list-group-item {
+    font-size: 25px;
+}
+
+.padding.our-services-slider.parallax-window h5.card-title {
+    font-family: 'robotobold';
+    font-size: 25px;
+}
+
+.padding.our-services-slider.parallax-window {
+    padding: 60px 0;
+}
+
+.padding.our-services-slider.parallax-window p.card-text {
+    font-family: 'robotolight';
+    font-size: 25px;
+    word-spacing: 0;
+    font-weight: 500;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0b5164 !important;
+    border-color: #37d0f0 !important;
+}
+
+
+/* 
+.our_services-section .slick-slide.slick-current.slick-active~.our_services-section .slick-slide.slick-active {
+    transition: all 0.3s ease;
+}
+
+.our_services-section .slick-slide.slick-current.slick-active~.slick-slide.slick-active~.slick-slide.slick-active,
+.slick-slide.slick-current.slick-active {
+    position: relative;
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+.our_services-section .slick-slide.slick-current.slick-active:before,
+.our_services-section .slick-slide.slick-current.slick-active~.slick-slide.slick-active~.slick-slide.slick-active:before {
+    content: "";
+    background: #3657618a;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    border-radius: 15px;
+} */
+
+.padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
+    padding: 20px 70px;
+}
+
+.padding.our-services-slider.parallax-window p.card-text {
+    font-family: 'robotolight';
+    font-size: 20px;
+    word-spacing: normal;
+    font-weight: normal !important;
+    line-height: 28px;
+}
+
+
+/* ***********************************   "NativeScript-Development" ***************/
+
+.nativeScript-development header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid #02c7e6
+}
+
+.nativeScript-d-compney {
+    background-image: url(../images/nativeScript-development-compney.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 257px 0 262px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.nativeScript-d-compney:before {
+    content: "";
+    background: #042731;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.nativeScript-d-compney h3 {
+    font-family: 'robotobold';
+    font-size: 60px;
+}
+
+.nativeScript-d-compney p {
+    font-size: 20px;
+    font-family: 'robotoregular';
+    padding: 5px 130px 15px 130px;
+    line-height: 30px;
+}
+
+.nativeScript-d-compney a {
+    color: #ffffff;
+    padding: 8px 30px;
+    background-color: #00bde2;
+    border-radius: 28px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.nativeScript-d-compney a:hover {
+    background-color: transparent;
+    color: #00bde2;
+    text-decoration: none;
+    border: 1px solid #00bde2;
+}
+
+.enhance_your_business {
+    padding: 75px 70px;
+    text-align: center;
+}
+
+.enhance_your_business h3 {
+    color: #0b5164;
+    font-size: 25px;
+    font-family: 'robotobold';
+}
+
+.enhance_your_business p {
+    font-size: 20px;
+    padding: 42px 0 0 0;
+    line-height: 45px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.enhance_your_business p:nth-child(3) {
+    padding: 0;
+}
+
+.features_and_Mobiloitte {
+    padding: 35px 70px;
+    background-color: #f7f5f5;
+}
+
+.features_and_Mobiloitte h3 {
+    font-size: 25px;
+    font-family: 'robotobold';
+    color: #0b5164;
+}
+
+.features_and_Mobiloitte ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.features_and_Mobiloitte ul li a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+}
+
+.features_and_Mobiloitte ul li a {
+    text-decoration: none;
+}
+
+.why_hire_from_mobiloitte {
+    padding: 35px 70px;
+}
+
+.why_hire_from_mobiloitte h3 {
+    font-size: 25px;
+    font-family: 'robotobold';
+    color: #0b5164;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.why_hire_from_mobiloitte ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.why_hire_from_mobiloitte ul li a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+}
+
+.why_hire_from_mobiloitte ul li a {
+    text-decoration: none;
+}
+
+.Mobiloitte_expertise {
+    padding: 75px 70px;
+    text-align: center;
+}
+
+.Mobiloitte_expertise h3 {
+    color: #0b5164;
+    font-size: 25px;
+    font-family: 'robotobold';
+}
+
+.Mobiloitte_expertise p {
+    font-size: 20px;
+    padding: 25px 0 0 0;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.lets_first_step {
+    text-align: center;
+}
+
+.lets_first_step h3 {
+    font-family: 'robotobold';
+    font-size: 25px;
+    color: #042e3a;
+    padding: 20px 0;
+}
+
+.lets_first_step p {
+    font-size: 20px;
+    font-family: 'robotoregular';
+    padding: 25px 0;
+    line-height: 30px;
+    color: #042e3a;
+}
+
+.lets_first_step a {
+    color: #ffffff;
+    padding: 8px 30px;
+    background-color: #00bde2;
+    border-radius: 28px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.lets_first_step a:hover {
+    background-color: transparent;
+    color: #00bde2;
+    text-decoration: none;
+    border: 1px solid #00bde2;
+}
+
+.our_portfolio {
+    text-align: center;
+    padding: 35px 0;
+}
+
+.our_portfolio h3 {
+    font-size: 25px;
+    font-family: 'montserratbold';
+}
+
+
+/* portfolio slider start */
+
+.portfolio-app-strong-point .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.portfolio-app-strong-point .indentity {
+    margin: 0!important
+}
+
+figure.portfolio-figure {
+    position: relative;
+    float: none;
+    overflow: hidden;
+    margin: 10px 5px;
+    padding: 0;
+    text-align: left;
+    box-shadow: none !important;
+}
+
+figure.portfolio-figure * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+figure.portfolio-figure img {
+    vertical-align: middle;
+    height: auto;
+    width: 100%;
+    margin: 10px auto 10px;
+}
+
+figure.portfolio-figure blockquote {
+    background-color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 25px 50px 30px;
+    position: relative;
+}
+
+figure.portfolio-figure blockquote:before,
+figure.portfolio-figure blockquote:after {
+    content: "\201C";
+    position: absolute;
+    color: #ff5057;
+    font-size: 50px;
+    font-style: normal;
+}
+
+figure.portfolio-figure blockquote:before {
+    top: 25px;
+    left: 20px;
+}
+
+figure.portfolio-figure blockquote:after {
+    content: "\201D";
+    right: 20px;
+    bottom: 0;
+}
+
+figure.portfolio-figure .btn {
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid #fff;
+    margin: 0;
+    position: absolute;
+}
+
+figure.portfolio-figure .peopl {
+    position: absolute;
+    bottom: 45px;
+    padding: 0 10px 0 120px;
+    margin: 0;
+    color: #ffffff;
+    -webkit-transform: translateY(50%);
+    transform: translateY(50%);
+}
+
+figure.portfolio-figure .peopl h3 {
+    opacity: 0.9;
+    margin: 0;
+}
+
+.portfolio-app-strong-point .slick-prev:before {
+    content: "";
+    color: #0b5164 !important;
+}
+
+.portfolio-app-strong-point .slick-next:before {
+    content: "";
+    color: #0b5164 !important;
+}
+
+.portfolio-slide-image {
+    position: relative;
+}
+
+.portfolio-slide-image .image-fluid {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-slide-image .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.562);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.portfolio-slide-image:hover .overlay {
+    height: 100%;
+}
+
+.portfolio-slide-image .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+/* portfolio slider end */
+
+.nativeScript-d-compney::before {
+    opacity: 0.8;
+}
+
+.cross-platform-mobile-development footer,
+.kotlinapp_devlopment footer,
+.nativeScript-development footer,
+.ionic-app-development footer,
+.react-native-development footer,
+.xamarin-devlopment footer,
+.phone-gap-devlopment footer,
+.pwa-devlopment footer,
+.flutter-development footer {
+    padding: 0;
+}
+
+
+/* ***********************************   "kotlin-app-development-company" ***************/
+
+.kotlinapp_devlopment header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.kotlinapp_devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid #02c7e6
+}
+
+.kotlinapp_d_compney {
+    background-image: url(../images/kotlin-app-development-company.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 257px 0 262px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.kotlinapp_d_compney:before {
+    content: "";
+    background: #042731f2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.kotlinapp_d_compney h3 {
+    font-family: 'robotobold';
+    font-size: 60px;
+}
+
+.kotlinapp_d_compney p {
+    font-size: 20px;
+    font-family: 'robotoregular';
+    padding: 5px 130px 15px 130px;
+    line-height: 30px;
+}
+
+.kotlinapp_d_compney a {
+    color: #ffffff;
+    padding: 8px 30px;
+    background-color: #00bde2;
+    border-radius: 28px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.kotlinapp_d_compney a:hover {
+    background-color: transparent;
+    color: #00bde2;
+    text-decoration: none;
+    border: 1px solid #00bde2;
+}
+
+.about_kotlinapp_d_compney {
+    padding: 75px 70px;
+    text-align: center;
+}
+
+.about_kotlinapp_d_compney h3 {
+    color: #0b5164;
+    font-size: 25px;
+    font-family: 'robotobold';
+}
+
+.about_kotlinapp_d_compney p {
+    font-size: 20px;
+    padding: 42px 0 0 0;
+    line-height: 35px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.about_kotlinapp_d_compney p:nth-child(2) {
+    padding: 10px 0;
+}
+
+.about_kotlinapp_d_compney p:nth-child(3) {
+    padding: 0;
+}
+
+.about_kotlinapp_d_compney p:nth-child(4) {
+    padding: 0;
+}
+
+.kotlin_android_devloper_and_app_developer_sevices {
+    padding: 35px 70px;
+    background-color: #f7f5f5;
+}
+
+.kotlin_android_devloper_and_app_developer_sevices h3 {
+    font-size: 25px;
+    font-family: 'robotobold';
+    color: #0b5164;
+}
+
+.kotlin_android_devloper_and_app_developer_sevices ul li,
+.why-react-native-developed .technological-expertise ul li,
+.why-react-native-developed .mobiloitte-advantages ul li,
+.why_choose_flutter_devlopment ul li,
+.why_flutter_devlp_mobiloitte ul li,
+.why_xamarin_app_devloped ul li,
+.our_xamarin_development_services ul li,
+.why-phonegap-app-devloped ul li,
+.benefits_of_pwa ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.kotlin_android_devloper_and_app_developer_sevices ul li a,
+.why-react-native-developed .technological-expertise ul li a,
+.why-react-native-developed .mobiloitte-advantages ul li a,
+.grow-with-us a,
+.why_choose_flutter_devlopment ul li a,
+.why_xamarin_app_devloped ul li a,
+.our_xamarin_development_services ul li a,
+.why-phonegap-app-devloped ul li a,
+.benefits_of_pwa ul li a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+    text-decoration: none;
+}
+
+.why_choose_Mobiloitte {
+    padding: 75px 70px;
+    text-align: center;
+}
+
+.why_choose_Mobiloitte h3,
+.grow-with-us h3 {
+    color: #0b5164db;
+    font-size: 25px;
+    font-family: 'robotobold';
+    text-align: center;
+}
+
+.why_choose_Mobiloitte p {
+    font-size: 20px;
+    padding: 15px 0 0 0;
+    line-height: 45px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.why_choose_Mobiloitte .col-lg-3 a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+}
+
+.why_choose_Mobiloitte .col-lg-3 a:hover {
+    text-decoration: none;
+}
+
+
+/* ***********************************   "cross-platform-mobile-development" ***************/
+
+.cross-platform-mobile-development header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.cross-platform-mobile-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid #02c7e6
+}
+
+.cross_platform_d_compney {
+    background-image: url(../images/cross-platform-app-devlopment-compney.png) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 257px 0 262px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.cross_platform_d_compney:before {
+    content: "";
+    background: #042731e3;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cross_platform_d_compney h3 {
+    font-family: 'robotobold';
+    font-size: 60px;
+}
+
+.cross_platform_d_compney p {
+    font-size: 20px;
+    font-family: 'robotoregular';
+    padding: 5px 130px 15px 130px;
+    line-height: 30px;
+}
+
+.cross_platform_d_compney a {
+    color: #ffffff;
+    padding: 8px 30px;
+    background-color: #00bde2;
+    border-radius: 28px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.cross_platform_d_compney a:hover {
+    background-color: transparent;
+    color: #00bde2;
+    text-decoration: none;
+    border: 1px solid #00bde2;
+}
+
+.building_native_apps {
+    padding: 45px 70px;
+    text-align: center;
+}
+
+.building_native_apps h3 {
+    color: #0b5164;
+    font-size: 25px;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+}
+
+.building_native_apps p {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.Mobiloitte_advantage {
+    padding: 35px 70px;
+}
+
+.Mobiloitte_advantage h3 {
+    font-size: 25px;
+    font-family: 'robotobold';
+    color: #0b5164;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.Mobiloitte_advantage ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.Mobiloitte_advantage ul li a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+}
+
+.Mobiloitte_advantage ul li a {
+    text-decoration: none;
+}
+
+
+/* +++++++++++++++++ */
+
+.about_softwere_n_platform {
+    padding: 20px 0;
+}
+
+.about_softwere_n_platform p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #0b5164;
+    text-align: left;
+}
+
+.about_softwere_n_platform img {
+    width: 125px;
+    height: auto;
+}
+
+.xamarin .row p,
+.titanium .row p,
+.mag_plus .row p {
+    text-align: left;
+    padding-right: 150px;
+}
+
+.xamarin .row img,
+.titanium .row img,
+.mag_plus .row img {
+    border-right: 2px solid #96c6e8;
+    padding-right: 15px;
+}
+
+.phonegap .row p,
+.kinvey .row p {
+    text-align: right;
+    padding-left: 150px;
+}
+
+.phonegap .row img,
+.kinvey .row img {
+    border-left: 2px solid #96c6e8;
+    padding-left: 15px;
+}
+
+.about_softwere_n_platform .row {
+    padding: 0 70px 0 70px;
+    background-color: #f7f5f5;
+    margin-bottom: 5px;
+    vertical-align: middle;
+}
+
+.col-lg-1.for_small_screen {
+    display: none;
+}
+
+
+/* ***************************  iconic-app-development, react-native-development *************** */
+
+.ionic-app-development header,
+.flutter-development header,
+.xamarin-devlopment header,
+.phone-gap-devlopment header,
+.react-native-development header,
+.pwa-devlopment header {
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+
+.ionic-app-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+.flutter-development nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+.xamarin-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+.phone-gap-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+.pwa-devlopment nav.navbar.navbar-expand-lg.navbar-light.bg-light,
+.react-native-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    background-color: transparent !important;
+    border-bottom: 1px solid #02c7e6;
+}
+
+.pwa-d-compney {
+    background-image: url(../images/Progressive-WebApp-Development-Company.png);
+}
+
+.ionic_app_d_compney {
+    background-image: url(../images/iconic-app-devlopment-compney.png) !important;
+}
+
+.react_native_d_compney {
+    background-image: url(../images/react-native-d-compney.png) !important;
+}
+
+.xamarin_app_d_compney {
+    background-image: url(../images/xamarin-app-devlopment-compney.png) !important;
+}
+
+.phonegap-app-devlopment {
+    background-image: url(../images/phonegap-app-devlopment.png);
+}
+
+.ionic_app_d_compney,
+.react_native_d_compney,
+.flutter_app_devlopment,
+.xamarin_app_d_compney,
+.phonegap-app-devlopment,
+.pwa-d-compney {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 257px 0 262px 0;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.ionic_app_d_compney:before,
+.flutter_app_devlopment:before,
+.xamarin_app_d_compney:before,
+.phonegap-app-devlopment:before,
+.pwa-d-compney:before,
+.react_native_d_compney:before {
+    content: "";
+    background: #042731ed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.ionic_app_d_compney h3,
+.flutter_app_devlopment h3,
+.react_native_d_compney h3,
+.xamarin_app_d_compney h3,
+.phonegap-app-devlopment h3,
+.pwa-d-compney h3 {
+    font-family: 'robotobold';
+    font-size: 60px;
+}
+
+.ionic_app_d_compney p,
+.flutter_app_devlopment p,
+.react_native_d_compney p,
+.xamarin_app_d_compney p,
+.phonegap-app-devlopment p,
+.pwa-d-compney p {
+    font-size: 20px;
+    font-family: 'robotoregular';
+    padding: 5px 130px 15px 130px;
+    line-height: 30px;
+}
+
+.ionic_app_d_compney a,
+.flutter_app_devlopment a,
+.react_native_d_compney a,
+.xamarin_app_d_compney a,
+.phonegap-app-devlopment a,
+.pwa-d-compney a {
+    color: #ffffff;
+    padding: 8px 30px;
+    background-color: #00bde2;
+    border-radius: 28px;
+    font-size: 18px;
+    transition: 0.6s;
+}
+
+.ionic_app_d_compney a:hover,
+.flutter_app_devlopment a:hover,
+.xamarin_app_d_compney a:hover,
+.phonegap-app-devlopment a:hover,
+.pwa-d-compney a:hover,
+.react_native_d_compney a:hover {
+    background-color: transparent;
+    color: #00bde2;
+    text-decoration: none;
+    border: 1px solid #00bde2;
+}
+
+.ionic_app_d_services {
+    padding: 45px 70px;
+}
+
+.ionic_app_d_services h3 {
+    color: #0b5164;
+    font-size: 25px;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.ionic_app_d_services h4 {
+    color: #0b5164;
+    font-size: 20px;
+    font-family: 'robotobold';
+    margin: 0 0 10px 0;
+    text-align: left;
+}
+
+.ionic_app_d_services p {
+    text-align: left;
+    font-size: 20px;
+    padding: 0;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
+.our_solution_slider h3 {
+    font-size: 25px;
+    color: #0b5164;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.ionic_tecnological_advantage,
+.why_flutter_devlp_mobiloitte,
+.our_xamarin_development_services,
+.android-app-d-service-slider,
+.why-phonegap-app-devloped,
+.related_services.happy_clients,
+.benefits_of_pwa {
+    padding: 35px 70px;
+}
+
+.ionic_tecnological_advantage h3 {
+    font-size: 25px;
+    font-family: 'robotobold';
+    color: #0b5164;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.ionic_tecnological_advantage ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.ionic_tecnological_advantage ul li a,
+.why_flutter_devlp_mobiloitte ul li a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+    text-decoration: none;
+}
+
+.ionic_tecnological_advantage h3 {
+    color: #0b5164;
+    font-size: 20px;
+    font-family: 'robotobold';
+    margin: 0;
+    text-align: left;
+    padding: 0;
+}
+
+.efficent-refined-d-services,
+.flutter-d-compney,
+.why-choose-mobiloitte-for-flutter,
+.secure_scalable_xamarin_services,
+.hybrid-mobapp-d-services,
+.pwa_services {
+    padding: 50px 70px;
+}
+
+.best_code_practices h3,
+.efficent-refined-d-services h3,
+.flutter-d-compney h3,
+.why-choose-mobiloitte-for-flutter h3,
+.why-react-native-developed h3,
+.why_choose_flutter_devlopment h3,
+.why_flutter_devlp_mobiloitte h3,
+.secure_scalable_xamarin_services h3,
+.why_xamarin_app_devloped h3,
+.our_xamarin_development_services h3,
+.hybrid-mobapp-d-services h3,
+.android-app-d-service-slider h3,
+.why-phonegap-app-devloped h3,
+.pwa_services h3,
+.benefits_of_pwa h3 {
+    font-size: 25px;
+    color: #0b5164;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.best_code_practices .row {
+    padding-bottom: 25px;
+}
+
+.best_code_practices .col-lg-4 {
+    text-align: center;
+}
+
+.best_code_practices .col-lg-4 a {
+    font-size: 20px;
+    font-family: 'robotolight';
+    color: #39bcd6;
+    text-align: center;
+}
+
+.best_code_practices .col-lg-4 a:hover {
+    text-decoration: none;
+}
+
+.best_code_practices p,
+.efficent-refined-d-services p,
+.flutter-d-compney p,
+.why-choose-mobiloitte-for-flutter p,
+.secure_scalable_xamarin_services p,
+.hybrid-mobapp-d-services p,
+.pwa_services p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #0b5164;
+    text-align: center;
+    margin: 0;
+}
+
+.why-react-native-developed,
+.why_choose_flutter_devlopment,
+.why_xamarin_app_devloped {
+    padding: 25px 70px;
+    background-color: #f7f5f5;
+}
+
+.why-react-native-developed h4 {
+    font-size: 22px;
+    font-family: 'robotobold';
+    color: #0b5164;
+}
+
+.grow-with-us {
+    padding: 50px 70px;
+}
+
+.grow-with-us .col-lg-4 {
+    padding: 0 115px;
+    text-align: center;
+}
+
+.grow-with-us h3 {
+    padding-bottom: 10px;
+}
+
+.grow-with-us .row h3 {
+    margin: 0;
+    padding: 15px 0 5px 0;
+}
+
+.why-choose-us-for-service {
+    padding: 30px 70px;
+    text-align: left;
+}
+
+.attributes_of_pwa {
+    padding: 30px 70px;
+    text-align: left;
+    background-color: #f7f5f5;
+}
+
+.why-choose-us-for-service h3,
+.attributes_of_pwa h3 {
+    color: #0b5164;
+    font-family: 'robotobold';
+    font-size: 25px;
+}
+
+.why-choose-us-for-service strong,
+.attributes_of_pwa strong {
+    color: #0b5164;
+    font-family: 'robotoregular';
+}
+
+.why-choose-us-for-service p,
+.attributes_of_pwa p {
+    font-size: 20px;
+    color: #1b5d6e;
+    font-family: 'robotolight';
+    margin-bottom: 10px;
+}
+
+.flutter_app_devlopment {
+    background-image: url(../images/flutter-app-devlopment.png) !important;
+}
+
+.why_choose_flutter_devlopment .row .col-lg-6 h3 {
+    text-align: left;
+    padding: 5px 0;
+}
+
+.secure_scalable_xamarin_services p,
+.hybrid-mobapp-d-services p {
+    margin-bottom: 15px;
+}
+
+.why_xamarin_app_devloped .col-lg-6 h3,
+.our_xamarin_development_services .col-lg-6 h3 {
+    text-align: left;
+}
+
+.why_xamarin_app_devloped p,
+.our_xamarin_development_services p,
+.why-phonegap-app-devloped p,
+.benefits_of_pwa p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #0b5164;
+    text-align: center;
+    margin: 0 0 25px 0;
+}
+
+.hybrid-mobapp-d-services h3:nth-child(1) {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+body.phone-gap-devlopment .happy_clients .slick-slide img {
+    height: auto;
+    width: auto;
+}
+
+.related_services.happy_clients h3 {
+    font-size: 25px;
+    color: #0b5164;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.related_services.happy_clients .slick-slide img {
+    padding-right: 85px;
+}
+
+.pwa_services.pwa_devlopment_services {
+    padding-top: 0;
+}
+
+.about_pwa_design_devlopment .about_topic {
+    background-color: #0b5164;
+    padding: 25px 20px;
+}
+
+.about_pwa_design_devlopment {
+    padding: 50px 70px 50px 70px;
+    color: #ffffff;
+}
+
+.about_pwa_design_devlopment h3 {
+    font-family: 'robotoregular';
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.about_pwa_design_devlopment p {
+    font-family: 'robotolight';
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 40px;
+}
+
+.why-choose-us-for-service.why_choose_mobiloitte_for_pwa h3 {
+    text-align: center;
+}
+
+.phonegap-app-devlopment.android-app-devlopment {
+    background-image: url(../images/nativeScript-development-compney.png);
+}
+
+.hybrid-mobapp-d-services.business_with_android_app_d_solution p {
+    color: #47d6f2;
+}
+
+.why-phonegap-app-devloped.why_get_android_app_devloped ul li a:hover {
+    color: #39bcd6;
+}
+
+.why-phonegap-app-devloped.why_get_android_app_devloped ul li a {
+    background-color: #f7f5f5;
+}
+
+.why-phonegap-app-devloped.technological_expertise {
+    background-image: url(../images/technological-expertise.png);
+}
+
+.why-phonegap-app-devloped.technological_expertise h3 {
+    color: #ffffff;
+}
+
+.why-phonegap-app-devloped.technological_expertise ul li a {
+    color: #ffffff;
+}
+
+.why-phonegap-app-devloped.technological_expertise {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    color: #ffffff;
+}
+
+.why-phonegap-app-devloped.technological_expertise:before {
+    content: "";
+    background: #042731ed;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.why_choose_android_app_d_compney {
+    padding: 50px 70px;
+}
+
+.why_choose_android_app_d_compney .row {
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+    text-align: center;
+    border-right: 2px solid #96edfa57;
+}
+
+.why_choose_android_app_d_compney h3 {
+    font-family: 'robotobold';
+    font-size: 25px;
+    color: #0b5164;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.why_choose_android_app_d_compney p {
+    font-family: 'robotolight';
+    font-size: 20px;
+    color: #1b5d6e;
+    padding: 0 20px;
+}
+
+.phonegap-app-devlopment.mobile-game-d-compney {
+    background-image: url(../images/mobile-game-devlopment-compney.png);
+}
+
+.why-choose-us-for-service.gaming_program_expertise h3 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+
+/*  */
+
+.padding.our-team.our_solution_slider .slick-prev:before {
+    content: "";
+    color: #0b5164;
+}
+
+.padding.our-team.our_solution_slider .slick-next:before {
+    content: "";
+    color: #0b5164;
+}
+
+.padding.our-team.our_solution_slider .info-color,
+.padding.our-team.our_solution_slider .testimonial-card .card-body {
+    background: #f7f5f5;
+}
+
+.padding.our-team.our_solution_slider p.card_up_text,
+.padding.our-team.our_solution_slider .testimonial-card .card-body {
+    color: #0b5164;
+}
+
+.padding.our-team.our_solution_slider .card-up.info-color img {
+    margin: 0 auto;
+}
+
+.padding.our-team.our_solution_slider .testimonial-card .card-up {
+    height: 384px;
+}
+
+.padding.our-team.our_solution_slider .card-up.info-color {
+    padding: 15px 67px;
+}
+
+.padding.our-team.our_solution_slider p {
+    font-size: 20px;
+    color: #0b5164;
+    font-family: 'robotolight';
+}
+
+.padding.our-team.our_solution_slider .card.testimonial-card {
+    box-shadow: none;
+    border: none;
+    border-radius: 0;
+}
+
+.padding.our-team.our_solution_slider .card-up.info-color {
+    padding: 27px 25px;
+}
+
+.padding.our-team.our_solution_slider .testimonial-card .card-up {
+    height: 413px;
+    width: 500px;
+}
+
+section.grow-with-us a {
+    color: #00bee2;
+}
+
+section.ionic_tecnological_advantage:hover,
+.best_code_practices .col-lg-4 a:hover,
+.grow-with-us .col-lg-4 a:hover,
+.why_xamarin_app_devloped a:hover,
+.why_xamarin_app_devloped a:hover,
+.our_xamarin_development_services a:hover,
+section.why-phonegap-app-devloped a:hover,
+section.benefits_of_pwa a:hover {
+    color: #39bcd6;
+}
