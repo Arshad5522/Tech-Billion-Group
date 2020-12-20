@@ -75,14 +75,10 @@ figure.testimonial-services * {
 figure.testimonial-services img {
     max-width: 160px;
     vertical-align: middle;
-    height: 100%;
+    height: auto;
     width: 100%;
     border-radius: 50%;
     margin: 40px auto 10px;
-}
-
-p.card-text.reliable-b-services-cntnt {
-    padding: 20px 20px 0 20px;
 }
 
 figure.testimonial-services blockquote {

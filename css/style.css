@@ -1366,7 +1366,7 @@ a.rd_mre_btn.services-button:hover {
 .features_and_techbillion ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .features_and_techbillion ul li a {
@@ -1393,7 +1393,7 @@ a.rd_mre_btn.services-button:hover {
 .why_hire_from_techbillion ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .why_hire_from_techbillion ul li a {
@@ -1460,9 +1460,9 @@ a.rd_mre_btn.services-button:hover {
 }
 
 .our_portfolio h3:nth-child(1) {
-    color: #0b5164;
     font-size: 25px;
     font-family: 'montserratbold';
+    color: #0b5164;
 }
 
 
@@ -1757,7 +1757,7 @@ figure.portfolio-figure .peopl h3 {
 .benefits_of_pwa ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-decoration: none;
 }
 
@@ -1785,7 +1785,7 @@ figure.portfolio-figure .peopl h3 {
 .why_choose_techbillion .col-lg-3 a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .why_choose_techbillion .col-lg-3 a:hover {
@@ -1895,7 +1895,7 @@ figure.portfolio-figure .peopl h3 {
 .techbillion_advantage ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .techbillion_advantage ul li a {
@@ -2145,13 +2145,13 @@ figure.portfolio-figure .peopl h3 {
 .why_flutter_devlp_techbillion ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-decoration: none;
 }
 
 .ionic_tecnological_advantage h3 {
     color: #0b5164;
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'robotobold';
     margin: 0;
     text-align: left;
@@ -2167,11 +2167,19 @@ figure.portfolio-figure .peopl h3 {
     padding: 50px 70px;
 }
 
+.why-react-native-developed h3 {
+    font-size: 25px;
+    color: #0b5164;
+    font-family: 'robotobold';
+    margin: 0 0 20px 0;
+    padding: 0 0 25px 0;
+    text-align: center;
+}
+
 .best_code_practices h3,
 .efficent-refined-d-services h3,
 .flutter-d-compney h3,
 .why-choose-techbillion-for-flutter h3,
-.why-react-native-developed h3,
 .why_choose_flutter_devlopment h3,
 .why_flutter_devlp_techbillion h3,
 .secure_scalable_xamarin_services h3,
@@ -2200,7 +2208,7 @@ figure.portfolio-figure .peopl h3 {
 .best_code_practices .col-lg-4 a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-align: center;
 }
 
@@ -2376,11 +2384,11 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 }
 
 .hybrid-mobapp-d-services.business_with_android_app_d_solution p {
-    color: #47d6f2;
+    color: #0b5164;
 }
 
 .why-phonegap-app-devloped.why_get_android_app_devloped ul li a:hover {
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .why-phonegap-app-devloped.why_get_android_app_devloped ul li a {
@@ -2529,7 +2537,7 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 .techbillion_advantage ul li a:hover,
 .why_choose_flutter_devlopment ul li a:hover,
 .why_flutter_devlp_techbillion ul li a:hover {
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .grow-with-us .row a:hover {
@@ -2553,9 +2561,9 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 }
 
 .our_xamarin_development_services.Smart-contract-security-audit .row p {
-    color: #00bee2;
+    color: #11587d;
     text-align: left;
-    padding: 0 150px 0 0;
+    padding: 0;
 }
 
 .industries-we-have-served h3 {
@@ -3469,7 +3477,7 @@ section.react_native_d_compney.career_life_in_techbillion {
 .why-with-ruby-d-company ul li a {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .techbillion-advantage-java-d-company ul li a,
@@ -4821,4 +4829,26 @@ body.seo_services .lets_first_step .background_image {
 body.seo_services .lets_first_step .background_image img {
     margin: -265px 10px 0 0;
     opacity: 0.3;
+}
+
+figure.portfolio-figure h3 {
+    color: white;
+}
+
+.our_portfolio .overlay .text h3 {
+    color: white;
+}
+
+.why_choose_flutter_devlopment .row h3 {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
+
+.row {
+    justify-content: space-evenly;
+}
+
+.our_xamarin_development_services .row h3 {
+    text-align: left;
 }
