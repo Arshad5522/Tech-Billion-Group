@@ -1,6 +1,78 @@
            /* ===========================1============================= */
            
            @media only screen and (min-width:280px) and (max-width:767px) {
+               a.nav-link {
+                   color: #042e3a !important;
+               }
+               .img_and_name p {
+                   position: absolute;
+                   top: 85%;
+                   font-size: 10px;
+               }
+               .all_techb_office_event_details .img_and_name {
+                   height: 215px;
+               }
+               .img_and_name img {
+                   transition: 0.6s;
+                   width: 200px;
+                   height: 200px;
+               }
+               .all_techb_office_event_details .nav-pills .nav-link.active,
+               .all_techb_office_event_details .nav-pills .show>.nav-link {
+                   background-color: transparent;
+               }
+               a#pills-party-tab {
+                   padding: 0 !important;
+                   margin: 0;
+                   border-radius: 0 30px 30px 0;
+               }
+               .all_techb_office_event_details a.nav-link {
+                   padding: 0 !important;
+               }
+               .all_techb_office_event_details a#pills-all-tab {
+                   margin: 0;
+                   border-radius: 0;
+                   padding: 0 !important;
+               }
+               .all_techb_office_event_details {
+                   padding: 20px 0 0 0;
+               }
+               .all_techb_office_event_details ul.nav.nav-pills.mb-3 {
+                   background-color: transparent;
+                   padding: 0 !important;
+                   margin: 0 !important;
+                   border-radius: 0;
+               }
+               a.nav-link {
+                   font-size: 12px !important;
+               }
+               .col-sm-6.col-lg-6.down-shift .text-center {
+                   height: 45px !important;
+               }
+               .services_detail .row .text-center p {
+                   font-size: 20px;
+                   margin: 0;
+               }
+               .row.outside_division .col-sm-12.col-lg-6 {
+                   height: 185px;
+               }
+               .row.outside_division .col-sm-12.col-lg-6 .text-center {
+                   height: 175px;
+               }
+               .row.inside_division .col-sm-6.col-lg-6 {
+                   height: 85px;
+               }
+               .row.inside_division .col-sm-6.col-lg-6 .text-center {
+                   height: 75px;
+               }
+               /*  */
+               .services_detail {
+                   padding: 15px 5px;
+                   margin: 0 0 150px 0;
+               }
+               .exchange-bc-wallets-erc_token.response_secure_solution_team {
+                   padding: 10px 0 0 0;
+               }
                .our_xamarin_development_services .row h3 {
                    text-align: center;
                    padding: 5px 0 10px 0;
@@ -584,7 +656,7 @@
                }
                .why_hire_from_techbillion {
                    text-align: center;
-                   padding: 35px 0 0 0;
+                   padding: 10px 0 0 0;
                }
                .why_hire_from_techbillion h3 {
                    font-size: 16px;
@@ -916,8 +988,11 @@
                    text-align: center;
                    padding: 15px 0 0 0;
                }
+               .our_xamarin_development_services {
+                   text-align: center;
+                   padding: 20px 0 10px 0;
+               }
                .ionic_tecnological_advantage,
-               .our_xamarin_development_services,
                .android-app-d-service-slider,
                .industries-we-have-served,
                .best_code_practices.integration_services_include,
@@ -1494,27 +1569,6 @@
                }
                .react_native_d_compney.careers h3 {
                    font-size: 35px;
-               }
-               .all_event_details ul.list-group.list-group-horizontal {
-                   background-color: transparent;
-               }
-               .all_event_details li.list-group-item {
-                   border: 0;
-                   background-color: transparent;
-               }
-               .all_event_details a {
-                   font-size: 20px;
-                   color: #02c7e6;
-               }
-               .all_event_details {
-                   padding: 35px 35px;
-               }
-               .all_event_details a:hover {
-                   background-color: transparent;
-                   color: #02c7e6;
-                   border-radius: 28px;
-                   border: none;
-                   border-style: none;
                }
                .our_team_slider .our-team {
                    padding: 20px 0;
@@ -2347,6 +2401,19 @@
            /* ===========================2============================= */
            
            @media only screen and (min-width: 768px) and (max-width: 992px) {
+               .img_and_name p {
+                   font-size: 13px;
+                   top: 88%;
+               }
+               .all_techb_office_event_details .img_and_name {
+                   height: 355px;
+               }
+               .img_and_name img {
+                   width: 350px;
+               }
+               .all_techb_office_event_details a.nav-link {
+                   padding: 15px 20px !important;
+               }
                .best_code_practices .col-lg-4 a {
                    font-size: 16px;
                    text-align: left !important;
@@ -3329,27 +3396,6 @@
                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
                    padding: 50px 10px;
                }
-               .all_event_details ul.list-group.list-group-horizontal {
-                   background-color: transparent;
-               }
-               .all_event_details li.list-group-item {
-                   border: 0;
-                   background-color: transparent;
-               }
-               .all_event_details a {
-                   font-size: 20px;
-                   color: #02c7e6;
-               }
-               .all_event_details {
-                   padding: 35px 35px;
-               }
-               .all_event_details a:hover {
-                   background-color: transparent;
-                   color: #02c7e6;
-                   border-radius: 28px;
-                   border: none;
-                   border-style: none;
-               }
                .our_team_slider .our-team {
                    padding: 20px 0;
                }
@@ -3985,6 +4031,29 @@
            /* ===========================3=============================*/
            
            @media only screen and (min-width: 993px) and (max-width: 1024px) {
+               .react_native_d_compney.Life_in_tech_billion {
+                   padding: 200px 0 100px 0;
+               }
+               .img_and_name p {
+                   font-size: 11px;
+                   top: 88%;
+               }
+               .all_techb_office_event_details .img_and_name {
+                   height: 305px;
+               }
+               .img_and_name img {
+                   width: 300px;
+               }
+               .services_detail .row .text-center p {
+                   font-size: 20px;
+                   margin: 0;
+               }
+               .our_xamarin_development_services.some_of_them_are.step_to_devlop_your_sto {
+                   margin: 25px 0 0 0;
+               }
+               .our_xamarin_development_services {
+                   padding: 35px 70px 0 70px;
+               }
                body.seo_services .lets_first_step .background_image img {
                    margin: -200px 0px 0 0;
                    opacity: 0.3;
@@ -4373,7 +4442,7 @@
                    font-size: 16px;
                }
                .why_hire_from_techbillion {
-                   padding: 35px 15px 0 15px;
+                   padding: 15px 15px 0 15px;
                }
                .why_hire_from_techbillion h3 {
                    font-size: 20px;
@@ -4806,27 +4875,6 @@
                }
                .react_native_d_compney.career_life_in_techbillion {
                    padding: 200px 100px;
-               }
-               .all_event_details ul.list-group.list-group-horizontal {
-                   background-color: transparent;
-               }
-               .all_event_details li.list-group-item {
-                   border: 0;
-                   background-color: transparent;
-               }
-               .all_event_details a {
-                   font-size: 20px;
-                   color: #02c7e6;
-               }
-               .all_event_details {
-                   padding: 35px 35px;
-               }
-               .all_event_details a:hover {
-                   background-color: transparent;
-                   color: #02c7e6;
-                   border-radius: 28px;
-                   border: none;
-                   border-style: none;
                }
                .dropdown-content.mobile_drop_list {
                    min-width: 458px;

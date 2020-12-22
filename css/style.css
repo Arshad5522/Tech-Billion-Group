@@ -2680,7 +2680,7 @@ section.why-choose-us-for-service.our-bc-d-service-include strong {
 .features_and_techbillion.techbillion_efficiency p {
     font-size: 20px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-align: center;
 }
 
@@ -2893,6 +2893,7 @@ section.react_native_d_compney.online_reputation_m_s {
 
 .react_native_d_compney.about_us_team h3 {
     font-family: 'montserratbold';
+    color: #02c7e6;
 }
 
 .react_native_d_compney.about_us_team p:nth-child(2) {
@@ -3104,39 +3105,6 @@ section.react_native_d_compney.online_reputation_m_s {
 
 section.react_native_d_compney.career_life_in_techbillion {
     background-image: url(../images/careers.png) !important;
-}
-
-.all_event_details ul.list-group.list-group-horizontal {
-    justify-content: space-evenly;
-    background-color: #02c7e6;
-    border-radius: 35px;
-}
-
-.all_event_details li.list-group-item {
-    border: 0;
-    background-color: transparent;
-}
-
-.all_event_details a {
-    font-size: 20px;
-    font-family: 'robotoregular';
-    color: white;
-    transition: 0.6s;
-}
-
-.all_event_details {
-    padding: 35px 70px;
-}
-
-.all_event_details a:hover {
-    padding: 8px 30px;
-    background-color: transparent;
-    color: #02c7e6;
-    border-radius: 28px;
-    background-color: white;
-    text-decoration: none;
-    border: 1px solid #042d38;
-    border-style: dashed;
 }
 
 .our_team_slider h3 {
@@ -4851,4 +4819,152 @@ figure.portfolio-figure h3 {
 
 .our_xamarin_development_services .row h3 {
     text-align: left;
+}
+
+.techbillion_advantage.techbillion-bc-software-d-company .row h3 {
+    text-align: left !important;
+    font-family: 'robotobold' !important;
+}
+
+.our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance h3 {
+    text-align: center;
+}
+
+.react_native_d_compney.career_life_in_techbillion h3,
+.react_native_d_compney.Life_in_tech_billion h3 {
+    color: #00bde2;
+}
+
+.services_detail {
+    padding: 35px 70px;
+}
+
+.services_detail .row .text-center p {
+    font-family: 'montserrat_alternatesbold';
+    color: #0a5163;
+    font-size: 25px;
+}
+
+.row.outside_division .col-sm-12.col-lg-6 {
+    height: 400px;
+}
+
+.row.outside_division .col-sm-12.col-lg-6 .text-center {
+    height: 370px;
+}
+
+.row.inside_division .col-sm-6.col-lg-6 {
+    height: 200px;
+}
+
+.row.inside_division .col-sm-6.col-lg-6 .text-center {
+    height: 170px;
+}
+
+.services_detail .text-center {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.6s;
+}
+
+.services_detail .text-center:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.react_native_d_compney.Life_in_tech_billion {
+    background-image: url(../images/life@techbillion.png) !important;
+}
+
+
+/* .all_techb_office_event_details a.nav-link {
+    color: red !important;
+} */
+
+.all_techb_office_event_details {
+    padding: 35px 70px;
+}
+
+.all_techb_office_event_details .nav-pills .nav-link.active,
+.all_techb_office_event_details .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #042e3a;
+}
+
+.all_techb_office_event_details ul.nav.nav-pills.mb-3 {
+    justify-content: space-between;
+    background-color: #00bde2;
+    color: white !important;
+    padding: 0 50px !important;
+    margin: 0 !important;
+    border-radius: 50px;
+}
+
+.all_techb_office_event_details a.nav-link {
+    padding: 15px 30px !important;
+    font-family: 'robotoregular';
+    font-size: 20px;
+}
+
+.all_techb_office_event_details a#pills-all-tab {
+    margin: 0 0 0 -50px;
+    border-radius: 30px 0 0 30px;
+    padding: 15px 50px !important;
+}
+
+a#pills-party-tab {
+    padding: 15px 50px !important;
+    margin: 0 -50px 0 0;
+    border-radius: 0 30px 30px 0;
+}
+
+.all_techb_office_event_details .img_and_name {
+    height: 500px;
+}
+
+.all_techb_office_event_details .img_and_name {
+    height: 555px;
+}
+
+a#pills-campus-tab,
+a#pills-event-tab,
+a#pills-festival-tab,
+a#pills-outing-tab {
+    border-radius: 0px !important;
+}
+
+.all_techb_office_event_details .row {
+    padding: 45px 0 0 0;
+}
+
+.img_and_name {
+    position: relative;
+    text-align: center;
+}
+
+.img_and_name p {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #45d2e6b3;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: white;
+    font-family: 'robotoregular';
+    transition: 0.6s;
+}
+
+.img_and_name img {
+    transition: 0.6s;
+}
+
+.img_and_name img:hover {
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.img_and_name:hover p {
+    background-color: #45d2e6;
 }
