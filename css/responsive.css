@@ -2134,16 +2134,21 @@
                    line-height: 30px;
                }
                /* **********php development**************** */
-               .why-get-php,
-               .why-get-react {
+               .why-get-php {
                    padding: 35px 0px;
                    text-align: center;
                }
-               .why-get-php h3,
-               .why-get-react h3 {
+               .why-get-react {
+                   padding: 15px 0;
+               }
+               .why-get-php h3 {
                    font-size: 16px;
                    text-align: center;
                    padding: 0 0 15px 0;
+               }
+               .why-get-react h3 {
+                   padding: 10px 0 15px 0;
+                   margin: 0px;
                }
                .why-get-php .row p {
                    font-size: 12px !important;
@@ -3908,7 +3913,6 @@
                .techbillion-express p {
                    font-size: 16px;
                    line-height: 21px;
-                   color: #02c7e6;
                }
                .laravel-Technical-Expertise {
                    text-align: left;
@@ -3925,7 +3929,6 @@
                .laravel-Technical-Expertise p {
                    font-size: 16px;
                    line-height: 21px;
-                   color: #02c7e6;
                }
                .laravel-Improvement {
                    padding: 15px 0px;

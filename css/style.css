@@ -248,7 +248,7 @@ a.nav-link {
     background-image: url(../images/our-solutions_BG.png);
     padding: 0 0 140px 0;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
 }
 
@@ -259,7 +259,7 @@ a.nav-link {
     background-image: url(../images/internet-of-things_BG.png);
     padding: 0 0 145px 0;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     background-size: cover;
 }
 
@@ -267,7 +267,7 @@ a.nav-link {
     padding: 0px 0 90px 0;
     background-image: url(../images/digital-transformation-guide_BG.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: right;
     background-size: cover;
 }
 
@@ -1028,7 +1028,7 @@ figure.testimonial .peopl h3 {
 }
 
 .testimonial-card .card-up {
-    height: 220px;
+    height: 250px;
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
@@ -2516,7 +2516,7 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 
 .padding.our-team.our_solution_slider .testimonial-card .card-up {
     height: 413px;
-    width: 500px;
+    width: 100%;
 }
 
 .grow-with-us a {
@@ -3306,6 +3306,11 @@ section.react_native_d_compney.career_life_in_techbillion {
     border: 1px solid #00bde2;
 }
 
+.magento-project {
+    padding: 0 70px;
+    text-align: center;
+}
+
 .Dynamic-Java-d-company,
 .python-d-service,
 .c-plus-Java-d-company,
@@ -3315,18 +3320,21 @@ section.react_native_d_compney.career_life_in_techbillion {
 .drupal-d-company,
 .wordpress-d-company,
 .magento-d-company,
-.magento-project,
 .mean-s-d-service,
 .angular-technology,
 .why-choose-js,
 .node-js-d,
-.node-techbillion,
 .react-web-d-service,
 .express-js,
 .express-js-company,
 .vue-js-d-service {
     padding: 35px 70px;
     text-align: center;
+}
+
+.node-techbillion {
+    text-align: center;
+    padding: 0 70px;
 }
 
 .wordpress-project {
@@ -3359,6 +3367,15 @@ section.react_native_d_compney.career_life_in_techbillion {
     font-family: 'robotobold';
 }
 
+.magento-project p {
+    padding: 0 70px;
+    margin: 0;
+    font-size: 20px;
+    line-height: 30px;
+    font-family: 'robotolight';
+    color: #2c6879;
+}
+
 .Dynamic-Java-d-company p,
 .python-d-service p,
 .c-plus-Java-d-company,
@@ -3369,7 +3386,6 @@ section.react_native_d_compney.career_life_in_techbillion {
 .wordpress-d-company p,
 .wordpress-project p,
 .magento-d-company p,
-.magento-project p,
 .mean-s-d-service p,
 .angular-technology p,
 .why-choose-js p,
@@ -4663,7 +4679,7 @@ figure.portfolio-figure .peopl h3 {
     padding: 12px 0 0 0;
     line-height: 23px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-align: left !important;
 }
 
@@ -4672,8 +4688,7 @@ figure.portfolio-figure .peopl h3 {
 }
 
 .mean-stack-advantage strong {
-    color: #39bcd6;
-    font-family: 'robotolight';
+    color: #0b5164;
 }
 
 .mean-stack-advantage h3 {
@@ -4689,7 +4704,7 @@ figure.portfolio-figure .peopl h3 {
     padding: 12px 0 0 0;
     line-height: 30px;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
     text-align: left;
     line-height: 23px;
 }
@@ -4764,14 +4779,14 @@ p.about_laravel_improvement {
 }
 
 .workflow_as_vnu_d_s_provider .row p {
-    color: #39bcd6;
+    color: #11587d;
     font-family: 'robotolight';
     font-size: 20px;
     text-align: left;
 }
 
 .workflow_as_vnu_d_s_provider p {
-    color: #39bcd6;
+    color: #11587d;
     padding: 5px 0;
     margin: 0;
     font-size: 20px;
