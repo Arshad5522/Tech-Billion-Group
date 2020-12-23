@@ -3073,13 +3073,10 @@ section.react_native_d_compney.online_reputation_m_s {
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
     background-color: white;
-    padding: 50px 0;
-    transition: 0.6s;
 }
 
-.industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color:hover {
-    transform: scale(1.05);
-    box-shadow: 5px 10px 8px #888888;
+.industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
+    padding: 50px 140px;
 }
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity a {
@@ -3555,7 +3552,7 @@ strong {
     color: #0b5164;
     font-size: 17px;
     font-family: 'robotobold';
-    padding: 8px 0 15px 0;
+    padding: 8px 0 0 0;
 }
 
 .portfolio-app-strong-point .container-fluid {
@@ -4939,7 +4936,11 @@ a#pills-party-tab {
 }
 
 .all_techb_office_event_details .img_and_name {
-    height: 440px;
+    height: 500px;
+}
+
+.all_techb_office_event_details .img_and_name {
+    height: 555px;
 }
 
 a#pills-campus-tab,
@@ -4973,7 +4974,6 @@ a#pills-outing-tab {
 
 .img_and_name img {
     transition: 0.6s;
-    width: 100%;
 }
 
 .img_and_name img:hover {
@@ -4982,42 +4982,4 @@ a#pills-outing-tab {
 
 .img_and_name:hover p {
     background-color: #45d2e6;
-}
-
-.our-work {
-    background: linear-gradient( white, #8ac3ca, #ffffff);
-    padding: 3px;
-}
-
-.our-work2 {
-    padding: 0 0 3px;
-    background: linear-gradient(to right, white, #8ac3ca, #ffffff);
-}
-
-.drupal-expertise .col-md-6.col-lg-4 {
-    padding: 0;
-}
-
-.drupal-expertise {
-    background-color: #ffffff!important;
-}
-
-.our-work-in {
-    background: #fff;
-}
-
-.our-work-in h3 {
-    margin-bottom: 0;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:nth-child(odd) .our-work {
-    background: transparent;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:last-child .our-work {
-    padding: 0 0px 5px 3px;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:nth-child(4) .our-work {
-    padding: 0 3px 0 0px;
 }
