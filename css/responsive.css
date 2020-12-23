@@ -1,10 +1,17 @@
            /* ===========================1============================= */
            
            @media only screen and (min-width:280px) and (max-width:767px) {
-               a.nav-link {
+               .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance .row h3 {
+                   font-size: 12px;
+               }
+               .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance span,
+               .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance span a {
+                   font-size: 25px !important;
+               }
+               .all_techb_office_event_details a.nav-link {
                    color: #042e3a !important;
                }
-               .img_and_name p {
+               .all_techb_office_event_details .img_and_name p {
                    position: absolute;
                    top: 85%;
                    font-size: 10px;
@@ -12,7 +19,7 @@
                .all_techb_office_event_details .img_and_name {
                    height: 215px;
                }
-               .img_and_name img {
+               .all_techb_office_event_details .img_and_name img {
                    transition: 0.6s;
                    width: 200px;
                    height: 200px;
@@ -75,7 +82,7 @@
                }
                .our_xamarin_development_services .row h3 {
                    text-align: center;
-                   padding: 5px 0 10px 0;
+                   padding: 0;
                    margin: 0;
                }
                .kotlin_android_devloper_and_app_developer_sevices ul li,
@@ -360,6 +367,7 @@
                    font-size: 14px;
                    padding: 5px 20px !important;
                    text-align: -webkit-center;
+                   color: white !important;
                }
                .future_ready {
                    padding: 75px 0px;
@@ -2409,15 +2417,12 @@
            /* ===========================2============================= */
            
            @media only screen and (min-width: 768px) and (max-width: 992px) {
-               .img_and_name p {
+               .all_techb_office_event_details .img_and_name p {
                    font-size: 13px;
                    top: 88%;
                }
                .all_techb_office_event_details .img_and_name {
                    height: 355px;
-               }
-               .img_and_name img {
-                   width: 350px;
                }
                .all_techb_office_event_details a.nav-link {
                    padding: 15px 20px !important;
@@ -2835,7 +2840,7 @@
                }
                .nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
                    padding: 5px 0 0 0;
-                   background-color: transparent !important;
+                   background-color: #042e3a !important;
                    border-bottom: none;
                }
                .nativeScript-d-compney {
@@ -4032,15 +4037,12 @@
                .react_native_d_compney.Life_in_tech_billion {
                    padding: 200px 0 100px 0;
                }
-               .img_and_name p {
+               .all_techb_office_event_details .img_and_name p {
                    font-size: 11px;
                    top: 88%;
                }
                .all_techb_office_event_details .img_and_name {
                    height: 305px;
-               }
-               .img_and_name img {
-                   width: 300px;
                }
                .services_detail .row .text-center p {
                    font-size: 20px;

@@ -3073,10 +3073,13 @@ section.react_native_d_compney.online_reputation_m_s {
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
     background-color: white;
+    padding: 50px 0;
+    transition: 0.6s;
 }
 
-.industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
-    padding: 50px 140px;
+.industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color:hover {
+    transform: scale(1.05);
+    box-shadow: 5px 10px 8px #888888;
 }
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity a {
@@ -4936,11 +4939,7 @@ a#pills-party-tab {
 }
 
 .all_techb_office_event_details .img_and_name {
-    height: 500px;
-}
-
-.all_techb_office_event_details .img_and_name {
-    height: 555px;
+    height: 440px;
 }
 
 a#pills-campus-tab,
@@ -4974,6 +4973,7 @@ a#pills-outing-tab {
 
 .img_and_name img {
     transition: 0.6s;
+    width: 100%;
 }
 
 .img_and_name img:hover {
