@@ -135,6 +135,8 @@ ul.navbar-nav a.nav-link:hover {
     padding: 5px 10px;
     text-decoration: none;
     display: block;
+    font-family: 'robotoregular';
+    font-size: 15px;
 }
 
 .dropdown-content.digital_dropdwn {
@@ -246,7 +248,7 @@ a.nav-link {
 
 .os_background {
     background-image: url(../images/our-solutions_BG.png);
-    padding: 0 0 140px 0;
+    padding: 0 0 200px 0;
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
@@ -257,14 +259,14 @@ a.nav-link {
 
 .it_background {
     background-image: url(../images/internet-of-things_BG.png);
-    padding: 0 0 145px 0;
+    padding: 0 0 200px 0;
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
 }
 
 .dtg_background {
-    padding: 0px 0 90px 0;
+    padding: 0px 0 120px 0;
     background-image: url(../images/digital-transformation-guide_BG.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -642,12 +644,12 @@ div.footer_p2 p {
 
 .text_os p {
     font-family: 'robotothin';
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
 }
 
 p.txt_clr_1.heading_matter {
-    line-height: 35px;
+    line-height: 30px;
 }
 
 .text_it h4 {
@@ -659,7 +661,7 @@ p.txt_clr_1.heading_matter {
 
 .text_it p {
     font-family: 'robotothin';
-    font-size: 30px;
+    font-size: 25px;
     text-align: right;
 }
 
@@ -694,7 +696,7 @@ div.text_dtg a.rd_mre_btn.txt_clr_1 {
 
 .text_dtg p {
     font-family: 'robotothin';
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
 }
 
@@ -1028,7 +1030,7 @@ figure.testimonial .peopl h3 {
 }
 
 .testimonial-card .card-up {
-    height: 250px;
+    height: 220px;
     overflow: hidden;
     border-top-left-radius: .25rem;
     border-top-right-radius: .25rem;
@@ -1926,7 +1928,8 @@ figure.portfolio-figure .peopl h3 {
 .titanium .row p,
 .mag_plus .row p {
     text-align: left;
-    padding-right: 150px;
+    padding-right: 86px;
+    margin-left: 25px;
 }
 
 .xamarin .row img,
@@ -2439,6 +2442,10 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
     border-right: 2px solid #96edfa57;
 }
 
+.why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(4) {
+    border: 0px;
+}
+
 .why_choose_android_app_d_compney h3 {
     font-family: 'robotobold';
     font-size: 25px;
@@ -2515,7 +2522,7 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 }
 
 .padding.our-team.our_solution_slider .testimonial-card .card-up {
-    height: 413px;
+    height: 500px;
     width: 100%;
 }
 
@@ -2611,7 +2618,7 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 section.why_xamarin_app_devloped.expect-from-bc p {
     text-align: left;
     margin: 0 0 5px 0;
-    color: #059dbb;
+    color: #11587d;
 }
 
 section.why-choose-us-for-service.our-bc-d-service-include h3 {
@@ -2622,7 +2629,7 @@ section.why-choose-us-for-service.our-bc-d-service-include h3 {
 
 section.why-choose-us-for-service.our-bc-d-service-include strong {
     font-family: 'robotobold';
-    color: #059dbb;
+    color: #0b5164;
 }
 
 .techbillion_advantage.techbillion-bc-software-d-company {
@@ -2834,7 +2841,7 @@ section.react_native_d_compney.initial_exchange_offering_d_services {
 }
 
 .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards p {
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .react_native_d_compney.appstore_optimization_s {
@@ -3076,7 +3083,7 @@ section.react_native_d_compney.online_reputation_m_s {
 }
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
-    padding: 50px 140px;
+    padding: 50px 0px;
 }
 
 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity a {
@@ -3306,11 +3313,6 @@ section.react_native_d_compney.career_life_in_techbillion {
     border: 1px solid #00bde2;
 }
 
-.magento-project {
-    padding: 0 70px;
-    text-align: center;
-}
-
 .Dynamic-Java-d-company,
 .python-d-service,
 .c-plus-Java-d-company,
@@ -3320,21 +3322,18 @@ section.react_native_d_compney.career_life_in_techbillion {
 .drupal-d-company,
 .wordpress-d-company,
 .magento-d-company,
+.magento-project,
 .mean-s-d-service,
 .angular-technology,
 .why-choose-js,
 .node-js-d,
+.node-techbillion,
 .react-web-d-service,
 .express-js,
 .express-js-company,
 .vue-js-d-service {
     padding: 35px 70px;
     text-align: center;
-}
-
-.node-techbillion {
-    text-align: center;
-    padding: 0 70px;
 }
 
 .wordpress-project {
@@ -3367,15 +3366,6 @@ section.react_native_d_compney.career_life_in_techbillion {
     font-family: 'robotobold';
 }
 
-.magento-project p {
-    padding: 0 70px;
-    margin: 0;
-    font-size: 20px;
-    line-height: 30px;
-    font-family: 'robotolight';
-    color: #2c6879;
-}
-
 .Dynamic-Java-d-company p,
 .python-d-service p,
 .c-plus-Java-d-company,
@@ -3386,6 +3376,7 @@ section.react_native_d_compney.career_life_in_techbillion {
 .wordpress-d-company p,
 .wordpress-project p,
 .magento-d-company p,
+.magento-project p,
 .mean-s-d-service p,
 .angular-technology p,
 .why-choose-js p,
@@ -3552,7 +3543,7 @@ strong {
     color: #0b5164;
     font-size: 17px;
     font-family: 'robotobold';
-    padding: 8px 0 15px 0;
+    padding: 8px 0 0 0;
 }
 
 .portfolio-app-strong-point .container-fluid {
@@ -3822,17 +3813,14 @@ figure.portfolio-figure .peopl h3 {
     position: absolute;
     content: '';
     height: 2px;
-    margin: 0 auto;
+    margin: 0 0 0 15px;
     left: 0;
     right: 280px;
     top: 27px;
-    width: 22%;
+    width: 10%;
     background: #00bde2;
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    transition: .5s;
+    transition: 0.8s;
+    text-align: left !important;
 }
 
 .ruby-service h3:hover:after {
@@ -3873,7 +3861,7 @@ figure.portfolio-figure .peopl h3 {
 .ruby-Tech-Expertise p {
     font-size: 20px !important;
     font-family: 'robotolight';
-    color: #11587d;
+    color: #39bcd6;
 }
 
 .why-Technological-Expertise {
@@ -3993,7 +3981,7 @@ figure.portfolio-figure .peopl h3 {
 
 .why-asp-net-comapny {
     text-align: center;
-    padding: 35 0 70px 0;
+    padding: 35px 0 70px 0;
 }
 
 .why-asp-net-comapny h3 {
@@ -4570,7 +4558,7 @@ figure.portfolio-figure .peopl h3 {
 
 .drupal-d-proces {
     text-align: center;
-    padding: 35 0 70px 0;
+    padding: 35px 0 70px 0;
 }
 
 .drupal-d-proces h3 {
@@ -4604,7 +4592,7 @@ figure.portfolio-figure .peopl h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 257px 0 262px 0;
+    padding: 257px 0 100px 0;
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -4626,7 +4614,7 @@ figure.portfolio-figure .peopl h3 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    padding: 257px 0 262px 0;
+    padding: 257px 0 150px 0;
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -4689,6 +4677,7 @@ figure.portfolio-figure .peopl h3 {
 
 .mean-stack-advantage strong {
     color: #0b5164;
+    font-family: 'robotolight';
 }
 
 .mean-stack-advantage h3 {
@@ -4940,7 +4929,7 @@ a#pills-party-tab {
 }
 
 .all_techb_office_event_details .img_and_name {
-    height: 555px;
+    height: 440px;
 }
 
 a#pills-campus-tab,
@@ -4974,6 +4963,8 @@ a#pills-outing-tab {
 
 .img_and_name img {
     transition: 0.6s;
+    width: 100%;
+    height: 420px;
 }
 
 .img_and_name img:hover {
@@ -4984,40 +4975,21 @@ a#pills-outing-tab {
     background-color: #45d2e6;
 }
 
-.our-work {
-    background: linear-gradient( white, #8ac3ca, #ffffff);
-    padding: 3px;
+.industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .row p {
+    font-size: 16px;
 }
 
-.our-work2 {
-    padding: 0 0 3px;
-    background: linear-gradient(to right, white, #8ac3ca, #ffffff);
+ruby-Tech-Expertise .row p {
+    color: #11587d;
 }
 
-.drupal-expertise .col-md-6.col-lg-4 {
+.our_xamarin_development_services.how_we_work_optimization_imlement .row .for_backgroung_image img {
     padding: 0;
+    margin: -330px 0 0 255px;
+    opacity: 0.2;
 }
 
-.drupal-expertise {
-    background-color: #ffffff!important;
-}
-
-.our-work-in {
-    background: #fff;
-}
-
-.our-work-in h3 {
-    margin-bottom: 0;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:nth-child(odd) .our-work {
-    background: transparent;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:last-child .our-work {
-    padding: 0 0px 5px 3px;
-}
-
-.drupal-expertise .col-md-6.col-lg-4:nth-child(4) .our-work {
-    padding: 0 3px 0 0px;
+.why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
+    opacity: 0.2;
+    margin: -1240px 0 0 740px;
 }

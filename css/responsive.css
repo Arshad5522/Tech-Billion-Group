@@ -1,15 +1,82 @@
            /* ===========================1============================= */
            
            @media only screen and (min-width:280px) and (max-width:767px) {
-               .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance .row h3 {
-                   font-size: 12px;
+               .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
+                   opacity: 0.12;
+                   margin: -888px 0 0 70px;
+                   height: 200px;
+               }
+               .our_xamarin_development_services.how_we_work_optimization_imlement .row .for_backgroung_image img {
+                   padding: 0;
+                   margin: -220px 0 0 54px;
+                   opacity: 0.2;
+                   height: 250px;
+               }
+               .why-get-react .row .col-sm-6.col-lg-4 {
+                   margin: 15px 0 0 0;
+               }
+               .why-node-js .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .angular-advantage .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .magento-design .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .get-wordpress .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .drupal-d-proces .row img {
+                   margin: 0 0 -25px 0;
+               }
+               .drupal-scalability .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .drupal-expertise .row h3 {
+                   padding: 0;
+                   margin: 0;
+                   font-size: 14px;
+               }
+               .get-drupal .row .col-sm-6.col-lg-4 {
+                   margin: 10px 0 0 0;
+               }
+               .why-get-php .row .col-sm-6.col-lg-4 {
+                   margin: 10px 0 0 0;
+               }
+               .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service {
+                   margin: 0;
+               }
+               .why-use-python .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .ruby-Tech-Expertise .row .col-sm-6.col-lg-4 {
+                   margin: 0;
+               }
+               .our_xamarin_development_services.Smart-contract-security-audit.multitude_of_advantage h3 {
+                   font-size: 14px;
+               }
+               .best_code_practices.integration_services_include h3 {
+                   font-size: 15px;
+               }
+               .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .col-sm-6.col-lg-4:nth-child(1) {
+                   margin: 15px 0 0 0;
+               }
+               .our_xamarin_development_services.techbillion-bc-d-company.about_techb_company p {
+                   text-align: justify;
                }
                .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance span,
                .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance span a {
-                   font-size: 25px !important;
+                   font-size: 25px;
+               }
+               .our_xamarin_development_services.techbillion-bc-d-company.techbillion_at_glance .row h3 {
+                   padding: 0;
+                   margin: 0;
+                   font-size: 12px;
                }
                .all_techb_office_event_details a.nav-link {
                    color: #042e3a !important;
+                   font-size: 12px !important;
                }
                .all_techb_office_event_details .img_and_name p {
                    position: absolute;
@@ -21,14 +88,13 @@
                }
                .all_techb_office_event_details .img_and_name img {
                    transition: 0.6s;
-                   width: 200px;
                    height: 200px;
                }
                .all_techb_office_event_details .nav-pills .nav-link.active,
                .all_techb_office_event_details .nav-pills .show>.nav-link {
                    background-color: transparent;
                }
-               a#pills-party-tab {
+               .all_techb_office_event_details a#pills-party-tab {
                    padding: 0 !important;
                    margin: 0;
                    border-radius: 0 30px 30px 0;
@@ -49,9 +115,6 @@
                    padding: 0 !important;
                    margin: 0 !important;
                    border-radius: 0;
-               }
-               a.nav-link {
-                   font-size: 12px !important;
                }
                .col-sm-6.col-lg-6.down-shift .text-center {
                    height: 45px !important;
@@ -82,7 +145,7 @@
                }
                .our_xamarin_development_services .row h3 {
                    text-align: center;
-                   padding: 0;
+                   padding: 5px 0 10px 0;
                    margin: 0;
                }
                .kotlin_android_devloper_and_app_developer_sevices ul li,
@@ -99,7 +162,8 @@
                    text-align: left;
                    margin: 0;
                }
-               .why_flutter_devlp_techbillion .col-sm-6.col-lg-4 {
+               .why_flutter_devlp_techbillion .col-sm-6.col-lg-4,
+               .col-sm-6.col-lg-4 {
                    margin-top: -15px;
                }
                .techbillion_advantage ul li {
@@ -147,7 +211,7 @@
                }
                .workflow_as_vnu_d_s_provider {
                    padding: 0;
-                   margin: -40px 0 0 0;
+                   margin: -40px 0 15px 0;
                }
                p.angular-underline {
                    margin: 0 auto !important;
@@ -223,9 +287,6 @@
                    padding: 0;
                    text-align: center;
                }
-               .platform img {
-                   width: 50%;
-               }
                .platform h3 {
                    padding: 10px 0 0px 0;
                }
@@ -244,12 +305,9 @@
                    text-align: justify;
                    padding: 5px 0;
                }
-               section.net-application-company h3 {
-                   padding: 10px 0 0 0;
-                   margin: 0;
-               }
-               section.net-application-company {
-                   padding: 20px 0;
+               .net-application-company h3 {
+                   padding: 0;
+                   font-size: 15px;
                }
                .ruby-Java-d-company h3:nth-child(2) {
                    padding: 0;
@@ -367,16 +425,15 @@
                    font-size: 14px;
                    padding: 5px 20px !important;
                    text-align: -webkit-center;
-                   color: white !important;
                }
                .future_ready {
-                   padding: 75px 0px;
+                   padding: 25px 0px 75px 0px;
                }
                h1.title.text-center.topic-heading {
                    font-size: 20px;
                }
                h3.txt_clr_2.text-center {
-                   font-size: 14px;
+                   font-size: 17px;
                    padding-right: 0;
                    padding-left: 0;
                    word-spacing: normal;
@@ -725,7 +782,7 @@
                    text-align: justify;
                }
                .our_portfolio h3 {
-                   font-size: 16px !important;
+                   font-size: 16px;
                }
                .portfolio-app-strong-point .container-fluid {
                    padding-left: 0;
@@ -1002,11 +1059,15 @@
                    text-align: center;
                    padding: 20px 0 10px 0;
                }
+               .best_code_practices.integration_services_include {
+                   padding: 5px 0 0 0;
+               }
+               .best_code_practices.why_ethereum {
+                   padding: 20px 0 0 0;
+               }
                .ionic_tecnological_advantage,
                .android-app-d-service-slider,
                .industries-we-have-served,
-               .best_code_practices.integration_services_include,
-               .best_code_practices.why_ethereum,
                .exchange-bc-wallets-erc_token {
                    text-align: center;
                    padding: 35px 0 0 0;
@@ -1111,7 +1172,7 @@
                    padding: 0;
                }
                .grow-with-us {
-                   padding: 15px 0 35px 0;
+                   padding: 50px 0 35px 0;
                }
                .flutter-d-compney {
                    padding: 15px 0 15px 0;
@@ -1264,7 +1325,6 @@
                /*  */
                .padding.our-team.our_solution_slider .testimonial-card .card-up {
                    height: 300px;
-                   width: 250px;
                }
                .padding.our-team.our_solution_slider p {
                    font-size: 12px;
@@ -1471,9 +1531,11 @@
                }
                .why_xamarin_app_devloped.public_private_hybrid_blockchain.makeing_easy_transaction_solution h3 {
                    padding: 0;
+                   font-size: 13px;
+                   text-align: justify;
                }
                .techbillion_advantage.techbillion-bc-software-d-company .row h3 {
-                   text-align: center !important;
+                   /* text-align: center !important; */
                    padding: 10px 0 !important;
                }
                .our_xamarin_development_services.Smart-contract-security-audit.multitude_of_advantage {
@@ -1544,7 +1606,7 @@
                    height: 325px;
                }
                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .background_color {
-                   height: 315px;
+                   height: 295px;
                }
                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency p.about_topic {
                    padding: 8px 0;
@@ -1566,7 +1628,7 @@
                    padding: 15px 25px;
                }
                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row .background_color {
-                   height: 250px;
+                   height: 230px;
                }
                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row .col-sm-6.col-lg-4 {
                    height: 260px;
@@ -1943,7 +2005,6 @@
                    margin: 0;
                    padding: 10px 0 10px 0;
                    font-size: 16px !important;
-                   margin-top: 15px;
                }
                .ruby-Tech-Expertise {
                    padding: 0;
@@ -1951,6 +2012,7 @@
                }
                .ruby-Tech-Expertise p {
                    font-size: 12px !important;
+                   color: #39bcd6;
                    padding: 5px 0;
                    margin: 0;
                }
@@ -1966,6 +2028,7 @@
                .Technological-Expertise p,
                .e-commerce-solution-development p {
                    font-size: 12px !important;
+                   color: #11587d;
                    padding: 5px 0;
                }
                /* ***********net-development******************************* */
@@ -2134,12 +2197,13 @@
                    font-size: 16px !important;
                }
                .why-choose-lamp h5 {
-                   font-size: 13px;
+                   font-size: 18px;
+                   margin: 0 0 -10px 0;
                }
                .why-choose-lamp p {
                    font-size: 12px;
                    padding: 12px 0 0 0;
-                   line-height: 30px;
+                   line-height: 22px;
                }
                /* **********php development**************** */
                .why-get-php {
@@ -2147,16 +2211,14 @@
                    text-align: center;
                }
                .why-get-react {
-                   padding: 15px 0;
+                   padding: 0;
+                   text-align: center;
                }
-               .why-get-php h3 {
+               .why-get-php h3,
+               .why-get-react h3 {
                    font-size: 16px;
                    text-align: center;
                    padding: 0 0 15px 0;
-               }
-               .why-get-react h3 {
-                   padding: 10px 0 15px 0;
-                   margin: 0px;
                }
                .why-get-php .row p {
                    font-size: 12px !important;
@@ -2172,8 +2234,6 @@
                .php-customization p {
                    font-size: 12px !important;
                    text-align: left;
-                   padding: 5px 0;
-                   margin: 0;
                }
                .php-customization .row h3 {
                    text-align: center !important;
@@ -2194,8 +2254,11 @@
                    padding: 10px 0 0px 0px;
                    text-align: center !important;
                }
-               .laravel-techbillion-advantages,
                .get-wordpress {
+                   padding: 0 0 35px 0;
+                   text-align: center;
+               }
+               .laravel-techbillion-advantages {
                    padding: 35px 0px;
                    text-align: center !important;
                }
@@ -2337,7 +2400,9 @@
                    padding: 0 0 35px 0;
                }
                .drupal-d-proces h3 {
-                   font-size: 16px;
+                   font-size: 20px;
+                   padding: 0;
+                   margin: 0;
                }
                .drupal-d-proces h5 {
                    font-size: 15px;
@@ -2417,9 +2482,94 @@
            /* ===========================2============================= */
            
            @media only screen and (min-width: 768px) and (max-width: 992px) {
-               .all_techb_office_event_details .img_and_name p {
+               .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
+                   opacity: 0.2;
+                   margin: -1500px 0 0 350px;
+                   height: 350px;
+               }
+               .our_xamarin_development_services.how_we_work_optimization_imlement .row .for_backgroung_image img {
+                   padding: 0;
+                   margin: -260px 0 0 90px;
+                   opacity: 0.2;
+                   height: 300px;
+               }
+               .our_xamarin_development_services.how_we_work_optimization_imlement {
+                   margin: 0 0 -100px 0;
+               }
+               .why-angular .row .angular-service,
+               .why-angular .row .python-service {
+                   height: 320px;
+               }
+               .why-angular .row .col-sm-6.col-lg-6 {
+                   height: 350px;
+               }
+               python-java-app-d-service p,
+               .why-angular p {
+                   text-align: center !important;
+                   margin: 10px auto 0 auto !important;
+                   padding: 0 40px;
+               }
+               .python-java-app-d-service h5,
+               .why-angular h5 {
+                   text-align: center;
+               }
+               .why-angular .row .python-service,
+               .why-angular .row .angular-service {
+                   margin: auto;
+                   padding: 0;
+               }
+               .why-angular .row .col-12.col-sm-12.col-md-12.col-lg-4.col-xl-4 {
+                   text-align: center;
+               }
+               .why-angular .row img {
+                   width: 40% !important;
+                   height: auto;
+                   margin: 0 auto;
+                   text-align: center;
+               }
+               .drupal-expertise .row img {
+                   margin: 10px 0 -45px 0;
+               }
+               .why-choose-lamp .row h5 {
+                   font-size: 17px;
+                   margin: 0;
+               }
+               .ruby-Java-d-company.why_techbillion_for_ror h3 {
+                   font-size: 25px;
+               }
+               .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(3) {
+                   border: 0px;
+               }
+               .hybrid-mobapp-d-services.business_with_android_app_d_solution.why_techbillion {
+                   padding: 10px 0 0 0;
+               }
+               .hybrid-mobapp-d-services.business_with_android_app_d_solution.why_techbillion h3 {
+                   font-size: 22px;
+               }
+               .our_xamarin_development_services.some_of_them_are.step_to_devlop_your_sto h3 {
+                   font-size: 22px;
+               }
+               .our_xamarin_development_services.some_of_them_are.step_to_devlop_your_sto {
+                   padding: 20px 0 0 0;
+               }
+               .why_xamarin_app_devloped.public_private_hybrid_blockchain.makeing_easy_transaction_solution h3 {
+                   padding: 0;
+               }
+               .hybrid-mobapp-d-services.business_with_android_app_d_solution.why_tech_billion {
+                   padding: 0;
+               }
+               .why_xamarin_app_devloped.public_private_hybrid_blockchain.makeing_easy_transaction_solution {
+                   padding: 15px 0;
+               }
+               .our_xamarin_development_services.some_of_them_are {
+                   padding: 0;
+               }
+               .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .col-sm-6.col-lg-4:nth-child(1) {
+                   margin: 0;
+               }
+               .img_and_name p {
                    font-size: 13px;
-                   top: 88%;
+                   top: 86%;
                }
                .all_techb_office_event_details .img_and_name {
                    height: 355px;
@@ -2835,12 +2985,13 @@
                }
                /* ***********************************   "NativeScript-Development" ***************/
                .nativeScript-development header {
+                   background-color: #043747;
                    position: relative;
                    width: 100%;
                }
                .nativeScript-development nav.navbar.navbar-expand-lg.navbar-light.bg-light {
                    padding: 5px 0 0 0;
-                   background-color: #042e3a !important;
+                   background-color: transparent !important;
                    border-bottom: none;
                }
                .nativeScript-d-compney {
@@ -2917,6 +3068,7 @@
                }
                .lets_first_step h3 {
                    font-size: 20px;
+                   color: #042e3a;
                    padding: 0 0 20px 0;
                }
                .lets_first_step a {
@@ -2940,6 +3092,7 @@
                }
                /* ***********************************   "kotlin-app-development-company" ***************/
                .kotlinapp_devlopment header {
+                   background-color: #043747;
                    position: relative;
                    width: 100%;
                }
@@ -3013,6 +3166,7 @@
                }
                /* ***********************************   "cross-platform-mobile-development" ***************/
                .cross-platform-mobile-development header {
+                   background-color: #043747;
                    position: relative;
                    width: 100%;
                }
@@ -3321,24 +3475,13 @@
                .why_choose_techbillion .col-sm-6.col-lg-3 {
                    padding: 5px 0 5px 15px;
                }
-               /*  */
-               /*  */
-               /*  */
                .padding.our-team.our_solution_slider .testimonial-card .card-up {
                    height: 350px;
-                   width: 500px;
                }
                .padding.our-team.our_solution_slider p {
                    font-size: 20px;
                    padding: 0 25px;
                }
-               /* .padding.our-team.our_solution_slider .card-up.info-color img {
-            margin: 0;
-        } */
-               /* .padding.our-team.our_solution_slider figure.testimonial {
-            margin: 0;
-            padding: 0;
-        } */
                .padding.our-team.our_solution_slider .card-up.info-color {
                    padding: 0;
                }
@@ -3798,7 +3941,7 @@
                }
                /* *********************lamp developemnt************ */
                .lamp-technical-expertise {
-                   padding: 35px 0;
+                   padding: 0;
                }
                .lamp-technical-expertise h3 {
                    font-size: 20px;
@@ -3819,8 +3962,9 @@
                .why-choose-lamp p {
                    font-size: 16px;
                    padding: 12px 0 0 0;
-                   line-height: 30px;
+                   line-height: 22px;
                    color: #2c6879;
+                   text-align: -webkit-match-parent;
                }
                .Secure-architecture,
                .php-technological-expertise,
@@ -4034,15 +4178,45 @@
            /* ===========================3=============================*/
            
            @media only screen and (min-width: 993px) and (max-width: 1024px) {
+               .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
+                   opacity: 0.2;
+                   margin: -1370px 0 0 405px;
+                   height: 500px;
+               }
+               .react_native_d_compney.online_reputation_m_s {
+                   padding: 200px 0 150px 0;
+               }
+               .our_xamarin_development_services.how_we_work_optimization_imlement .row .for_backgroung_image img {
+                   padding: 0;
+                   margin: -300px 0 0 100px;
+                   opacity: 0.2;
+                   height: 347px;
+               }
+               .react_native_d_compney.social_media_m_s {
+                   padding: 200px 0 100px 0;
+               }
+               .why_choose_flutter_devlopment .row h3 {
+                   font-size: 20px;
+               }
+               .why_xamarin_app_devloped.public_private_hybrid_blockchain.makeing_easy_transaction_solution h3 {
+                   padding: 0;
+                   font-size: 20px;
+               }
+               .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .col-sm-6.col-lg-4:nth-child(1) {
+                   margin: 0;
+               }
                .react_native_d_compney.Life_in_tech_billion {
                    padding: 200px 0 100px 0;
                }
-               .all_techb_office_event_details .img_and_name p {
+               .img_and_name p {
                    font-size: 11px;
                    top: 88%;
                }
                .all_techb_office_event_details .img_and_name {
                    height: 305px;
+               }
+               .img_and_name img {
+                   width: 300px;
                }
                .services_detail .row .text-center p {
                    font-size: 20px;
@@ -4084,9 +4258,6 @@
                body section {
                    padding-left: 15px !important;
                    padding-right: 15px !important;
-               }
-               .platform .row {
-                   justify-content: center;
                }
                .ruby-service h3:after {
                    height: 0;
@@ -4983,12 +5154,15 @@
                .angular-technology,
                .why-choose-js,
                .node-js-d,
-               .node-techbillion,
                .react-web-d-service,
                .express-js,
                .vue-js-d-company,
                .vue-js-d-service {
                    padding: 35px 0;
+               }
+               .node-techbillion {
+                   padding: 0;
+                   margin: -40px 0 10px 0;
                }
                .Dynamic-Java-d-company h3,
                .drupal-d-company h3,
@@ -5087,7 +5261,7 @@
                /* ********* ruby.development.html******************* */
                .ruby-d-company {
                    background-position: right;
-                   padding: 150px 0 100px 0;
+                   padding: 200px 0 100px 0;
                }
                .ruby-d-company h3 {
                    font-size: 45px;
