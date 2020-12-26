@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBgroup</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- style css  -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- our services slider CSS -->
+    <link rel="stylesheet" href="css/our-services-slider.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- <script src="https://kit.fontawesome.com/fa78267f95.js" crossorigin="anonymous"></script> -->
+    <script src="js/icons/font-awesome.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2.0.11/dist/flickity.min.css">
+    <link rel="stylesheet" href="css/team.css">
+
+    <style>
+        .indentity {
+            margin: 0!important
+        }
+        
+        figure.testimonial {
+            position: relative;
+            float: none;
+            overflow: hidden;
+            margin: 10px 1%;
+            padding: 0 20px;
+            text-align: left;
+            box-shadow: none !important;
+            background: #fff;
+            border-radius: 15px;
+        }
+        
+        figure.testimonial * {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+            transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 0px;
+        }
+        
+        figure.testimonial img {
+            max-width: 90px;
+            vertical-align: middle;
+            height: auto;
+            width: 100%;
+            border-radius: 50%;
+            margin: 40px auto 10px;
+        }
+        
+        figure.testimonial blockquote {
+            background-color: #fff;
+            display: block;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 1.5em;
+            margin: 0;
+            padding: 25px 50px 30px;
+            position: relative;
+        }
+        
+        figure.testimonial blockquote:before,
+        figure.testimonial blockquote:after {
+            content: "\201C";
+            position: absolute;
+            color: #ff5057;
+            font-size: 50px;
+            font-style: normal;
+        }
+        
+        figure.testimonial blockquote:before {
+            top: 25px;
+            left: 20px;
+        }
+        
+        figure.testimonial blockquote:after {
+            content: "\201D";
+            right: 20px;
+            bottom: 0;
+        }
+        
+        figure.testimonial .btn {
+            top: 100%;
+            width: 0;
+            height: 0;
+            border-left: 0 solid transparent;
+            border-right: 25px solid transparent;
+            border-top: 25px solid #fff;
+            margin: 0;
+            position: absolute;
+        }
+        
+        figure.testimonial .peopl {
+            position: absolute;
+            bottom: 45px;
+            padding: 0 10px 0 120px;
+            margin: 0;
+            color: #ffffff;
+            -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+        }
+        
+        figure.testimonial .peopl h3 {
+            opacity: 0.9;
+            margin: 0;
+        }
+        
+        .slick-slider {
+            position: relative;
+            display: block;
+            box-sizing: border-box;
+            user-select: none;
+            -webkit-touch-callout: none;
+            -khtml-user-select: none;
+            -ms-touch-action: pan-y;
+            touch-action: pan-y;
+            -webkit-tap-highlight-color: transparent;
+        }
+        
+        .slick-list {
+            position: relative;
+            display: block;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .slick-list:focus {
+            outline: none;
+        }
+        
+        .slick-list.dragging {
+            cursor: pointer;
+            cursor: hand;
+        }
+        
+        .slick-slider .slick-track,
+        .slick-slider .slick-list {
+            transform: translate3d(0, 0, 0);
+        }
+        
+        .slick-track {
+            position: relative;
+            top: 0;
+            left: 0;
+            display: block;
+        }
+        
+        .slick-track:before,
+        .slick-track:after {
+            display: table;
+            content: '';
+        }
+        
+        .slick-track:after {
+            clear: both;
+        }
+        
+        .slick-loading .slick-track {
+            visibility: hidden;
+        }
+        
+        .slick-slide {
+            display: none;
+            float: left;
+            height: 100%;
+            min-height: 1px;
+        }
+        
+        .slick-slide img {
+            display: block;
+        }
+        
+        .slick-slide.slick-loading img {
+            display: none;
+        }
+        
+        .slick-slide.dragging img {
+            pointer-events: none;
+        }
+        
+        .slick-initialized .slick-slide {
+            display: block;
+            position: relative;
+            top: 30px;
+        }
+        
+        .slick-loading .slick-slide {
+            visibility: hidden;
+        }
+        
+        .slick-vertical .slick-slide {
+            display: block;
+            height: auto;
+            border: 1px solid transparent;
+        }
+        
+        .slick-btn.slick-hidden {
+            display: none;
+        }
+        
+        .slick-prev,
+        .slick-next {
+            font-size: 0;
+            line-height: 0;
+            position: absolute;
+            top: 40%;
+            display: block;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            transform: translate(0, -50%);
+            cursor: pointer;
+            color: transparent;
+            border: none;
+            outline: none;
+            background: transparent;
+            z-index: 99;
+        }
+        
+        .slick-prev:hover,
+        .slick-prev:focus,
+        .slick-next:hover,
+        .slick-next:focus {
+            color: transparent;
+            outline: none;
+            background: transparent;
+        }
+        
+        .slick-prev:hover:before,
+        .slick-prev:focus:before,
+        .slick-next:hover:before,
+        .slick-next:focus:before {
+            opacity: 1;
+        }
+        
+        .slick-prev:before,
+        .slick-next:before {
+            font-family: "FontAwesome";
+            font-size: 40px;
+            line-height: 1;
+            opacity: .75;
+            color: white;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        .slick-prev {
+            left: -40px;
+        }
+        
+        .slick-prev:before {
+            content: "ï“";
+        }
+        
+        .slick-next {
+            right: -40px;
+        }
+        
+        .slick-next:before {
+            content: "ï”";
+        }
+        
+        .slick-slide.slick-current.slick-active~.slick-slide.slick-active {
+            top: 0;
+        }
+        
+        .slick-slide.slick-current.slick-active~.slick-slide.slick-active~.slick-slide.slick-active {
+            top: 30px !important;
+        }
+        
+        .slick-initialized .slick-slide:before,
+        .slick-slide.slick-current.slick-active~.slick-slide.slick-active~.slick-slide.slick-active:before {
+            content: "";
+            background: #0329344f;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            z-index: 9;
+        }
+        
+        .slick-slide.slick-current.slick-active~.slick-slide.slick-active:before {
+            background: transparent;
+        }
+        
+        .slick-slide.slick-current.slick-active~.slick-slide.slick-active~.slick-slide.slick-active {
+            top: 30px !important;
+        }
+    </style>
+
+
+</head>
+
+<body style="background-color: #032934 !important;">
+
+
+
+
+
+    <div class="carousel-wrapper">
+        <div class="carousel" data-flickity>
+            <div class="carousel-cell">
+                <h3>Casual Dress</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/3.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span>225<sup>$</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Hoodie</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/2.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span>200<sup>$</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>T-shirt</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/1.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span>199<sup>$</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Casual Dress 2</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/4.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span>49<sup>$</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Casual Dress 3</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/5.jpg">
+                <div class="line"></div>
+                <div class="price">90</span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Casual Dress 4</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/6.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span>70<sup>$</sup></span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Casual Dress 6</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/7.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span><sup>$</sup>325</span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Glasses</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/8.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span><sup>$</sup>125</span>
+                </div>
+            </div>
+            <div class="carousel-cell">
+                <h3>Gym Suit</h3>
+                <a class="more" href="#">Explore More</a>
+                <img src="images/slider/9.jpg">
+                <div class="line"></div>
+                <div class="price">
+                    <span><sup>$</sup>300</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/flickity@2.0.11/dist/flickity.pkgd.min.js"></script>
+
+
+    <section class="our_services-section">
+        <div class="wrapper">
+            <section class="padding our-services-slider parallax-window" data-parallax="scroll">
+                <div class="container-fluid">
+                    <h1 class="title text-center topic-heading">Our Services</h1>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="outer-team">
+                                <div class="testiSlide">
+                                    <div>
+                                        <figure class="testimonial-services">
+                                            <div class="team">
+                                                <div class="card card-content">
+                                                    <img src="images/E-Commerce Solutions.png" class="card-img-top img-fluid" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">E-Commerce Solutions</h5>
+                                                        <p class="card-text">Multi-tenant | Multi lingual | Mobile and Web based E-Commerce Consulting | Development | Solutions & Maintenance
+                                                        </p>
+                                                        <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div>
+                                        <figure class="testimonial-services">
+                                            <div class="team">
+                                                <div class="card card-content">
+                                                    <img src="images/Reliable-Blockchain-Services.png" class="card-img-top img-fluid" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Reliable Blockchain Services</h5>
+                                                        <p class="card-text reliable-b-services-cntnt">Blockchain Consulting | POCs | Development for Hyperledger Fabric | Sawtooth | Ethereum | Stellar | Parity | R3 Corda</p>
+                                                        <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div>
+                                        <figure class="testimonial-services">
+                                            <div class="team">
+                                                <div class="card card-content">
+                                                    <img src="images/fast-mobile-app-development.png" class="card-img-top img-fluid  mobile-app-devlop" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title fast-mobile-heading">Fast Mobile App Development</h5>
+                                                        <p class="card-text">Fast | Reliable | Future ready | Secure and Scalable | Mobile App Development Services across the verticals and industries</p>
+                                                        <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div>
+                                        <figure class="testimonial-services">
+                                            <div class="team">
+                                                <div class="card card-content">
+                                                    <img src="images/Internet of Things (IoT).png" class="card-img-top img-fluid" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Internet of Things (IoT)</h5>
+                                                        <p class="card-text">End-to-End IoT with Blockchain | AI | Data Analytics | Hardware and Firmware programming | Integration | Device Management Services and Solutions</p>
+                                                        <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                    <div>
+                                        <figure class="testimonial-services">
+                                            <div class="team">
+                                                <div class="card card-content">
+                                                    <img src="images/Modern Web Development.png" class="card-img-top img-fluid" alt="...">
+                                                    <div class="card-body">
+                                                        <h5 class="card-title">Modern Web Development</h5>
+                                                        <p class="card-text">Contemporary | Responsive Web application development services with LAMP | JAVA | ROR | Python | .NET | Angular technologies</p>
+                                                        <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="padding our-team parallax-window" data-parallax="scroll" data-image-src="images/team-bg.jpg">
+        <div class="container-fluid">
+            <h1 class="title text-center"> Our Team </h1>
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                    <div class="out-team">
+                        <div class="testiSlide">
+                            <div>
+                                <figure class="testimonial">
+                                    <div class="team">
+                                        <img src="images/E-Commerce Solutions.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">E-Commerce Solutions</h5>
+                                            <p class="card-text">Multi-tenant | Multi lingual | Mobile and Web based E-Commerce Consulting | Development | Solutions & Maintenance
+                                            </p>
+                                            <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure class="testimonial">
+                                    <div class="team">
+                                        <img src="images/Reliable-Blockchain-Services.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Reliable Blockchain Services</h5>
+                                            <p class="card-text reliable-b-services-cntnt">Blockchain Consulting | POCs | Development for Hyperledger Fabric | Sawtooth | Ethereum | Stellar | Parity | R3 Corda</p>
+                                            <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure class="testimonial">
+                                    <div class="team">
+                                        <img src="images/fast-mobile-app-development.png" class="card-img-top img-fluid  mobile-app-devlop" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title fast-mobile-heading">Fast Mobile App Development</h5>
+                                            <p class="card-text">Fast | Reliable | Future ready | Secure and Scalable | Mobile App Development Services across the verticals and industries</p>
+                                            <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure class="testimonial">
+                                    <div class="team">
+                                        <img src="images/Internet of Things (IoT).png" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Internet of Things (IoT)</h5>
+                                            <p class="card-text">End-to-End IoT with Blockchain | AI | Data Analytics | Hardware and Firmware programming | Integration | Device Management Services and Solutions</p>
+                                            <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                            <div>
+                                <figure class="testimonial">
+                                    <div class="team">
+                                        <img src="images/Modern Web Development.png" class="card-img-top img-fluid" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Modern Web Development</h5>
+                                            <p class="card-text">Contemporary | Responsive Web application development services with LAMP | JAVA | ROR | Python | .NET | Angular technologies</p>
+                                            <a href="#" class="rd_mre_btn services-button">Read More</a>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="lwt_tdp">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 lwt">
+                    <div class="LWT_input_section">
+                        <h2 class="txt_clr_2">Lets Work Together</h2>
+                        <p class="txt_clr_1">Please fill in your requirements and we will get back with our best possible offerings. We sincerely appreciate your business!</p>
+                        <div class="">
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Name" aria-label="Name" aria-describedby="basic-addon1">
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Text Here"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 tdp">
+                    <h2 class="txt_clr_2">Techbillion Development Process</h2>
+                    <div class="tdp_responsive_bg">
+                        <img src="images/BG-tecb-B-devlopment-Responsive.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer_p1">
+            <div class="container">
+                <div class="row">
+                    <!-- <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 contact_detail"> -->
+                    <div class="col-lg-6 contact_detail">
+                        <ul class="contact_detail_address">
+                            <li>
+                                <div class="social_icons">
+                                    <ul>
+                                        <li>
+                                            <a href=""><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fab fa-whatsapp"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-envelope"></i>sales@techbillion.com
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-phone-volume"></i>+91 0123456789
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="fas fa-map-marker-alt"></i>TechBgroup kanchana bihari marg lucknow UP-226022
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 about_compney">
+                        <div class="wpcbc">
+                            <ul>
+                                <li>
+                                    <a href="">Work</a>
+                                </li>
+                                <li>
+                                    <a href="">policy</a>
+                                </li>
+                                <li>
+                                    <a href="">Career</a>
+                                </li>
+                                <li>
+                                    <a href="">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_p2">
+            <p>© 2010-2020 Techbillion Pvt Ltd. All Rights Reserved. Terms & Conditions</p>
+        </div>
+    </footer>
+
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+
+    <!-- what our client & our services say JS----- -->
+    <script src="js/what-our-client-says/function.js"></script>
+    <script src="js/what-our-client-says/slick.min.js"></script>
+
+    <!-- happy clients clider -->
+    <script src="js/happy clients/happy_client Slider.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
+        });
+    </script>
+
+
+
+</body>
+
+</html>
