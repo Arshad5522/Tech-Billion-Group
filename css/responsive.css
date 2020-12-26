@@ -5624,7 +5624,7 @@
 
 /* 4 */
 
-@media only screen and (min-width: 1025px) and (max-width: 1518px) {
+@media only screen and (min-width: 1025px) and (max-width: 1523px) {
     .col-lg-7.os_content {
         padding: 0 0 10px 20px;
     }
@@ -5653,7 +5653,7 @@
         text-align: center;
     }
     .padding.our-team .testimonial-card .card-up {
-        height: 250px;
+        height: 250px !important;
     }
 }
 
