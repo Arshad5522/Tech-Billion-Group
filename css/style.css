@@ -5016,52 +5016,29 @@ ruby-Tech-Expertise .row p {
 }
 
 
-/* 
-.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) {
-    border-left: 5px solid black;
-    border-bottom: 5px solid black;
+/* horzontal border */
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(4) .our-work,
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(5) .our-work,
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(6) .our-work {
+    border: 2px solid;
+    border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(184, 193, 197, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
 }
 
+
+/* vertical border */
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1),
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2),
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(4),
 .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(5) {
-    border-top: 5px solid;
-    border-left: 5px solid;
-    border-right: 5px solid;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #18181800, rgba(184, 193, 197, 1), #18181800) 0 100%;
 }
 
-.drupal-expertise .col-6.col-md-6.col-lg-4 {
-    padding: 0;
-    margin: 0;
-} */
-
-.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1) .our-work-in {
-    border-right: 2px solid;
-}
-
-.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1) .our-work {
-    border-bottom: 2px solid;
-}
-
-.container {
-    width: 100%;
-}
-
-.gradient-span {
-    margin: 0 auto;
-    width: 70%;
-}
-
-span {
-    /* background: -webkit-linear-gradient(left, $white, $purple, $white); */
-    border: none;
-    color: white;
-    display: block;
-    height: 3px;
-    margin-top: 40px;
-}
-
-p {
-    margin: 0 auto;
-    font-size: 50px;
-    line-height: 100px;
-    text-align: center;
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1),
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2),
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(4),
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(5) {
+    border-left: 0;
 }
