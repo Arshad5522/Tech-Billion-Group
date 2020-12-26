@@ -1053,7 +1053,7 @@ figure.testimonial .peopl h3 {
 }
 
 .info-color {
-    background: linear-gradient(to bottom left, #6c2af7 15%, #b82bc7 59%);
+    background: linear-gradient(to bottom left, #0f4b6a4a 15%, #0f70a2cc 59%);
 }
 
 .testimonial-card .avatar {
@@ -5013,4 +5013,55 @@ ruby-Tech-Expertise .row p {
 
 .padding.our-services-slider.parallax-window .card.card-content {
     height: 350px;
+}
+
+
+/* 
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) {
+    border-left: 5px solid black;
+    border-bottom: 5px solid black;
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(5) {
+    border-top: 5px solid;
+    border-left: 5px solid;
+    border-right: 5px solid;
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4 {
+    padding: 0;
+    margin: 0;
+} */
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1) .our-work-in {
+    border-right: 2px solid;
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(1) .our-work {
+    border-bottom: 2px solid;
+}
+
+.container {
+    width: 100%;
+}
+
+.gradient-span {
+    margin: 0 auto;
+    width: 70%;
+}
+
+span {
+    /* background: -webkit-linear-gradient(left, $white, $purple, $white); */
+    border: none;
+    color: white;
+    display: block;
+    height: 3px;
+    margin-top: 40px;
+}
+
+p {
+    margin: 0 auto;
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
 }
