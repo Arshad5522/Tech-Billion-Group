@@ -1,6 +1,23 @@
 /* 1 */
 
 @media only screen and (min-width:280px) and (max-width:767px) {
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) .our-work {
+        border: 2px solid;
+        border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(184, 193, 197, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) {
+        border: 3px solid;
+        border-image: linear-gradient(to bottom, #18181800, rgba(184, 193, 197, 1), #18181800) 0 100%;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+1) {
+        border-left: 0;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+2) {
+        border-right: 0;
+    }
+    /*  */
+    /*  */
+    /*  */
     .padding.our-services-slider.parallax-window .card.card-content {
         height: 300px;
     }
@@ -2497,6 +2514,23 @@
 /* 2 */
 
 @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) .our-work {
+        border: 2px solid;
+        border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(184, 193, 197, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) {
+        border: 3px solid;
+        border-image: linear-gradient(to bottom, #18181800, rgba(184, 193, 197, 1), #18181800) 0 100%;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+1) {
+        border-left: 0;
+    }
+    .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+2) {
+        border-right: 0;
+    }
+    /*  */
+    /*  */
+    /*  */
     .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
         opacity: 0.2;
         margin: -1500px 0 0 350px;
