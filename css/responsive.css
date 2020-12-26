@@ -5647,6 +5647,14 @@
     nav.navbar.navbar-expand-lg.navbar-light.bg-light a.nav-link {
         padding: 25px 30px !important;
     }
+    .padding.our-team .card-up.info-color p.card_up_text {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .padding.our-team .testimonial-card .card-up {
+        height: 250px;
+    }
 }
 
 
