@@ -377,7 +377,7 @@
     .dropdown-content.web-dropdwn {
         min-width: 290px;
         text-align: left;
-        margin: 0 0 0 -123px;
+        margin: 0 0 0 -85px;
     }
     .dropdown-content.web-dropdwn .col-xs-6.col-sm-6.col-lg-6 {
         width: 50%;
@@ -392,19 +392,22 @@
     }
     .dropdown-content.block-chain-dropdwn {
         min-width: 280px;
+        margin: 0 0 0 -90px;
     }
     .dropdown-content a {
         font-size: 10px;
         padding: 5px 0;
     }
     .dropdown-content {
-        min-width: 260px;
-        margin: 0px 0 0 -100px;
+        min-width: 111px;
+        margin: 0px 0 0 -7px;
+        text-align: left;
+        padding: 5px 5px;
     }
     .dropdown-content.mobile_drop_list {
         min-width: 271px;
         padding: 5px;
-        margin: 0 0 0 -100px;
+        margin: 0 0 0 -50px;
     }
     .dropdown-content.mobile_drop_list .col-xs-6.col-sm-6.col-lg-6 {
         width: 50%;

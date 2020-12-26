@@ -126,7 +126,7 @@ ul.navbar-nav a.nav-link:hover {
 }
 
 .dropdown-content.web-dropdwn {
-    min-width: 510px;
+    min-width: 481px;
     text-align: left;
 }
 
@@ -140,7 +140,7 @@ ul.navbar-nav a.nav-link:hover {
 }
 
 .dropdown-content.digital_dropdwn {
-    min-width: 310px;
+    min-width: 291px;
 }
 
 .dropdown-content a:hover {
