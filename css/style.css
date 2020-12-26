@@ -5010,3 +5010,7 @@ ruby-Tech-Expertise .row p {
     opacity: 0.2;
     margin: -1240px 0 0 740px;
 }
+
+.padding.our-services-slider.parallax-window .card.card-content {
+    height: 350px;
+}

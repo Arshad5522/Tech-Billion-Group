@@ -1,6 +1,9 @@
 /* 1 */
 
 @media only screen and (min-width:280px) and (max-width:767px) {
+    .padding.our-services-slider.parallax-window .card.card-content {
+        height: 300px;
+    }
     body.home-page .happy_clients .slick-slide img {
         display: block;
         width: 100px;
@@ -4192,6 +4195,9 @@
 /* 3 */
 
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+    .padding.our-services-slider.parallax-window .card.card-content {
+        height: 400px;
+    }
     .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
         opacity: 0.2;
         margin: -1370px 0 0 405px;
@@ -5655,7 +5661,7 @@
         line-height: 20px;
         text-align: center;
     }
-    .padding.our-team .testimonial-card .card-up {
+    body.home-page .padding.our-team .testimonial-card .card-up {
         height: 250px !important;
     }
 }
