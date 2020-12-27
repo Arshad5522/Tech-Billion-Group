@@ -1,6 +1,9 @@
 /* 1 */
 
 @media only screen and (min-width:280px) and (max-width:767px) {
+    .drupal-expertise .row {
+        padding: 25px 0 0 0;
+    }
     .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) .our-work {
         border: 2px solid;
         border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(184, 193, 197, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
@@ -15,9 +18,6 @@
     .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+2) {
         border-right: 0;
     }
-    /*  */
-    /*  */
-    /*  */
     .padding.our-services-slider.parallax-window .card.card-content {
         height: 300px;
     }
@@ -162,7 +162,6 @@
     .row.inside_division .col-sm-6.col-lg-6 .text-center {
         height: 75px;
     }
-    /*  */
     .services_detail {
         padding: 15px 5px;
         margin: 0 0 150px 0;
@@ -696,7 +695,6 @@
     div.footer_p2 p {
         font-size: 12px;
     }
-    /* ***********************************   "NativeScript-Development" ***************/
     .nativeScript-development header {
         background-color: #043747;
         position: relative;
@@ -818,7 +816,6 @@
         padding-left: 0;
         padding-right: 0;
     }
-    /* ***********************************   "kotlin-app-development-company" ***************/
     .kotlinapp_devlopment header {
         background-color: #043747;
         position: relative;
@@ -902,7 +899,6 @@
         padding: 5px 10px;
         text-align: left;
     }
-    /* ***********************************   "cross-platform-mobile-development" ***************/
     .cross-platform-mobile-development header {
         background-color: #043747;
         position: relative;
@@ -1001,7 +997,6 @@
         height: 75px;
         width: 100px;
     }
-    /* ***************************  iconic-app-development *************** */
     .ionic-app-development header,
     .flutter-development header,
     .xamarin-devlopment header,
@@ -1350,9 +1345,6 @@
     .why_xamarin_app_devloped.what_we_offer {
         padding: 15px 0;
     }
-    /*  */
-    /*  */
-    /*  */
     .padding.our-team.our_solution_slider .testimonial-card .card-up {
         height: 300px;
     }
@@ -1520,7 +1512,6 @@
         padding: 25px 0;
     }
     .our_xamarin_development_services.some_of_them_are.exchange_loyalty_loan_owntoken_cryptos p {
-        /* padding: 2px 0; */
         margin: 0 0 5px 0;
     }
     .our_xamarin_development_services.some_of_them_are.exchange_loyalty_loan_owntoken_cryptos h3 {
@@ -1565,7 +1556,6 @@
         text-align: justify;
     }
     .techbillion_advantage.techbillion-bc-software-d-company .row h3 {
-        /* text-align: center !important; */
         padding: 10px 0 !important;
     }
     .our_xamarin_development_services.Smart-contract-security-audit.multitude_of_advantage {
@@ -1675,8 +1665,6 @@
     .our_team_slider .our-team {
         padding: 20px 0;
     }
-    /* *******************************************************PARVEEN******************************* */
-    /* JAVA DEVLOPMENT */
     .java-devlopment header,
     .ruby-devlopment header,
     .net-development header,
@@ -2061,7 +2049,6 @@
         color: #11587d;
         padding: 5px 0;
     }
-    /* ***********net-development******************************* */
     .net-app-d-service h3 {
         color: #0b5164;
         font-size: 14px;
@@ -2136,7 +2123,6 @@
         margin: 0;
         text-align: left;
     }
-    /* **********************python-development******************* */
     .python-java-app-d-service {
         padding: 5px 0 0 0px;
     }
@@ -2188,7 +2174,6 @@
         padding: 5px 0;
         margin: 0;
     }
-    /* ***************c++ development company******************** */
     .c-application-d {
         padding: 1px 0px;
         text-align: center;
@@ -2196,7 +2181,6 @@
     }
     .c-application-d .row h3 {
         font-size: 16px;
-        /* padding: 11px 0 7px 0; */
         text-align: center !important;
     }
     .c-application-d p {
@@ -2207,7 +2191,6 @@
         padding: 11px 0 7px 0;
         text-align: center;
     }
-    /* ******************************lamp-developemnt********************** */
     .lamp-technical-expertise {
         padding: 35px 0px;
     }
@@ -2235,7 +2218,6 @@
         padding: 12px 0 0 0;
         line-height: 22px;
     }
-    /* **********php development**************** */
     .why-get-php {
         padding: 35px 0px;
         text-align: center;
@@ -2276,7 +2258,6 @@
         font-size: 16px;
         padding: 0 0 16px 0;
     }
-    /* **************laravel developemnt******************** */
     .magento-design {
         padding: 35px 0 0 0;
     }
@@ -2440,7 +2421,6 @@
     .drupal-d-proces p {
         font-size: 12px !important;
     }
-    /* *******************mean stack************* */
     .mean-acronym {
         padding: 35px 0;
     }
@@ -2528,9 +2508,6 @@
     .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(2n+2) {
         border-right: 0;
     }
-    /*  */
-    /*  */
-    /*  */
     .why-choose-us-for-service.gaming_program_expertise.ppc_management_or_awards img.bacground_img {
         opacity: 0.2;
         margin: -1500px 0 0 350px;
@@ -2726,7 +2703,6 @@
     .ruby-service p {
         text-align: center;
         padding: 0;
-        /* color: #087186; */
         margin: 0;
     }
     .ruby-service img {
@@ -3032,7 +3008,6 @@
         font-size: 20px;
         padding: 30px 15px 0 15px;
     }
-    /* ***********************************   "NativeScript-Development" ***************/
     .nativeScript-development header {
         background-color: #043747;
         position: relative;
@@ -3139,7 +3114,6 @@
     .nativeScript-development footer p {
         font-size: 18px;
     }
-    /* ***********************************   "kotlin-app-development-company" ***************/
     .kotlinapp_devlopment header {
         background-color: #043747;
         position: relative;
@@ -3213,7 +3187,6 @@
     .why_choose_techbillion .col-lg-3 a {
         font-size: 16px;
     }
-    /* ***********************************   "cross-platform-mobile-development" ***************/
     .cross-platform-mobile-development header {
         background-color: #043747;
         position: relative;
@@ -3309,7 +3282,6 @@
     .about_softwere_n_platform .row img {
         padding: 0;
     }
-    /* ***************************  iconic-app-development *************** */
     .ionic-app-development header,
     .flutter-development header,
     .xamarin-devlopment header,
@@ -3600,8 +3572,6 @@
     .our_team_slider .our-team {
         padding: 20px 0;
     }
-    /* *****************************************PARVEEN*********************************** */
-    /* JAVA DEVLOPMENT */
     .java-devlopment header,
     .e-commerce-development header,
     .python-devlopment header,
@@ -3831,7 +3801,6 @@
         line-height: 20px;
         margin: 0;
     }
-    /* ********* ruby.development.html******************* */
     .ruby-devlopment header {
         background-color: #043747;
         position: relative;
@@ -3860,7 +3829,6 @@
         color: #0b5164;
         font-size: 20px;
     }
-    /* *****net-developemnt---------------------- */
     .advantage-asp-net {
         padding: 15px 0px;
         text-align: center;
@@ -3888,7 +3856,6 @@
     .net-Technological-Expertise p {
         font-size: 16px;
     }
-    /* ************python development****************** */
     .why-use-python,
     .why-get-php,
     .angular-advantage,
@@ -3941,7 +3908,6 @@
         color: #31859c;
         font-size: 16px;
     }
-    /* ******************e-commerce------------------- */
     .platform .row {
         inline-size: auto !important;
     }
@@ -3960,7 +3926,6 @@
         font-size: 20px;
         padding: 11px 0 18px 0;
     }
-    /* **********c++ development****************** */
     .c-application-d {
         text-align: left;
         padding: 35px 0px;
@@ -3988,7 +3953,6 @@
         padding: 15px 0;
         font-size: 16px;
     }
-    /* *********************lamp developemnt************ */
     .lamp-technical-expertise {
         padding: 0;
     }
@@ -4067,7 +4031,6 @@
         color: #0b5164;
         padding: 0 0 16px 0;
     }
-    /* *******laraval development*********** */
     .laravel-techbillion-advantages,
     .get-drupal,
     .get-wordpress,
@@ -4186,7 +4149,6 @@
         padding: 0 0 10px 0;
         padding: 0 0 20px 0;
     }
-    /* **************mean stack****************** */
     .mean-acronym {
         padding: 35px 0;
     }
@@ -4214,7 +4176,6 @@
     .mean-stack-advantage p {
         font-size: 16px;
     }
-    /* *******************angular development*************** */
     .angular-advantage {
         padding: 35px 0px !important;
         margin: 0 auto;
@@ -4623,7 +4584,6 @@
         text-align: center;
         font-size: 14px;
     }
-    /* ***********************************   "NativeScript-Development" ***************/
     .nativeScript-d-compney,
     .react_native_d_compney.ethereum-application-development {
         background-position: right;
@@ -4719,7 +4679,6 @@
     .nativeScript-development footer p {
         font-size: 18px;
     }
-    /* ***********************************   "kotlin-app-development-company" ***************/
     .kotlinapp_devlopment header {
         background-color: #043747;
         position: relative;
@@ -4770,7 +4729,6 @@
     .kotlin_android_devloper_and_app_developer_sevices ul li a {
         font-size: 16px;
     }
-    /* ***********************************   "cross-platform-mobile-development" ***************/
     .cross-platform-mobile-development header {
         background-color: #043747;
         position: relative;
@@ -4829,7 +4787,6 @@
     .about_softwere_n_platform .row {
         padding: 0 0px 0 0px;
     }
-    /* ***************************  iconic-app-development *************** */
     .ionic-app-development header,
     .flutter-development header,
     .xamarin-devlopment header,
@@ -4922,9 +4879,6 @@
     .ionic_tecnological_advantage ul.left_ul_mobilotte {
         margin-bottom: 0;
     }
-    /* .grow-with-us .col-lg-4 h3 {
-            text-align: left;
-        } */
     .grow-with-us .col-lg-4 {
         padding: 0;
     }
@@ -4950,7 +4904,6 @@
         padding: 35px 20px;
     }
     .related_services.happy_clients .slick-slide img {
-        /* height: 50px !important; */
         padding-right: 20px !important;
     }
     .about_pwa_design_devlopment {
@@ -5003,9 +4956,6 @@
         padding-left: 0;
         padding-right: 50px;
     }
-    /*  */
-    /*  */
-    /*  */
     .padding.our-team.our_solution_slider .testimonial-card .card-up {
         height: 350px;
         width: 300px;
@@ -5107,7 +5057,6 @@
         margin: -12px 0 0 63px;
         padding: 5px;
     }
-    /* **********************************PARVEEN******************************************* */
     .java-app-d-compney,
     .net-app-d-compney,
     .lamp-d-compney,
@@ -5312,7 +5261,6 @@
         line-height: 20px;
         margin: 0;
     }
-    /* ********* ruby.development.html******************* */
     .ruby-d-company {
         background-position: right;
         padding: 200px 0 100px 0;
@@ -5330,7 +5278,6 @@
         padding: 15px 20px;
         font-size: 18px;
     }
-    /* ************net developemnt***************************** */
     .net-Technological-Expertise,
     .ruby-Tech-Expertise {
         padding: 35px 0px;
@@ -5365,7 +5312,6 @@
         text-align: center;
         padding: 35px 0px;
     }
-    /* *********************e commerce develpment*********** */
     .e-commerce-solution-development {
         text-align: left;
         padding: 35px 0px;
@@ -5386,7 +5332,6 @@
     .platform h3 {
         font-size: 20px;
     }
-    /* **********python development************** */
     .python-java-app-d-service,
     .why-angular {
         padding: 35px 0px;
@@ -5458,7 +5403,6 @@
         color: #0b5164;
         font-size: 20px;
     }
-    /* *********************lamp developemnt************ */
     .lamp-technical-expertise {
         padding: 35px 0;
     }
@@ -5486,7 +5430,6 @@
         color: #0b5164;
         font-size: 16px;
     }
-    /* *************lamp development************* */
     .php-technological-expertise {
         padding: 0;
     }
@@ -5504,7 +5447,6 @@
         line-height: 22px;
         padding: 0 0 0 0;
     }
-    /* ***************php development*************** */
     .python-d-service p,
     .php-mysql-d-service p,
     .php-techbillion p,
@@ -5598,7 +5540,6 @@
     .laravel-Technical-Expertise h3 {
         font-size: 20px;
     }
-    /* ****************drupal developemnt******************8 */
     .drupal-d-company {
         font-size: 20px;
         padding: 35px 0px;
@@ -5633,7 +5574,6 @@
     .drupal-expertise h5 {
         font-size: 20px;
     }
-    /* *****************mean stack****************** */
     .mean-acronym {
         padding: 35px 0px;
         background-color: #f1f1f1!important;
