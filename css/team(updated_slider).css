@@ -1,0 +1,111 @@
+.padding.our-services-slider.parallax-window .card {
+    box-shadow: 0px 4px 8px 0px #BDBDBD
+}
+
+.padding.our-services-slider.parallax-window .profile-pic {
+    width: 100px !important;
+    height: 100px;
+}
+
+.padding.our-services-slider.parallax-window .owl-carousel .owl-nav button.owl-next,
+.padding.our-services-slider.parallax-window .owl-carousel .owl-nav button.owl-prev {
+    background: 0 0;
+    color: #ffffff !important;
+    border: none;
+    padding: 5px 20px !important;
+    font: inherit;
+    font-size: 30px !important;
+    transition: 0.6s;
+}
+
+.padding.our-services-slider.parallax-window .owl-carousel .owl-nav button.owl-next:hover,
+.padding.our-services-slider.parallax-window .owl-carousel .owl-nav button.owl-prev:hover {
+    color: #11587d !important;
+    background-color: transparent !important
+}
+
+.padding.our-services-slider.parallax-window .owl-dots {
+    display: none
+}
+
+.padding.our-services-slider.parallax-window button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.padding.our-services-slider.parallax-window .item {
+    display: block;
+    overflow: hidden;
+}
+
+.padding.our-services-slider.parallax-window .next {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6
+}
+
+.padding.our-services-slider.parallax-window .prev {
+    display: block !important;
+    position: relative;
+    transform: scale(0.8);
+    transition-duration: 0.3s;
+    opacity: 0.6;
+}
+
+.padding.our-services-slider.parallax-window .item.show {
+    display: block;
+    transition-duration: 0.4s
+}
+
+.owl-carousel .owl-item img {
+    height: auto;
+    border-radius: 0;
+}
+
+button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color !important;
+}
+
+@media screen and (max-width: 999px) {
+    .container-fluid.px-3.px-sm-5.my-5.text-center .owl-nav {
+        display: none;
+    }
+    .next,
+    .prev {
+        transform: scale(1);
+        opacity: 1
+    }
+    .item {
+        display: block !important
+    }
+}
+
+
+/*  */
+
+.padding.our-services-slider.parallax-window .our_services-section {
+    position: relative;
+}
+
+button.owl-prev {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    transform: scale(3.5);
+}
+
+button.owl-next {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    transform: scale(3.5);
+}
+
+.padding.our-services-slider.parallax-window .card.border-0.py-3.px-4 {
+    border-radius: 15px;
+}
