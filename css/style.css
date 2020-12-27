@@ -2801,7 +2801,7 @@ section.react_native_d_compney.initial_exchange_offering_d_services {
 }
 
 .why_xamarin_app_devloped.public_private_hybrid_blockchain.makeing_easy_transaction_solution h3 {
-    padding: 0 335px;
+    padding: 0;
 }
 
 .techbillion_advantage.techbillion-bc-software-d-company .row .col-sm-6.col-lg-6 h3 {
@@ -3426,20 +3426,20 @@ section.react_native_d_compney.career_life_in_techbillion {
     width: 131px;
 }
 
-.our-service {
+.java-application-d-service .our-service {
     padding: 0 0px 0 0px !important;
     background-color: #f1f1f1!important;
     margin: 23px 0 0 0px;
     height: 216px;
+    transition: .5s;
 }
 
-.our-service:hover {
-    transition: .5s;
+.java-application-d-service .our-service:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.03);
 }
 
-.our-service h3 {
+.java-application-d-service .our-service h3 {
     color: #0b5164;
     font-size: 20px;
     font-family: 'robotobold';
@@ -3786,6 +3786,7 @@ figure.portfolio-figure .peopl h3 {
 }
 
 .ruby-service {
+    transition: .8s;
     background-color: #f1f1f1!important;
     margin: 6px 0 0 0;
     padding: 62px 0 0 0;
@@ -3812,7 +3813,6 @@ figure.portfolio-figure .peopl h3 {
 }
 
 .ruby-service:hover {
-    transition: .5s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transform: scale(1.03);
 }
@@ -3840,7 +3840,7 @@ figure.portfolio-figure .peopl h3 {
     text-align: left !important;
 }
 
-.ruby-service h3:hover:after {
+.ruby-service:hover h3:after {
     width: 50%;
     background: #00bde2;
 }
@@ -3878,7 +3878,7 @@ figure.portfolio-figure .peopl h3 {
 .ruby-Tech-Expertise p {
     font-size: 20px !important;
     font-family: 'robotolight';
-    color: #39bcd6;
+    color: #11587d;
 }
 
 .why-Technological-Expertise {
@@ -5041,4 +5041,19 @@ ruby-Tech-Expertise .row p {
 .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(4),
 .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(5) {
     border-left: 0;
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4 h3,
+.drupal-expertise .col-6.col-md-6.col-lg-4 img {
+    transition: 0.8s;
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:hover h3 {
+    font-size: 18px;
+    transform: scale(1.2);
+}
+
+.drupal-expertise .col-6.col-md-6.col-lg-4:hover img {
+    margin: 0 0 -20px 0;
+    transform: scale(1.2);
 }
