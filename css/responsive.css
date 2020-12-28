@@ -1,6 +1,34 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) .our-work {
+                        border: 2px solid;
+                        border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(86, 218, 238, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+                    }
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) {
+                        border: 3px solid;
+                        border-image: linear-gradient(to bottom, #18181800, rgba(86, 218, 238, 1), #18181800) 0 100%;
+                    }
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+                        border-right: 0;
+                    }
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(2),
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(3),
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(4) {
+                        border: 2px solid;
+                        border-image: linear-gradient(to left, rgb(86 218 238 / 8%) 1%, rgb(0 188 212 / 18%) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+                    }
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(2) img,
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(3) img,
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(4) img {
+                        margin-top: 10px;
+                    }
+                    .padding.our-services-slider.parallax-window h1 {
+                        padding: 0;
+                    }
+                    .padding.our-services-slider.parallax-window {
+                        padding: 0px 0 0 0;
+                    }
                     .vue-js-d-company .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 p {
                         padding: 0px 0 20px 0;
                         text-align: center;
@@ -372,7 +400,7 @@
                         text-align: justify;
                     }
                     body.e-commerce-development .row p {
-                        /* padding: 0 0 5px 0; */
+                        padding: 0 0 25px 0;
                         margin: 0;
                     }
                     .net-application-company p {
@@ -1369,8 +1397,6 @@
                     }
                     .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
                         text-align: center;
-                        border-right: none;
-                        border-bottom: 2px solid #96edfa57;
                         margin-bottom: 10px;
                     }
                     .why-phonegap-app-devloped.technological_expertise {
@@ -2537,6 +2563,30 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) .our-work {
+                        border: 2px solid;
+                        border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(86, 218, 238, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+                    }
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) {
+                        border: 3px solid;
+                        border-image: linear-gradient(to bottom, #18181800, rgba(86, 218, 238, 1), #18181800) 0 100%;
+                    }
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(2n+1) {
+                        border-left: 0 !important;
+                    }
+                    .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(2n+2) {
+                        border-right: 0 !important;
+                    }
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(2n+1) .contnt {
+                        border: 3px solid;
+                        border-image: linear-gradient(to bottom, #18181800, rgba(86, 218, 238, 1), #18181800) 0 100%;
+                        border-left: 0;
+                        margin: 0 -15px 0 0;
+                        padding: 0 15px 0 0;
+                    }
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+                        border: 0;
+                    }
                     .drupal-expertise .col-6.col-md-6.col-lg-4:nth-child(3) .our-work {
                         border: 2px solid;
                         border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(184, 193, 197, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
@@ -3529,8 +3579,6 @@
                     }
                     .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
                         text-align: center;
-                        border-right: none;
-                        border-bottom: 2px solid #96edfa57;
                         margin-bottom: 10px;
                     }
                     section.why-choose-us-for-service.gaming_program_expertise {
@@ -4231,6 +4279,9 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(2n+2) {
+                        border-right: 0;
+                    }
                     .padding.our-services-slider.parallax-window .card.card-content {
                         height: 400px;
                     }

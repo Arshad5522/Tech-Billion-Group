@@ -252,6 +252,7 @@ a.nav-link {
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    position: relative;
 }
 
 
@@ -271,6 +272,7 @@ a.nav-link {
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
+    position: relative;
 }
 
 a.rd_mre_btn {
@@ -1224,7 +1226,7 @@ a.rd_mre_btn.services-button:hover {
 }
 
 .padding.our-services-slider.parallax-window {
-    padding: 60px 0;
+    padding: 100px 0 60px 0;
 }
 
 .padding.our-services-slider.parallax-window p.card-text {
@@ -2456,7 +2458,6 @@ body.phone-gap-devlopment .happy_clients .slick-slide img {
 
 .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
     text-align: center;
-    border-right: 2px solid #96edfa57;
 }
 
 .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(4) {
@@ -5048,12 +5049,35 @@ ruby-Tech-Expertise .row p {
     transition: 0.8s;
 }
 
-.drupal-expertise .col-6.col-md-6.col-lg-4:hover h3 {
-    font-size: 18px;
-    transform: scale(1.2);
+.why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3 {
+    border-left: 0 !important;
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #18181800, rgba(86, 218, 238, 1), #18181800) 0 100%;
 }
 
-.drupal-expertise .col-6.col-md-6.col-lg-4:hover img {
-    margin: 0 0 -20px 0;
-    transform: scale(1.2);
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(1),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(2),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(4),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(5) {
+    border: 3px solid;
+    border-image: linear-gradient(to bottom, #18181800, #00bcd454, #00bcd405) 0 100%;
+}
+
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(1),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(2),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(4),
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(5) {
+    border-left: 0;
+}
+
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(4) .our-work,
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(5) .our-work,
+.java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(6) .our-work {
+    border: 2px solid;
+    border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgb(0 188 212 / 36%) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+}
+
+.java-choose-us .col-6.col-sm-6.col-lg-4 h3,
+.java-choose-us .col-6.col-sm-6.col-lg-4 img {
+    transition: 0.8s;
 }
