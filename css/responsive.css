@@ -1,6 +1,13 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .popup-chatbox .chat-btn {
+                        right: 8px;
+                        bottom: 75px;
+                        width: 50px;
+                        height: 50px;
+                        opacity: 0.8;
+                    }
                     .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) .our-work {
                         border: 2px solid;
                         border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(86, 218, 238, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
