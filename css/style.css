@@ -5252,11 +5252,3 @@ section.popup-chatbox {
 .popup-chatbox .material-icons {
     line-height: unset !important;
 }
-
-
-/* popup chatbox */
-
-#emoji-btn {
-    position: relative;
-    z-index: 200 !important;
-}
