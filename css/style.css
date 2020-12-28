@@ -2866,12 +2866,15 @@ section.react_native_d_compney.initial_exchange_offering_d_services {
     background-image: url(../images/app-store-optimization-services.png) !important;
 }
 
-.our_xamarin_development_services.goals_download_various_services .row .col-sm-6.col-lg-6 h3:nth-child(2) {
-    /* color: red; */
+.our_xamarin_development_services.goals_download_various_services .row .col-sm-6.col-lg-6:nth-child(2) h3:nth-child(2) {
     padding: 0;
     margin: -19px 0 0 0;
     font-size: 23px;
     font-family: robotothin;
+}
+
+.our_xamarin_development_services.goals_download_various_services .row .col-sm-6.col-lg-6:nth-child(1) h3:nth-child(2) {
+    margin: -20px 0 0 0;
 }
 
 .why-choose-techbillion-for-flutter.app_optimization_benefits {
