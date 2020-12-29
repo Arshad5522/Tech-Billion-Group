@@ -1,6 +1,56 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .hire_resources_why_choose_us .container-fluid {
+                        background-position: right bottom;
+                        background-size: 200px;
+                    }
+                    .hire_resources_why_choose_us p {
+                        font-size: 14px;
+                        width: auto;
+                    }
+                    .hire_resources_why_choose_us ul p {
+                        font-size: 12px;
+                        margin: 0;
+                        padding: 5px 0;
+                    }
+                    .hire_resources_why_choose_us h5 {
+                        font-size: 18px;
+                        text-align: justify;
+                        width: auto;
+                    }
+                    .hire_resources_why_choose_us h4 {
+                        font-size: 19px;
+                    }
+                    .hire_resources_why_choose_us h3 {
+                        font-size: 25px;
+                    }
+                    .hire_resources_why_choose_us {
+                        padding: 15px 15px;
+                    }
+                    .all_professional_by_categories .row .col-6.col-sm-6.col-lg-4:nth-child(2n+1) {
+                        padding-right: 0;
+                    }
+                    .all_professional_by_categories .row .col-6.col-sm-6.col-lg-4 {
+                        height: 140px;
+                    }
+                    .all_professional_by_categories .logo_n_topic {
+                        height: 125px;
+                    }
+                    .all_professional_by_categories .row h3 {
+                        font-size: 20px;
+                        padding: 0 0;
+                        margin: 15px 0 0 0;
+                    }
+                    .all_professional_by_categories p {
+                        font-size: 16px;
+                    }
+                    .all_professional_by_categories {
+                        padding: 15px 0px;
+                    }
+                    .all_professional_by_categories h4 {
+                        font-size: 20px;
+                    }
                     .popup-chatbox .chat-btn {
                         right: 8px;
                         bottom: 75px;
@@ -2570,6 +2620,16 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    .hire_resources_why_choose_us h5 {
+                        width: 82%;
+                    }
+                    .hire_resources_why_choose_us .container-fluid {
+                        background-position: right bottom;
+                        background-size: 300px;
+                    }
+                    .hire_resources_why_choose_us p {
+                        width: 67%;
+                    }
                     .java-choose-us .col-6.col-sm-6.col-lg-4:nth-child(3) .our-work {
                         border: 2px solid;
                         border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(86, 218, 238, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
@@ -4286,6 +4346,9 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    .hire_resources_why_choose_us .container-fluid {
+                        background-size: 410px;
+                    }
                     .why_choose_android_app_d_compney .row .col-xs-12.col-sm-6.col-md-6.col-lg-6.col-xl-3:nth-child(2n+2) {
                         border-right: 0;
                     }
