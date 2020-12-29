@@ -1,6 +1,35 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .row.insdie_row {
+                        padding: 15px 0 0 0;
+                        border: 2px solid;
+                        border-image: linear-gradient(to left, rgba(255, 255, 255, 0) 1%, rgba(2, 181, 210, 1) 50%, rgba(255, 255, 255, 0) 100%) 100% 0 0 0/3px 0 3px 0 stretch;
+                    }
+                    .hire_resources_footer .for_border {
+                        border-right: 0;
+                    }
+                    .hire_resources_footer p {
+                        font-size: 12px;
+                        font-family: 'robotolight';
+                        color: #02c7e6;
+                        width: 272px !important;
+                        line-height: 17px;
+                    }
+                    .hire_resources_footer {
+                        padding: 10px 15px 40px 15px;
+                    }
+                    body .row {
+                        justify-content: space-between;
+                    }
+                    .free_hiring_process .row h3 {
+                        font-size: 12px;
+                        padding: 0px 0 15px 0;
+                        margin: 10px 0 0 0;
+                    }
+                    .free_hiring_process {
+                        padding: 10px 0;
+                    }
                     .hire_resources_why_choose_us .container-fluid {
                         background-position: right bottom;
                         background-size: 200px;
@@ -2620,6 +2649,23 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    .hire_resources_footer .for_border {
+                        border-left: 0 !important;
+                        border: 3px solid;
+                        border-image: linear-gradient(to bottom, #03a9f400, rgba(2, 181, 210, 1), #03a9f400) 0 100%;
+                        height: 230px;
+                    }
+                    .hire_resources_footer p {
+                        width: 323px !important;
+                    }
+                    .free_hiring_process .row h3 {
+                        font-size: 20px;
+                        padding: 0px 0 20px 0;
+                        margin: 10px 0 0 0;
+                    }
+                    body .row {
+                        justify-content: space-between;
+                    }
                     .hire_resources_why_choose_us h5 {
                         width: 82%;
                     }
@@ -4346,6 +4392,15 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    .hire_resources_footer p {
+                        width: 444px !important;
+                    }
+                    .free_hiring_process .row h3 {
+                        font-size: 16px;
+                    }
+                    .hire_resources_why_choose_us p {
+                        width: 63%;
+                    }
                     .hire_resources_why_choose_us .container-fluid {
                         background-size: 410px;
                     }

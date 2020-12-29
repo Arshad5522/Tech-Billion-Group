@@ -5164,7 +5164,59 @@
     }
     
     .free_hiring_process .row h3 {
-        font-size: 12px;
+        font-family: 'robotolight';
+        font-size: 18px;
         padding: 0 0 0 0;
         margin: 15px 0 0 0;
+    }
+    
+    .free_hiring_process .row img.img-fluid {
+        background-color: #0b5164;
+        border-radius: 50%;
+    }
+    
+    .free_hiring_process .row {
+        padding: 15px 0 0 0;
+    }
+    
+    footer.hire_resources_footer {
+        background-color: #02212a;
+        text-align: left;
+        padding: 20px 35px 35px 35px;
+    }
+    
+    footer.hire_resources_footer h3 {
+        font-family: 'robotobold';
+        font-size: 20px;
+        color: white;
+    }
+    
+    footer.hire_resources_footer p {
+        font-size: 16px;
+        font-family: 'robotolight';
+        color: #02c7e6;
+        width: 478px;
+        line-height: 20px;
+    }
+    
+    footer.hire_resources_footer ul {
+        list-style: none;
+    }
+    
+    footer.hire_resources_footer .row ul li a {
+        font-size: 16px;
+        font-family: 'robotolight';
+        color: #02c7e6;
+        width: 478px;
+        line-height: 20px;
+    }
+    
+    footer.hire_resources_footer a.option_for_explore_more {
+        color: white !important;
+    }
+    
+    .hire_resources_footer .for_border {
+        border-left: 0 !important;
+        border: 3px solid;
+        border-image: linear-gradient(to bottom, #03a9f400, rgba(2, 181, 210, 1), #03a9f400) 0 100%;
     }
