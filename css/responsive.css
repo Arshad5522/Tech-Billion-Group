@@ -1,6 +1,9 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .our_xamarin_development_services.techbillion-bc-d-company.about_techb_company .row p {
+                        font-size: 12px;
+                    }
                     body.home-page header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
                         padding: 5px 0 0 0;
                     }

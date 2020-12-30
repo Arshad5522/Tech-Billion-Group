@@ -57,7 +57,7 @@
                         <a class="nav-link" href="#">Brochure</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link hire_resources" href="#">Hire Resources</a>
+                        <a class="nav-link hire_resources" href="hire-resource.html">Hire Resources</a>
                     </li>
                 </ul>
             </div>
@@ -71,7 +71,8 @@
                     <h3>About Us</h3>
                     <p>Take Your Business To Next Level With Techbillion</p>
                     <p>End to End software development company for Blockchain, Artificial Intelligence, IoT, Bots, Mobile & Web.</p>
-                    <a href="">Talk To Our Experts</a>
+                    <!-- <a href="" id="">Talk To Our Experts</a> -->
+                    <button type="button" class="btn btn-primary talk_to_expert" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Talk To Our Experts</button>
                 </div>
             </div>
         </div>
@@ -113,15 +114,31 @@
     <section class="our_xamarin_development_services techbillion-bc-d-company about_techb_company">
         <div class="container-fluid">
             <h3>About Company</h3>
-            <p><strong>Who we are:</strong> techbillion is a Premier, Full Service Software Development Company for Blockchain, IoT, Artificial Intelligence, BOTS, Mobile, and Web Development with a special focus on Timeliness, Security, Scale, and Performance.</p>
-            <p><strong>EXPERIENCE:</strong> EXUBERANCE is our work mantra for Go-to-Market Strategy of our customers</p>
-            <p>With a skilled workforce of 500+ team members, techbillion is equally at the ease of working with Start-Ups, Small & Medium Enterprises, Large Enterprises, Development Sector, Public-Private Partnerships & Governments. More than 5000 projects
-                in the last 10 years are a testimony to that.</p>
-            <p><strong>INDUSTRIES & VERTICALS SERVED:</strong> On-demand Business Solutions | Transportation | Education & Learning | Entertainment & Music | Event Management | Finance | Social Networking | Real Estate | Advertising | Telecom | Government
-                & PSU's | FMCG | Medical | News & Magazine | Shopping | Retail | Utilities & Tools | Travel & Hospitality |Health & Fitness | Lifestyle | mCommerce -eCommerce</p>
-            <p><strong>OUR SERVICES & SOLUTIONS:</strong> Blockchain Development Services | Internet of Things (IoT) including Wearables | Artificial Intelligence, Machine Learning, Big Data Analytics | Augmented Reality, Video Reality with Analytics | Native
-                & Cross Platform Mobile App Development | Web Development including Sophisticated Admin panels for Mobile Application frontends | Digital Transformation Services including UI/UX, Digital, ICO Marketing & App-Store-Optimisation | Content
-                Management & E-Commerce Solutions | Cryptocurrency Trade Exchanges, ICO Launch, Token, Coin Development & Integrations | Application Maintenance Services with Infrastructure Set up, Support, DevOps & Quality Automation</p>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <p><strong>Who we are:</strong></p>
+                    <p> techbillion is a Premier, Full Service Software Development Company for Blockchain, IoT, Artificial Intelligence, BOTS, Mobile, and Web Development with a special focus on Timeliness, Security, Scale, and Performance.
+                    </p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <p><strong>EXPERIENCE:</strong></p>
+                    <p> EXUBERANCE is our work mantra for Go-to-Market Strategy of our customers</p>
+                    <p>With a skilled workforce of 500+ team members, techbillion is equally at the ease of working with Start-Ups, Small & Medium Enterprises, Large Enterprises, Development Sector, Public-Private Partnerships & Governments. More than 5000
+                        projects in the last 10 years are a testimony to that.</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <p><strong>INDUSTRIES & VERTICALS SERVED:</strong></p>
+                    <p> On-demand Business Solutions | Transportation | Education & Learning | Entertainment & Music | Event Management | Finance | Social Networking | Real Estate | Advertising | Telecom | Government & PSU's | FMCG | Medical | News & Magazine
+                        | Shopping | Retail | Utilities & Tools | Travel & Hospitality |Health & Fitness | Lifestyle | mCommerce -eCommerce</p>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <p><strong>OUR SERVICES & SOLUTIONS:</strong></p>
+                    <p> Blockchain Development Services | Internet of Things (IoT) including Wearables | Artificial Intelligence, Machine Learning, Big Data Analytics | Augmented Reality, Video Reality with Analytics | Native & Cross Platform Mobile App Development
+                        | Web Development including Sophisticated Admin panels for Mobile Application frontends | Digital Transformation Services including UI/UX, Digital, ICO Marketing & App-Store-Optimisation | Content Management & E-Commerce Solutions
+                        | Cryptocurrency Trade Exchanges, ICO Launch, Token, Coin Development & Integrations | Application Maintenance Services with Infrastructure Set up, Support, DevOps & Quality Automation</p>
+                </div>
+            </div>
+
         </div>
     </section>
 
@@ -202,6 +219,60 @@
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
+    <!-- modal(talk to our expert) -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Talk to Our Expert</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Name</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="contact-number" class="col-form-label">Contact Number</label>
+                            <input type="text" class="form-control" id="contact-number">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">E-mail</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Description</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
 
 
 
