@@ -1,6 +1,20 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    body.home-page header nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+                        padding: 5px 0 0 0;
+                    }
+                    body.home-page header ul.navbar-nav.m-auto {
+                        margin: 15px 0 0 0 !important;
+                    }
+                    body.home-page header a.navbar-brand img {
+                        background: transparent;
+                        padding: 0 50px;
+                        margin: 0;
+                        position: absolute;
+                        left: 0;
+                        top: 16%;
+                    }
                     .row.insdie_row {
                         padding: 15px 0 0 0;
                         border: 2px solid;
@@ -601,6 +615,14 @@
                     .padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
                         padding: 0;
                     }
+                    header a.navbar-brand img {
+                        background: transparent;
+                        padding: 0 50px;
+                        margin: 0;
+                        position: absolute;
+                        left: 0;
+                        top: 6%;
+                    }
                     img.logo_for_sml_scrn {
                         display: block;
                         width: 220px;
@@ -631,7 +653,7 @@
                         word-spacing: normal;
                     }
                     h5.txt_clr_1.text-center {
-                        font-size: 15px;
+                        font-size: 12px;
                         margin: 15px 0 0 0;
                         padding-right: 0;
                         padding-left: 0;
@@ -2965,6 +2987,14 @@
                     .padding.our-services-slider.parallax-window .col-12.col-sm-12.col-md-12.col-lg-12.col-xl-12 {
                         padding: 0;
                     }
+                    header a.navbar-brand img {
+                        background: transparent;
+                        padding: 0 50px;
+                        margin: 0;
+                        position: absolute;
+                        top: 7%;
+                        left: 0;
+                    }
                     img.logo_for_sml_scrn {
                         display: block;
                         width: 300px;
@@ -4392,6 +4422,16 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    ul.navbar-nav.m-auto {
+                        position: absolute;
+                        top: 0;
+                        right: 5%;
+                    }
+                    header a.navbar-brand img {
+                        background: transparent;
+                        padding: 0 50px;
+                        margin: -45px 0 0 -25px;
+                    }
                     .hire_resources_footer p {
                         width: 444px !important;
                     }
@@ -5903,4 +5943,12 @@
                     img.bg_for_mob_view {
                         display: none;
                     }
+                    header div#navbarSupportedContent {
+                        position: absolute;
+                        right: 8%;
+                    }
                 }
+                /* header div#navbarSupportedContent {
+                    position: absolute;
+                    right: 8%;
+                } */
