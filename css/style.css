@@ -739,7 +739,13 @@
         font-size: 20px;
     }
     
-    div.social_icons i.fab:hover {
+    div.social_icons i.fab,
+    .footer_p1 .wpcbc ul li a {
+        transition: 0.5s;
+    }
+    
+    div.social_icons i.fab:hover,
+    .footer_p1 .wpcbc ul li a:hover {
         color: #0b5164;
     }
     
