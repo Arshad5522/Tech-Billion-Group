@@ -1,6 +1,12 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .footer_p1 .wpcbc {
+                        margin: -20px 0 0 0;
+                    }
+                    .footer_p1 .social_icons {
+                        padding: 15px 0 0 0;
+                    }
                     .our_xamarin_development_services.techbillion-bc-d-company.about_techb_company .row p {
                         font-size: 12px;
                     }
@@ -2674,6 +2680,9 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    .wpcbc ul {
+                        padding: 0 0 5px 0;
+                    }
                     .hire_resources_footer .for_border {
                         border-left: 0 !important;
                         border: 3px solid;
@@ -4425,6 +4434,9 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    .footer_p1 .social_icons {
+                        margin: 18px 0 0 0;
+                    }
                     ul.navbar-nav.m-auto {
                         position: absolute;
                         top: 0;
@@ -4643,7 +4655,7 @@
                         font-size: 17px;
                     }
                     div.wpcbc ul li a {
-                        font-size: 20px;
+                        font-size: 18px;
                         font-weight: 100;
                     }
                     div.wpcbc ul li {
@@ -4848,7 +4860,7 @@
                         padding: 0px 0 10px 0;
                     }
                     div.wpcbc ul li a {
-                        padding: 0px 19px;
+                        padding: 0px 5px;
                     }
                     .text_os h4 {
                         padding-top: 75px;

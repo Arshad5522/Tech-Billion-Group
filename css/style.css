@@ -1049,7 +1049,7 @@
     }
     
     .info-color {
-        background: linear-gradient(to bottom left, #0f4b6a4a 15%, #0f70a2cc 59%);
+        background: linear-gradient(to bottom right, #096c82 0%, #02c7e6 100%);
     }
     
     .testimonial-card .avatar {
@@ -5446,4 +5446,3 @@
             width: 80vw;
         }
     }
-    /*  */
