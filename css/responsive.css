@@ -1,6 +1,17 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    div#menuoptions_forallpages_except_indexpage .dropdown-content.web-dropdwn {
+                        margin: 0 0 0 -56px;
+                    }
+                    div#menuoptions_forallpages_except_indexpage .dropdown-content.block-chain-dropdwn {
+                        min-width: 280px;
+                        margin: 0 0 0 -52px;
+                    }
+                    div#menuoptions_forallpages_except_indexpage .dropdown-content a {
+                        padding: 5px 3px;
+                        font-size: 10px;
+                    }
                     div#menuoptions_forallpages_except_indexpage {
                         position: relative;
                         bottom: -168px;
