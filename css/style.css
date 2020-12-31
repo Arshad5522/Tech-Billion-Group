@@ -1318,7 +1318,8 @@
     }
     
     button.btn.btn-primary.talk_to_expert:hover,
-    .modal-footer button.btn.btn-primary:hover {
+    .modal-footer button.btn.btn-primary:hover,
+    button.btn.btn-primary.request_freequote_now:hover {
         background-color: transparent;
         color: #00bde2;
         text-decoration: none;
@@ -1326,7 +1327,8 @@
     }
     
     button.btn.btn-primary.talk_to_expert,
-    .modal-footer button.btn.btn-primary {
+    .modal-footer button.btn.btn-primary,
+    button.btn.btn-primary.request_freequote_now {
         border: 0;
         color: #ffffff;
         padding: 8px 30px;
