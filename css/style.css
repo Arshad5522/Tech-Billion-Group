@@ -732,11 +732,16 @@
         font-family: 'robotolight';
         margin: 0 auto;
         display: block;
-        padding: 15px 60px;
+        padding: 10px 35px;
         background-color: #0b5164;
         border: 0;
         border-radius: 50px;
         font-size: 20px;
+        transition: 0.6s;
+    }
+    
+    div.LWT_input_section button.btn.btn-primary:hover {
+        background-color: #0b51647a;
     }
     
     div.social_icons i.fab,
