@@ -5446,3 +5446,42 @@
             width: 80vw;
         }
     }
+    
+    div#menuoptions_forallpages_except_indexpage .dropdown-content a {
+        color: black;
+        background-color: transparent;
+        text-align: left;
+        padding: 5px 10px;
+        margin: 0;
+        transition: 0s;
+        font-size: 15px;
+    }
+    
+    div#menuoptions_forallpages_except_indexpage .dropdown-content a:hover {
+        border-radius: 0;
+        background-color: #0b5164;
+        color: white;
+        transition: 0s;
+        border: 0;
+    }
+    
+    .dropbtn {
+        font-family: 'robotolight';
+        color: white;
+        border: none;
+        background-color: transparent;
+        font-size: 15px;
+        width: 180px;
+    }
+    
+    div#menuoptions_forallpages_except_indexpage {
+        /* padding: 0; */
+        margin: 0;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background-color: transparent;
+    }
+    /* div#menuoptions_forallpages_except_indexpage {} */
