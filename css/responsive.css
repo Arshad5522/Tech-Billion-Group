@@ -1,6 +1,10 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    div#menuoptions_forallpages_except_indexpage {
+                        position: relative;
+                        bottom: -168px;
+                    }
                     .footer_p1 .wpcbc {
                         margin: -20px 0 0 0;
                     }
@@ -2680,6 +2684,10 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    div#menuoptions_forallpages_except_indexpage {
+                        position: relative;
+                        bottom: -330px;
+                    }
                     .wpcbc ul {
                         padding: 0 0 5px 0;
                     }
@@ -4434,6 +4442,10 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    div#menuoptions_forallpages_except_indexpage {
+                        position: relative;
+                        bottom: -330px;
+                    }
                     .footer_p1 .social_icons {
                         margin: 18px 0 0 0;
                     }
@@ -5946,6 +5958,12 @@
                         padding: 10px 15px !important;
                         text-align: -webkit-center;
                     }
+                }
+                
+                @media only screen and (min-width: 280px) and (max-width: 1024px) {
+                    /* div#menuoptions_forallpages_except_indexpage {
+                        display: none;
+                    } */
                 }
                 
                 @media only screen and (min-width: 1025px) {
