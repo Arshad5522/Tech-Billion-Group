@@ -5455,13 +5455,8 @@
         font-weight: 600;
         font-family: 'glacial_indifferenceregular';
     }
-    /* .hire_resources_why_choose_us {
-        position: relative;
-    }
     
-    .hire_resources_why_choose_us::before {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 100%;
-    } */
+    .popup_chatbox_onscreen button.btn.cancel,
+    .popup_chatbox_onscreen button.btn {
+        font-family: 'robotobold';
+    }

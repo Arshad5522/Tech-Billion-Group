@@ -1,13 +1,17 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .popup_chatbox_onscreen .open-button {
+                        width: 100px;
+                        padding: 10px 0;
+                    }
                     .hire_resources_why_choose_us ul {
                         background-color: #ffffffb5;
                     }
                     div#myForm {
                         right: 6px;
                     }
-                    button.open-button {
+                    .popup_chatbox_onscreen button.open-button {
                         bottom: 2%;
                         right: 2%;
                     }
