@@ -107,12 +107,3 @@
         .padding.our-services-slider.parallax-window .card.border-0.py-3.px-4 {
             border-radius: 15px;
         }
-        
-        .border_slider {
-            position: relative;
-            z-index: 10;
-            border: 0px solid #dee2e6!important;
-            outline: 3px solid #032934 !important;
-            outline-offset: -15px;
-            border-bottom: 0 !important;
-        }
