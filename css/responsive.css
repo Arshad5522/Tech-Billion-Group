@@ -1,6 +1,9 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    .hire_resources_why_choose_us ul {
+                        background-color: #ffffffb5;
+                    }
                     div#myForm {
                         right: 6px;
                     }
@@ -2711,6 +2714,9 @@
                 /* 2 */
                 
                 @media only screen and (min-width: 768px) and (max-width: 992px) {
+                    .footer_p1 .row .col-md-12.col-lg-3 .social_icons {
+                        padding: 30px 0 0 0;
+                    }
                     div#menuoptions_forallpages_except_indexpage {
                         position: relative;
                         bottom: -330px;
