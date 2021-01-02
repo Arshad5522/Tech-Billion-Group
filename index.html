@@ -7,7 +7,7 @@
     <title>TechBgroup</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css"> -->
 
     <!-- style css  -->
     <link href="css/style.css" rel="stylesheet">
@@ -23,9 +23,20 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- <script src="https://kit.fontawesome.com/fa78267f95.js" crossorigin="anonymous"></script> -->
     <script src="js/icons/font-awesome.js" crossorigin="anonymous"></script>
+
+
+    <style>
+
+    </style>
+
+
+
+
+
 </head>
 
 <body class="home-page" style="background-color: #032934 !important;">
+
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -61,6 +72,11 @@
             </div>
         </nav>
     </header>
+
+
+
+
+
 
     <div class="border_slider">
 
@@ -582,28 +598,13 @@
 
     </div>
 
-    <!-- onload chatbox -->
 
-    <!-- <section class="popup-chatbox">
-        <button class="chat-btn"> 
-            <i class="material-icons"> comment </i>
-        </button>
 
-        <div class="chat-popup">
-            <div class="chat-area">
-                <div class="techb-replay-msg">
-                    <img src="img/techbgroup.jpg" class="avatar" alt="">
-                    <span class="msg">Hi, Welcome to Techbgroup.</span>
-                </div>
-            </div>
 
-            <div class="input-area">
-                <input type="text">
-                <button id="emoji-btn"> &#127773;</button>
-                <button class="submit"> <i class="material-icons"> send</i></button>
-            </div>
-        </div>
-    </section> -->
+
+
+
+
 
 
 
@@ -686,9 +687,47 @@
     </footer>
 
 
-    <!-- chat popup -->
-    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.1.1/dist/index.min.js"></script>
-    <script src="js/chatpopup.js"></script>
+    <!-- popup chatbox -->
+
+    <button class="open-button" onclick="openForm()">Chat</button>
+
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h1>Chat</h1>
+            <div class="form-group">
+                <label for="recipient-name" class="col-form-label">Name</label>
+                <input type="text" class="form-control" id="recipient-name">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputEmail1">Email</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            </div>
+            <label for="msg">Message</label>
+            <div class="form-group">
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Text Here"></textarea>
+            </div>
+
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+    <!-- popup chatbox end-->
+
+
+
+
+    <!-- popup chatbox -->
+    <script>
+        function openForm() {
+            document.getElementById("myForm").style.display = "block";
+        }
+
+        function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+        }
+    </script>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery.min.js"></script>

@@ -1,6 +1,19 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    div#myForm {
+                        right: 6px;
+                    }
+                    button.open-button {
+                        bottom: 2%;
+                        right: 2%;
+                    }
+                    .java-choose-us .row .col-6.col-sm-6.col-lg-4:nth-child(2n+2) {
+                        border-right: 0px !important;
+                    }
+                    .java-choose-us .row .col-6.col-sm-6.col-lg-4:nth-child(2n+1) {
+                        border-left: 0px !important;
+                    }
                     button.btn.btn-primary.request_freequote_now {
                         font-size: 13px;
                     }
