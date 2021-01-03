@@ -1,6 +1,12 @@
             /* 1 */
             
             @media only screen and (min-width:280px) and (max-width:767px) {
+                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color h3 {
+                    font-size: 15px;
+                }
+                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color img {
+                    width: 30%;
+                }
                 .java-application-d-service h3.topic-hdng {
                     font-size: 16px;
                 }
@@ -1576,9 +1582,6 @@
                 .col-lg-6.techbillion-advantages {
                     margin-top: -15px;
                 }
-                /* .why_hire_from_techbillion.ios_app_d_industries {
-                        margin-top: -40px;
-                    } */
                 .why-choose-us-for-service.gaming_program_expertise {
                     padding: 30px 0 0 0;
                 }
@@ -1866,10 +1869,10 @@
                     text-align: left;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
-                    height: 325px;
+                    height: 185px;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .background_color {
-                    height: 295px;
+                    height: 90%;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency p.about_topic {
                     padding: 8px 0;
@@ -2737,19 +2740,12 @@
                 div#pills-all .row .col-md-6.col-lg-4 {
                     height: 450px;
                 }
-                body.mean-stack-devlopment div#menuoptions_forallpages_except_indexpage,
-                body.wordpress-devlopment div#menuoptions_forallpages_except_indexpage,
-                body.kotlinapp_devlopment div#menuoptions_forallpages_except_indexpage,
-                body.nativeScript-development div#menuoptions_forallpages_except_indexpage {
-                    position: relative;
-                    bottom: -200px;
-                }
                 .footer_p1 .row .col-md-12.col-lg-3 .social_icons {
                     padding: 30px 0 0 0;
                 }
                 div#menuoptions_forallpages_except_indexpage {
                     position: relative;
-                    bottom: -330px;
+                    bottom: -168px;
                 }
                 .wpcbc ul {
                     padding: 0 0 5px 0;
@@ -3871,11 +3867,18 @@
                     padding: 20px 5px;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
-                    height: 350px;
+                    height: 220px;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .background_color {
-                    height: 330px;
+                    height: 90%;
                     padding: 5px;
+                }
+                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color h3 {
+                    font-size: 15px;
+                    margin: 5% 0 0 0;
+                }
+                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color img {
+                    width: 30%;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency p.about_topic {
                     padding: 0 50px;
@@ -4505,13 +4508,12 @@
             /* 3 */
             
             @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color h3 {
+                    font-size: 16px;
+                    margin: 5% 0 0 0;
+                }
                 div#pills-all .row .col-md-6.col-lg-4 {
                     height: 440px;
-                }
-                body.mean-stack-devlopment div#menuoptions_forallpages_except_indexpage,
-                body.nativeScript-development div#menuoptions_forallpages_except_indexpage {
-                    position: relative;
-                    bottom: -300px;
                 }
                 .dropdown-content.digital_dropdwn {
                     text-align: left;
@@ -4532,7 +4534,7 @@
                 }
                 div#menuoptions_forallpages_except_indexpage {
                     position: relative;
-                    bottom: -330px;
+                    bottom: -275px;
                 }
                 .footer_p1 .social_icons {
                     margin: 18px 0 0 0;
@@ -5405,10 +5407,10 @@
                     margin: 0;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
-                    height: 350px;
+                    height: 215px;
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .background_color {
-                    height: 330px;
+                    height: 90%;
                     padding: 5px;
                 }
                 .industries-we-have-served .row .col-sm-6.col-lg-4 p {
