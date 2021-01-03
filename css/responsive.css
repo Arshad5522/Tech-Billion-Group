@@ -1,6 +1,12 @@
                 /* 1 */
                 
                 @media only screen and (min-width:280px) and (max-width:767px) {
+                    div#menuoptions_forallpages_except_indexpage .dropdown-content.mobile_drop_list {
+                        min-width: 295px;
+                        padding: 5px;
+                        margin: 0;
+                        left: -32%;
+                    }
                     .popup_chatbox_onscreen .open-button {
                         width: 100px;
                         padding: 10px 0;
@@ -25,11 +31,13 @@
                         font-size: 13px;
                     }
                     div#menuoptions_forallpages_except_indexpage .dropdown-content.web-dropdwn {
-                        margin: 0 0 0 -56px;
+                        margin: 0;
+                        left: -30%;
                     }
                     div#menuoptions_forallpages_except_indexpage .dropdown-content.block-chain-dropdwn {
-                        min-width: 280px;
-                        margin: 0 0 0 -52px;
+                        min-width: 295px;
+                        margin: 0;
+                        left: -32%;
                     }
                     div#menuoptions_forallpages_except_indexpage .dropdown-content a {
                         padding: 5px 3px;
@@ -4484,6 +4492,23 @@
                 /* 3 */
                 
                 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                    .dropdown-content.digital_dropdwn {
+                        text-align: left;
+                        padding: 10px;
+                    }
+                    ul.menu_options_ul.list-group.list-group-horizontal.justify-content-center button.dropbtn {
+                        width: 300px;
+                    }
+                    .dropdown-content.web-dropdwn {
+                        padding: 10px;
+                        min-width: 410px;
+                    }
+                    .dropdown-content.company-dropdwn {
+                        top: 80%;
+                        left: 24%;
+                        text-align: left;
+                        padding: 0 0 0 10px;
+                    }
                     div#menuoptions_forallpages_except_indexpage {
                         position: relative;
                         bottom: -330px;

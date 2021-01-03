@@ -113,6 +113,8 @@
     }
     
     .dropdown-content {
+        z-index: 5;
+        border-radius: 5px;
         display: none;
         position: absolute;
         background-color: #e1eff3;
@@ -5358,6 +5360,7 @@
     button.open-button {
         font-family: 'montserrat_alternatesbold';
         z-index: 9999;
+        text-shadow: 4px 4px 5px #000;
     }
     
     div#myForm {
@@ -5461,6 +5464,6 @@
         font-family: 'robotobold';
     }
     
-    .dropdown-content {
-        z-index: 5;
+    button:focus {
+        outline: none !important;
     }
