@@ -120,7 +120,7 @@
         background-color: #e1eff3;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
+        z-index: 5;
     }
     
     .dropdown-content.web-dropdwn {
@@ -4621,7 +4621,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 257px 0 100px 0;
+        padding: 257px 0 262px 0;
         color: #ffffff;
         text-align: center;
         position: relative;
@@ -4643,7 +4643,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        padding: 257px 0 150px 0;
+        padding: 257px 0 262px 0;
         color: #ffffff;
         text-align: center;
         position: relative;
@@ -5466,4 +5466,8 @@
     
     button:focus {
         outline: none !important;
+    }
+    
+    .java-application-d-service h3.topic-hdng {
+        font-size: 25px;
     }
