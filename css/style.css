@@ -5460,3 +5460,7 @@
     .popup_chatbox_onscreen button.btn {
         font-family: 'robotobold';
     }
+    
+    .dropdown-content {
+        z-index: 5;
+    }

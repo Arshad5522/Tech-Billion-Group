@@ -185,7 +185,7 @@
                     }
                     body.net-development .net-app-d-service .row .col-6.col-sm-6.col-lg-6 .net-service {
                         margin: 15px 0 0 0;
-                        height: 190px;
+                        height: 90%;
                     }
                     .net-app-d-service .row .col-6.col-sm-6.col-lg-6 .net-service h5 {
                         font-size: 12px;
@@ -200,7 +200,7 @@
                         padding: 0px 0 0 0;
                     }
                     .net-app-d-service .row .col-6.col-sm-6.col-lg-6 .net-service img {
-                        width: 100%;
+                        width: 40%;
                         height: auto;
                     }
                     .java-choose-us .row .col-6.col-sm-6.col-lg-4 h3 {
@@ -216,16 +216,17 @@
                         margin-top: 0;
                     }
                     .java-application-d-service .our-service {
-                        height: 180px;
+                        height: 88%;
                         margin: 15px 0 0 0;
                     }
                     .java-application-d-service .row h3 {
-                        font-size: 16px;
+                        font-size: 12px;
                     }
                     .java-application-d-service .row img {
                         width: auto;
                         height: auto;
                         margin: 0 0 -15px 0;
+                        width: 50%;
                     }
                     .drupal-expertise .row {
                         padding: 25px 0 0 0;
@@ -610,20 +611,22 @@
                     }
                     .dropdown-content.digital_dropdwn {
                         min-width: 200px;
-                        margin: 0 0 0 -27px;
                         text-align: left;
                         padding: 5px 7px;
+                        left: 8%;
                     }
                     .dropdown-content.web-dropdwn a {
-                        padding: 5px;
+                        padding: 5px 0;
                     }
                     .dropdown-content.web-dropdwn {
                         min-width: 290px;
                         text-align: left;
-                        margin: 0 0 0 -85px;
+                        margin: 0 0 0 -90px;
+                        right: 0;
                     }
                     .dropdown-content.web-dropdwn .col-xs-6.col-sm-6.col-lg-6 {
                         width: 50%;
+                        padding-right: 0;
                     }
                     .dropdown-content.block-chain-dropdwn .col-xs-6.col-sm-6.col-lg-6 a {
                         font-size: 10px;
@@ -643,14 +646,16 @@
                     }
                     .dropdown-content {
                         min-width: 111px;
-                        margin: 0px 0 0 -7px;
+                        margin: 0;
                         text-align: left;
                         padding: 5px 5px;
+                        left: 20%;
                     }
                     .dropdown-content.mobile_drop_list {
                         min-width: 271px;
                         padding: 5px;
-                        margin: 0 0 0 -50px;
+                        margin: 0;
+                        left: -25%;
                     }
                     .dropdown-content.mobile_drop_list .col-xs-6.col-sm-6.col-lg-6 {
                         width: 50%;
@@ -3099,7 +3104,7 @@
                         padding: 0 0 50px 0px;
                     }
                     button.dropbtn {
-                        font-size: 25px;
+                        font-size: 15px;
                         padding: 10px 0;
                     }
                     li.list-group-item {
