@@ -587,18 +587,17 @@
                     height: 0;
                 }
                 .ruby-devlopment-service .ruby-service {
-                    height: 280px;
                     padding: 20px 0 0 0;
                 }
                 .ruby-devlopment-service .col-sm-6.col-lg-6 {
-                    height: 300px;
+                    height: 250px;
                 }
                 .ruby-devlopment-service {
                     text-align: center;
                 }
                 .ruby-service img {
                     width: auto;
-                    max-width: 100%;
+                    max-width: 30%;
                     height: auto;
                     margin: 0;
                 }
@@ -1893,9 +1892,6 @@
                 .our_xamarin_development_services.how_we_work_optimization_imlement .row .col-sm-6.col-lg-6:nth-child(2) {
                     margin-top: -15px;
                 }
-                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
-                    padding: 15px 25px;
-                }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row .background_color {
                     height: 230px;
                 }
@@ -1904,9 +1900,6 @@
                 }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity {
                     margin: 0;
-                }
-                .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row .col-sm-6.col-lg-4:nth-child(1) h3 {
-                    margin-top: 0;
                 }
                 .react_native_d_compney.careers h3 {
                     font-size: 35px;
@@ -3001,7 +2994,6 @@
                     font-size: 20px;
                 }
                 .ruby-devlopment-service .ruby-service {
-                    height: 290px;
                     padding: 10px 0;
                 }
                 .ruby-devlopment-service .col-sm-6.col-lg-6 {

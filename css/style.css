@@ -3113,10 +3113,6 @@
         background-color: white;
     }
     
-    .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .background_color {
-        padding: 50px 0px;
-    }
-    
     .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity a {
         color: #ffffff;
         padding: 8px 30px;
@@ -3131,14 +3127,6 @@
         color: #00bde2;
         text-decoration: none;
         border: 1px solid #00bde2
-    }
-    
-    .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row .col-sm-6.col-lg-4:nth-child(1) h3 {
-        margin-top: -30px;
-    }
-    
-    .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.careers_opportunity .row p {
-        padding: 25px 0;
     }
     
     section.react_native_d_compney.career_life_in_techbillion {
@@ -3802,6 +3790,7 @@
         background-color: #f1f1f1!important;
         margin: 6px 0 0 0;
         padding: 62px 0 0 0;
+        height: 90%;
     }
     
     .ruby-service img {
