@@ -1,6 +1,9 @@
             /* 1 */
             
             @media only screen and (min-width:280px) and (max-width:767px) {
+                body.nativeScript-development.sto-marketing-services .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
+                    height: 350px;
+                }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color h3 {
                     font-size: 15px;
                 }
@@ -3869,6 +3872,9 @@
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
                     height: 220px;
                 }
+                body.nativeScript-development.sto-marketing-services .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
+                    height: 350px;
+                }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .background_color {
                     height: 90%;
                     padding: 5px;
@@ -4508,6 +4514,12 @@
             /* 3 */
             
             @media only screen and (min-width: 993px) and (max-width: 1024px) {
+                body.nativeScript-development.sto-marketing-services .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 img {
+                    width: 30%;
+                }
+                body.nativeScript-development.sto-marketing-services .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency .col-sm-6.col-lg-4 {
+                    height: 350px;
+                }
                 .industries-we-have-served.performence_priv_source_reli_intg_authentication.sto_marketing_agency.lamp-d-service .row .background_color h3 {
                     font-size: 16px;
                     margin: 5% 0 0 0;
