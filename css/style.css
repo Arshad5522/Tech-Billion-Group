@@ -5475,3 +5475,7 @@
     .nativeScript-d-compney.hosting_and_domain {
         background-image: url(../images/web-hosting-and-domain-services.png);
     }
+    
+    body.phone-gap-devlopment.android-app-d-compney.modal-open div#exampleModal .form-group {
+        text-align: left;
+    }
